@@ -1,0 +1,117 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: black;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size: 20px;
+    color: midnightblue;
+}
+
+header {
+    background-color: chocolate;
+    height: 80px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+
+#intro {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#intro img {
+    margin: 100px 0;
+    --animate-duration: 4s;
+    --animate-repeat: 2;
+}
+
+#landing {
+    border: yellow 1px solid;
+    display: flex;
+    justify-content: center;
+}
+
+.container, #landing {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.container {
+    border: darkgreen 1px solid;
+    padding: 3px;
+}
+
+.box {
+    background-color: wheat;
+    border: orangered 1px solid;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#rules {
+    width: 40%;
+}
+
+#options {
+    width: 50%;
+}
+
+.container h2{
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: underline;
+    margin: 5px auto;
+}
+
+#player>.container {
+    display: flex;
+}
+
+#player input {
+    height: 40px;
+    margin: auto 30px;
+    width: 50%;
+    min-width: 140px;
+}
+
+#player input, .mode-option {
+    background-color: white;
+    background-clip: padding-box;
+    border-radius: .65rem;
+    box-shadow: 0 2px 20px rgba(63, 61, 61, 0.596);
+    padding: 7px 7%;
+}
+
+.mode {
+    display: flex;
+    justify-content: space-around;
+}
+
+.mode-option {
+    text-align: center;
+}
+
+.mode-option h6 {
+    margin: 3px;
+    line-height: 10px;
+}
+
+#difficulty .mode-option:not(:first-child) {
+    line-height: 40px;
+}
+
+.choose-artist, .choose-genre {
+    display: none;
+}
+
+
+
+
+
+
+@media 

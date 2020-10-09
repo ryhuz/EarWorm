@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ear Worm</title>
+    <link rel="stylesheet" href="main.css"/>
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+    <header></header>
+    <section id="intro">
+        <img class="animate__animated animate__flash" src="/resources/pngfuel.com.png">
+    </section>
+    <section id="landing">
+        <div id="rules" class="box">
+            <div class="container">
+                <h2>Rules / How to play</h2>
+                <p>You have 15 seconds to guess what the song is. Guess either from the lyrics, from listening to the song, or have both clues given to you!</p>
+                <p>You can choose 2 categories: Artists, or Genre.</p>
+                <p>Test your music knowledge now!</p>
+            </div>
+        </div>
+        
+        <div id="options">
+            <div id="player" class="box">
+                <div class="container">
+                    <p><i class="fab fa-napster"></i>Enter player name:</p>
+                    <input type="text">
+                </div>
+
+            </div>
+            <div id="mode" class="box">
+                <div class="container">
+                    <h2>Choose game mode:</h2>
+                    <div class="container mode">
+                        <div class="mode-option" data-id="artist">Artist Challenge</div>
+                        <div class="mode-option" data-id="Genre">Genre Challenge</div>
+                    </div>
+                </div>
+            </div>
+            <div id="difficulty" class="box">
+                <div class="container">
+                    <h2>Choose difficulty:</h2>
+                    <div class="container mode">
+                        <div class="mode-option" data-id="normal">Normal<h6>(clip and lyrics)</h6></div>
+                        <div class="mode-option" data-id="lyrics">Lyrics Only</div>
+                        <div class="mode-option" data-id="clip">Clips Only</div>
+                    </div>
+                </div>
+            </div>
+            <div id="start" class="container">
+                Start Button
+            </div>
+        </div>
+
+        <div class="container choose-artist">
+            Choose your artist
+        </div>
+        <div class="container choose-genre">
+            Choose your genre
+        </div>
+    </section>
+    
+    <section id="game">
+        <section id="lyric">
+            <div id="clue">
+                Notepad with writing lyrics
+            </div>
+            <div id="guess">
+                Option 1
+                Option 2
+                Option 3
+                Option 4
+            </div>
+        </section>
+        <section id="clip">
+            Song playing
+            <div>iPod frame</div>
+            <div id="guess">
+                Option 1
+                Option 2
+                Option 3
+                Option 4
+            </div>
+        </section>
+        <section class="scoreboard">
+
+        </section>
+        <section class="timer">
+
+        </section>
+    </section>
+    
+    <section id="end-screen">
+
+    </section>
+
+    <footer></footer>
+    <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
+    integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="
+    crossorigin="anonymous"
+  ></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
