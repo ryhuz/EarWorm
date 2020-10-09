@@ -79,7 +79,7 @@ header {
     min-width: 140px;
 }
 
-#player input, .mode-option {
+#player input, .mode-option, .start {
     background-color: white;
     background-clip: padding-box;
     border-radius: .65rem;
@@ -92,15 +92,15 @@ header {
     justify-content: space-around;
 }
 
-.mode-option {
+.mode-option, .start{
     text-align: center;
     transition: 0.5s;
     cursor: pointer;
     flex: 1 1 auto;
-    margin: auto 3%;
+    margin: 5px 3%;
 }
 
-.mode-option:hover, .mode-option:active, .clicked {
+.mode-option:hover, .mode-option:active, .clicked, .start:hover {
     background-color: black;
 }
 
@@ -108,12 +108,12 @@ header {
     color: red;
 }
 
-.mode-option:hover {
+.mode-option:hover, .start:hover {
     opacity: 0.4;
     color: red;
 }
 
-.mode-option:active, .clicked {
+.mode-option:active, .clicked, .start:active {
     opacity: 1;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
