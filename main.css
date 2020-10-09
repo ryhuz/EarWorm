@@ -83,7 +83,7 @@ header {
     background-color: white;
     background-clip: padding-box;
     border-radius: .65rem;
-    box-shadow: 0 2px 20px rgba(63, 61, 61, 0.596);
+    box-shadow: -3px 5px 5px 5px rgba(63, 61, 61, 0.596);
     padding: 7px 7%;
 }
 
@@ -94,6 +94,29 @@ header {
 
 .mode-option {
     text-align: center;
+    transition: 0.5s;
+    cursor: pointer;
+    flex: 1 1 auto;
+    margin: auto 3%;
+}
+
+.mode-option:hover, .mode-option:active, .clicked {
+    background-color: black;
+}
+
+.clicked {
+    color: red;
+}
+
+.mode-option:hover {
+    opacity: 0.4;
+    color: red;
+}
+
+.mode-option:active, .clicked {
+    opacity: 1;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
 }
 
 .mode-option h6 {
@@ -101,17 +124,6 @@ header {
     line-height: 10px;
 }
 
-#difficulty .mode-option:not(:first-child) {
-    line-height: 40px;
-}
-
 .choose-artist, .choose-genre {
     display: none;
 }
-
-
-
-
-
-
-@media 
