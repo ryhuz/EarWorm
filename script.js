@@ -1,3 +1,4 @@
+// on selecting options
 $(".mode-option").click(function(){
     let box = $(this).parent().parent().parent().attr("id");
     let curr = $(this).attr("data-id");
@@ -6,6 +7,7 @@ $(".mode-option").click(function(){
     let downed;
     let button;
 
+    // check if any button is clicked
     function notOnlyOne (){
         let test = 0;
         for (let x of mo){
@@ -18,6 +20,7 @@ $(".mode-option").click(function(){
         return test;
     }
 
+    // to depress button or to switch button
     if (notOnlyOne()){
         if (downed != curr){
             button.classList.remove("clicked")
@@ -26,6 +29,4 @@ $(".mode-option").click(function(){
     }else{
         $(this).addClass("clicked");
     }
-
-    
 });
