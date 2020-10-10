@@ -31,7 +31,6 @@
                     <p><i class="fab fa-napster"></i>Enter player name:</p>
                     <input type="text">
                 </div>
-
             </div>
             <div id="mode" class="box">
                 <div class="container">
@@ -39,6 +38,7 @@
                     <div class="container mode">
                         <div class="mode-option" data-id="artist">Artist Challenge</div>
                         <div class="mode-option" data-id="genre">Genre Challenge</div>
+                        <div class="mode-option" data-id="mix">Mix It Up</div>
                     </div>
                 </div>
             </div>
@@ -59,11 +59,21 @@
             </div>
         </div>
 
-        <div class="container choose-artist">
-            Choose your artist
+        <div id="choose-artist" class="box">
+            <div class="container">
+                <h2>Choose your artist</h2>
+                <div id="artist-select" class="container">
+                    <!--DOM will put artists from library here-->
+                </div>
+            </div>
         </div>
-        <div class="container choose-genre">
-            Choose your genre
+        <div id="choose-genre" class="box">
+            <div class="container">
+                <h2>Choose your genre</h2>
+                <div id="genre-select" class="container">
+                    <!--DOM will put genres from library here-->
+                </div>
+            </div>
         </div>
     </section>
     
@@ -102,6 +112,7 @@
     </section>
 
     <footer></footer>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script
     src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/js/all.min.js"
     integrity="sha512-YSdqvJoZr83hj76AIVdOcvLWYMWzy6sJyIMic2aQz5kh2bPTd9dzY3NtdeEAzPp/PhgZqr4aJObB3ym/vsItMg=="

@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: black;
+    background-color: rgb(36, 36, 36);
     font-family: 'Libre Franklin', sans-serif;
     font-size: 20px;
     color: midnightblue;
@@ -20,19 +20,20 @@ header {
 #intro {
     width: 80%;
     margin: auto;
-    display: flex;
     justify-content: center;
 }
 
+#player>.container, #intro, #landing, .mode{
+    display: flex;
+}
+
 #intro img {
-    margin: 100px 0;
+    margin: 30px 0;
     --animate-duration: 4s;
     --animate-repeat: 2;
 }
 
 #landing {
-    border: yellow 1px solid;
-    display: flex;
     justify-content: center;
 }
 
@@ -42,22 +43,21 @@ header {
 }
 
 .container {
-    border: darkgreen 1px solid;
     padding: 3px;
 }
 
 .box {
     background-color: wheat;
-    border: orangered 1px solid;
     border-radius: 10px;
     margin: 10px;
+    box-shadow: -1px 1px 10px 4px orangered;
 }
 
 #rules {
     width: 40%;
 }
 
-#options {
+#options, #player input, #choose-artist, #choose-genre {
     width: 50%;
 }
 
@@ -68,14 +68,9 @@ header {
     margin: 5px auto;
 }
 
-#player>.container {
-    display: flex;
-}
-
 #player input {
     height: 40px;
     margin: auto 30px;
-    width: 50%;
     min-width: 140px;
 }
 
@@ -84,12 +79,20 @@ header {
     background-clip: padding-box;
     border-radius: .65rem;
     box-shadow: -3px 5px 5px 5px rgba(63, 61, 61, 0.596);
-    padding: 7px 7%;
+    padding: 7px 1%;
+}
+
+#mode .mode-option{
+    padding: 2.5% 1%;
+}
+
+#difficulty .mode-option:not(:first-child) {
+    padding-top: 2.7%;
 }
 
 .mode {
-    display: flex;
     justify-content: space-around;
+    font-size: 18px;
 }
 
 .mode-option, .start{
@@ -101,16 +104,15 @@ header {
 }
 
 .mode-option:hover, .mode-option:active, .clicked, .start:hover {
-    background-color: black;
+    background-color: rgb(66, 60, 60);
 }
 
-.clicked {
-    color: red;
+.clicked, .mode-option:hover, .start:hover {
+    color: rgb(0, 255, 55);
 }
 
 .mode-option:hover, .start:hover {
     opacity: 0.4;
-    color: red;
 }
 
 .mode-option:active, .clicked, .start:active {
@@ -121,9 +123,14 @@ header {
 
 .mode-option h6 {
     margin: 3px;
-    line-height: 10px;
+    line-height: 12px;
 }
 
-.choose-artist, .choose-genre {
+#choose-artist, #choose-genre, #game {
     display: none;
+}
+
+footer {
+    height: 80px;
+
 }
