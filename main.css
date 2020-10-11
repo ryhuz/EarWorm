@@ -74,7 +74,7 @@ header {
     min-width: 140px;
 }
 
-#player input, .mode-option, .start {
+#player input, .mode-option, .sbButton {
     background-color: white;
     background-clip: padding-box;
     border-radius: .65rem;
@@ -95,27 +95,31 @@ header {
     font-size: 18px;
 }
 
-.mode-option, .start{
+.mode-option, .sbButton{
     text-align: center;
     transition: 0.5s;
-    cursor: pointer;
+    
     flex: 1 1 auto;
     margin: 5px 3%;
 }
 
-.mode-option:hover, .mode-option:active, .clicked, .start:hover {
+.mode-option, .sbButton, #artist-select img:hover {
+    cursor: pointer;
+}
+
+.mode-option:hover, .mode-option:active, .clicked, .sbButton:hover {
     background-color: rgb(66, 60, 60);
 }
 
-.clicked, .mode-option:hover, .start:hover {
+.clicked, .mode-option:hover, .sbButton:hover {
     color: rgb(0, 255, 55);
 }
 
-.mode-option:hover, .start:hover {
+.mode-option:hover, .sbButton:hover {
     opacity: 0.4;
 }
 
-.mode-option:active, .clicked, .start:active {
+.mode-option:active, .clicked, .sbButton:active {
     opacity: 1;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -128,6 +132,25 @@ header {
 
 #choose-artist, #choose-genre, #game {
     display: none;
+}
+
+#artist-select {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 4%;
+    margin: 15px 0;
+}
+
+#artist-select img{
+    width: 100%;
+    height: auto;
+    box-shadow: 0px 0px 0px 0px orangered;
+    transition: box-shadow 0.3s linear;
+    margin: 0.5em;
+}
+
+#artist-select img:hover {
+    box-shadow: 0px 0px 8px 8px orangered;
 }
 
 footer {
