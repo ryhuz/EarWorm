@@ -17,13 +17,13 @@ header {
     border-top-right-radius: 30px;
 }
 
-#intro {
+#intro, .logo {
     width: 80%;
     margin: auto;
     justify-content: center;
 }
 
-#player>.container, #intro, #landing, .mode{
+#player>.container, #intro, #landing, .mode, .logo{
     display: flex;
 }
 
@@ -137,10 +137,6 @@ header {
     line-height: 12px;
 }
 
-#choose-artist, #choose-genre, #game {
-    display: none;
-}
-
 #artist-select, #genre-select {
     width: 100%;
     display: grid;
@@ -166,3 +162,13 @@ footer {
     height: 80px;
 
 }
+
+#choose-artist, #choose-genre, #game, #lyric, #clip {
+    display: none;
+}
+
+#game .logo {
+    border: chartreuse 1px solid;
+    padding: 20px 0;
+}
+

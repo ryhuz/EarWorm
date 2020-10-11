@@ -5,15 +5,52 @@ let library = [
         albums:[{   title: "Let It Enfold You",
                     tracks:[
                             {   tracktitle: "Lady In A Blue Dress",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
+                                lyrics: [
+`Just like the lady in the blue dress
+you've got cigarettes on your breath
+Hairspray and some cheap perfume`,
+`You said, said you want respect
+Well then you better get some for yourself
+'Cause all that I see right now
+Is someone whose lost and insecure`, 
+`Don't try to be cute with me
+'Cause I know you hate yourself
+And you'd end your stupid lies now
+But your too spineless`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "You're Cute When Your Scream",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
+                                lyrics: [
+`You know that you are worthless
+And I am better than
+The games that you play princess
+I've played and always win`,
+`I'll take you to the top
+Of this building and just push you off
+Run down the stairs so I can see
+Your face as you hit the street`,
+`I'll take my time
+To slowly plot your end
+But now I will
+Spit bullets with my pen`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "Bite To Break Skin",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
+                                lyrics: [
+`So let me take this medicine
+To quench my love for violent things
+My swan song will
+Be like a bullet laced in anger
+As the razor cuts the soft spot on your heel`,
+`So, follow me into the sun
+And I will bleed the poision dry`,
+`Don't give the secret
+My stoic face
+Bleeding with passion
+The Phoenix will die
+Inside the firestorm
+I am the son
+Follow my footsteps.`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                         ]
@@ -21,15 +58,53 @@ let library = [
                 {   title: "Still Searching",
                     tracks:[
                             {   tracktitle: "Bonecrusher",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
+                                lyrics: [
+`I feel the city breathe at night
+Beneath the stars and meteor lights
+And I've got nothing to lose`,
+`Drink up, drink up
+Drink up the loneliness
+Drink up, drink up
+Drink up the loneliness`,
+`And I got romantic ideas
+But they're not meant for you
+And my bed's filled with black roses
+To show that our love is through`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "Can't Be Saved",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
+                                lyrics: [
+`Follow your bliss
+If it's on my chest
+I know I got it tattooed for a reason
+Why can't I just hold it true`,
+`I'm stuck in a coma
+Stuck in a never ending sleep
+Someday I will wake up
+And realize I made up everything`,
+`We can all hang ourselves
+From gold chandeliers
+And drink it back to all,
+All the pain it feels
+Loose lips and sunken ship
+To a shallow grave
+Washed up upon the rocks`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "Calling All Cars",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
+                                lyrics: [
+`I'm sorry, but I think I failed to mention
+That I lied at my very first confession
+What did you expect from me?
+What did you expect from me?`,
+`So will you scatter my ashes where they won't be found?
+I kept my word when I swore that I would let you down
+And now that I'm gone
+Try to forget me, and just move on`,
+`I don't have love left, inside, inside
+And I don't have love left, inside, inside
+Are you desperate for an answer? I don't have an ounce of good
+Left in me now, that's why I walked out`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                         ]
@@ -225,7 +300,7 @@ let library = [
 let mode = "";
 let diff = "";
 let genre = "";
-let artist = "";
+let artistIndex = "";
 
 // get artists/genres from library and populate the choice menu
 function fillArtist(){
@@ -236,6 +311,7 @@ function fillArtist(){
         let image = document.createElement("img");
         image.setAttribute("src", thumbPath);
         image.setAttribute("data-id", index);
+        image.setAttribute("class", "artist");
         cArtist.append(image);
     });
 };
@@ -362,7 +438,46 @@ $(".back").click(function(){
         }, 500);
 });
 
+$(".artist").click(function(){
+    artistIndex = $(this).attr("data-id");
+    let insert = $(".logo");
 
+    let thumbPath = library[artistIndex].artistThumb;
+    let image = document.createElement("img");
+    image.setAttribute("src", thumbPath);
+    insert.append(image);
+
+    $("#landing").hide();
+    $("#game").show();
+    $("#lyric").show();
+});
+
+function playLyric(artist) {
+    let count = 3;
+    let clueBox = $("$clue");
+    let curr;
+    let clue = [];
+    let albumRand = 0;
+    let songRand = 0;
+    let chosenArtist = library[artist];
+    let noOfAlbums = chosenArtist.albums.length;
+
+    while (count){
+        // set curr as the current correct answer
+        // curr into clue[];
+        // find 3 more songs to put into clue[];
+            // rmb to make sure no repeated clues
+        //output clues
+        // if clicked.text = curr then correct
+        //score + 1
+        // wipe clueBox
+        // count --
+    }
+
+}
+
+
+console.log(library[0].albums[0].tracks[0].lyrics[1]);
 
 /* /* function tranIn(x) {
     x.show();
