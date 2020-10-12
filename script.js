@@ -345,6 +345,15 @@ function fillGenre(){
 };
 fillGenre();
 
+$(document).ready(function(){
+    setTimeout(function(){
+        $("#intro").hide();
+        $("#landing").show();
+        $("#rules").show();
+        $("#options").show();
+    }, 3000)
+});
+
 // selecting options
 $(".mode-option").click(function(){
     let box = $(this).parent().parent().parent().attr("id");
@@ -460,7 +469,7 @@ $(".artist").click(function(){
 function playLyric(artist) {
     // set correct answer
     // set wrong answers
-    let roundsLeft = 5;
+    let roundsLeft = 3;
     let score = 0;
     let curr = [];
     let done = [];
@@ -519,7 +528,8 @@ function playLyric(artist) {
         console.log(options);
     }
 
-    while (roundsLeft){
+    function doGame() {
+        console.log("meh");
         console.log(roundsLeft);
         console.log(score);
 
@@ -533,24 +543,44 @@ function playLyric(artist) {
                 options.splice(now, 1);
             }
         };
-        guessBox.click(function (){
-            let guess = $(this).text();
-            if (guess == curr.title){
-                swal({
-                    title: "you chose CORRECTLY",
-                    text: guess,
-                });
-                score++;
-            }else{
-                swal({
-                    title: "you chose WONRGLY",
-                    text: guess,
-                });
-            }
-            roundsLeft--;
-        });
     }
+
+    doGame();
+    $(".guess").click(function (){
+        let guess = $(this).text();
+        console.log(guess);
+        console.log ("answer is " + curr.title);
+        if (guess == curr.title){
+            swal({
+                title: "you chose CORRECTLY",
+                text: guess,
+                timer: 4000,
+            });
+            score++;
+        }else{
+            swal({
+                title: "you chose WRONGLY",
+                text: guess,
+                timer: 4000,
+            });
+        }
+        roundsLeft--;
+        if (roundsLeft){
+            console.log("timeout");
+            setTimeout(doGame, 3000);
+        }else {
+            setTimeout(function(){
+                swal({
+                    title: "GameOver",
+                });
+            }, 4000);
+            
+        }
+    });
+
 }
+
+
 
 function generateRandom(x) {
     return Math.floor(Math.random()*x);

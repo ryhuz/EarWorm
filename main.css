@@ -1,3 +1,7 @@
+#choose-artist, #choose-genre, #game, #lyric-box, #clip-box, #landing, #rules, #options{
+    display: none;
+}
+
 * {
     box-sizing: border-box;
 }
@@ -37,7 +41,12 @@ header {
     justify-content: center;
 }
 
-.container, #landing {
+#landing, #game {
+    padding-top: 5%;
+}
+
+
+.container, #landing, #game {
     width: 90%;
     margin: 0 auto;
 }
@@ -161,10 +170,6 @@ header {
 footer {
     height: 80px;
 
-}
-
-#choose-artist, #choose-genre, #game, #lyric-box, #clip-box {
-    display: none;
 }
 
 #game .logo {
