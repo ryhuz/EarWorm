@@ -458,98 +458,42 @@ $(".artist").click(function(){
 });
 
 function playLyric(artist) {
-    // set correct answer
-    // set wrong answers
-    let roundsLeft = 5;
     let score = 0;
-    let curr = [];
+    let questions = [];
+    let clueBox = $("#lyric");
+    let guessBox = $(".guess");
+    let curr = {title: "", lyric: ""};
+    let wrong = [];
     let done = [];
-    let options = [];
     let chosenArtist = library[artist];
     let noOfAlbums = chosenArtist.albums.length;
-    let albumRand = 0;
-    let songRand = 0;
-    let pointedAlbum;
-    let numOfSongs;
-    let pointedSong;
-    let lyricsRand = 0;
-
-    function getCorrectAnswer() {
-        options = [];
-        do {
-            getRandomSong();
-            console.log ("resovled");
-        }while (done.includes(pointedSong.tracktitle));
-        
-        lyricsRand = generateRandom(pointedSong.lyrics.length);
-        curr.title = pointedSong.tracktitle;
-        curr.lyric = pointedSong.lyrics[lyricsRand];
-        done.push(curr.title);
-        options.push(curr.title);
-
-        getOtherAnswers();
-    }
 
     function getRandomSong() {
-        albumRand = generateRandom(noOfAlbums);
-        pointedAlbum = chosenArtist.albums[albumRand];
-        numOfSongs = pointedAlbum.tracks.length;
-        songRand = generateRandom(numOfSongs);
-        pointedSong = pointedAlbum.tracks[songRand];
-        return;
-    }
-
-    function getOtherAnswers() {
-        do {
-            getRandomSong();
-        }while (curr.title == pointedSong.tracktitle);
+        let albumRand = generateRandom(noOfAlbums);
+        let pointedAlbum = chosenArtist.albums[albumRand];
+        let numOfSongs = pointedAlbum.tracks.length;
+        let songRand = generateRandom(numOfSongs);
+        let pointedSong = pointedAlbum.tracks[songRand];
+        let randLyr = generateRandom(pointedSong.lyrics.length);
         
-        options.push (pointedSong.tracktitle);
-
-        while (options.length < 4) {
-            let song = "";
-            do{
-                let randArt = generateRandom(library.length);
-                let randAlb = generateRandom(library[randArt].albums.length);
-                let randSong = generateRandom(library[randArt].albums[randAlb].tracks.length);
-                song = library[randArt].albums[randAlb].tracks[randSong];
-            }while (options.includes(song.tracktitle));
-            options.push(song.tracktitle);
-        }
-        console.log(options);
+        let final = {title: pointedSong.tracktitle, lyric: pointedSong.lyrics[randLyr]};
+        
+        return final;
     }
 
-    while (roundsLeft){
-        console.log(roundsLeft);
-        console.log(score);
+    for (let i = 0; i < 5; i++){
+        let x = getRandomSong();
+        let repeat = false;
 
-        getCorrectAnswer();
-        $("#lyric").html(curr.lyric);
-        let guessBox = $(".guess");
-        for (let i = 0; i< guessBox.length; i++){
-            let now = generateRandom(options.length);
-            guessBox[i].innerText = options[now];
-            if (options.length!=1){
-                options.splice(now, 1);
+        do{
+            for (let y of questions){
+            
             }
-        };
-        guessBox.click(function (){
-            let guess = $(this).text();
-            if (guess == curr.title){
-                swal({
-                    title: "you chose CORRECTLY",
-                    text: guess,
-                });
-                score++;
-            }else{
-                swal({
-                    title: "you chose WONRGLY",
-                    text: guess,
-                });
-            }
-            roundsLeft--;
-        });
+        }while (!repeat);
+        
+        questions.push(getRandomSong());
     }
+    console.log(questions);
 }
 
 function generateRandom(x) {
