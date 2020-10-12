@@ -534,7 +534,8 @@ function playLyric(artist) {
         getCorrectAnswer();
         $("#lyric").html(curr.lyric);
         
-        let guessBox = $(".guess")
+        $(".guess").removeClass("done");
+        let guessBox = $(".guess");
         for (let i = 0; i< guessBox.length; i++){
             let now = generateRandom(options.length);
             guessBox[i].innerText = options[now];
@@ -547,6 +548,12 @@ function playLyric(artist) {
 
     doGame();
     $(".guess").click(function (){
+
+        if(! $(this).hasClass("done")){
+
+        
+        $(".guess").addClass("done");
+
         let guess = $(this).text();
         console.log(guess);
         console.log ("answer is " + curr.title);
@@ -564,7 +571,7 @@ function playLyric(artist) {
                 timer: 4000,
             });
         }
-        $(".guess").off();
+        //$(".guess").off();
         rounds++;
         if (rounds < 3){
             setTimeout(doGame, 4000);
@@ -595,6 +602,7 @@ function playLyric(artist) {
                 });
             }, 4000);
 
+        }
         }
     });
 }
