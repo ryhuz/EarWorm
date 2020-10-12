@@ -17,13 +17,13 @@ header {
     border-top-right-radius: 30px;
 }
 
-#intro, .logo {
+#intro {
     width: 80%;
     margin: auto;
     justify-content: center;
 }
 
-#player>.container, #intro, #landing, .mode, .logo{
+#player>.container, #intro, #landing, .mode, #clue .container{
     display: flex;
 }
 
@@ -170,5 +170,16 @@ footer {
 #game .logo {
     border: chartreuse 1px solid;
     padding: 20px 0;
+    width: 25%;
 }
 
+.logo img {
+    width: 100%;
+    object-fit: contain;
+}
+
+#lyric {
+    border: chartreuse 1px solid;
+    padding: 20px 0;
+
+}

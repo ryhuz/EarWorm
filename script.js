@@ -6,51 +6,54 @@ let library = [
                     tracks:[
                             {   tracktitle: "Lady In A Blue Dress",
                                 lyrics: [
-`Just like the lady in the blue dress
-you've got cigarettes on your breath
-Hairspray and some cheap perfume`,
-`You said, said you want respect
-Well then you better get some for yourself
-'Cause all that I see right now
-Is someone whose lost and insecure`, 
-`Don't try to be cute with me
-'Cause I know you hate yourself
-And you'd end your stupid lies now
-But you're too spineless`],
+                                        `Just like the lady in the blue dress<br/>
+                                        you've got cigarettes on your breath<br/>
+                                        Hairspray and some cheap perfume`,
+                                        `You said, said you want respect<br/>
+                                        Well then you better get some for yourself<br/>
+                                        'Cause all that I see right now<br/>
+                                        Is someone whose lost and insecure`, 
+                                        `Don't try to be cute with me<br/>
+                                        'Cause I know you hate yourself<br/>
+                                        And you'd end your stupid lies now<br/>
+                                        But you're too spineless`
+                                    ],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "You're Cute When Your Scream",
                                 lyrics: [
-`You know that you are worthless
-And I am better than
-The games that you play princess
-I've played and always win`,
-`I'll take you to the top
-Of this building and just push you off
-Run down the stairs so I can see
-Your face as you hit the street`,
-`I'll take my time
-To slowly plot your end
-But now I will
-Spit bullets with my pen`],
+                                    `You know that you are worthless<br/>
+                                    And I am better than<br/>
+                                    The games that you play princess<br/>
+                                    I've played and always win`,
+                                    `I'll take you to the top<br/>
+                                    Of this building and just push you off<br/>
+                                    Run down the stairs so I can see<br/>
+                                    Your face as you hit the street`,
+                                    `I'll take my time<br/>
+                                    To slowly plot your end<br/>
+                                    But now I will<br/>
+                                    Spit bullets with my pen`
+                                ],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "Bite To Break Skin",
                                 lyrics: [
-`So let me take this medicine
-To quench my love for violent things
-My swan song will
-Be like a bullet laced in anger
-As the razor cuts the soft spot on your heel`,
-`So, follow me into the sun
-And I will bleed the poision dry`,
-`Don't give the secret
-My stoic face
-Bleeding with passion
-The Phoenix will die
-Inside the firestorm
-I am the son
-Follow my footsteps.`],
+                                    `So let me take this medicine<br/>
+                                    To quench my love for violent things
+                                    My swan song will
+                                    Be like a bullet laced in anger
+                                    As the razor cuts the soft spot on your heel`,
+                                    `So, follow me into the sun
+                                    And I will bleed the poision dry`,
+                                    `Don't give the secret
+                                    My stoic face
+                                    Bleeding with passion
+                                    The Phoenix will die
+                                    Inside the firestorm
+                                    I am the son
+                                    Follow my footsteps.`
+                                ],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                         ]
@@ -486,9 +489,9 @@ function playLyric(artist) {
         if (!done.includes(pointedSong.tracktitle)){
             lyricsRand = generateRandom(pointedSong.lyrics.length);
         
-        curr.title = pointedSong.tracktitle;
-        curr.lyric = pointedSong.lyrics[lyricsRand];
-        done.push(curr.title);
+            curr.title = pointedSong.tracktitle;
+            curr.lyric = pointedSong.lyrics[lyricsRand];
+            done.push(curr.title);
         }else{
             correctAnswer();
         }
@@ -496,33 +499,40 @@ function playLyric(artist) {
     }
 
     function getOtherAnswers() {
-        wrong = [];
-        while (wrong.length < 2){
             getRandomSong();
-            if(!wrong.includes(pointedSong.tracktitle) && pointedSong.tracktitle != curr.title && !done.includes(pointedSong.tracktitle)){
+            if(pointedSong.tracktitle != curr.title){
                 wrong.push(pointedSong.tracktitle);
             }else{
                 getOtherAnswers();
+            }
+        return;
+    }
+
+    function getNonArtist (){
+        while (wrong.length < 2){
+            let randomArtist = library[generateRandom(library.length)];
+            while (randomArtist.artist == chosenArtist.artist){
+                randomArtist = library[generateRandom(library.length)];
+            }
+            
+            let rAAlbum = randomArtist.albums[generateRandom(randomArtist.albums.length)];
+            let rASong = rAAlbum.tracks[generateRandom(rAAlbum.tracks.length)];
+
+            if(!wrong.includes(rASong.tracktitle)){
+                wrong.push(rASong.tracktitle);
+            }
+            else{
+                getNonArtist();
             }
         }
         return;
     }
 
-    function getNonArtist (){
-        let randomArtist = library[generateRandom(library.length)];
-        while (randomArtist.artist == chosenArtist.artist){
-            randomArtist = library[generateRandom(library.length)];
-        }
-        let rAAlbum = randomArtist.albums[generateRandom(randomArtist.albums.length)];
-        let rASong = rAAlbum.tracks[generateRandom(rAAlbum.tracks.length)];
-        wrong.push(rASong.tracktitle);
-        return;
-    }
-
     function generateQuestion (){
         correctAnswer();
-        getOtherAnswers();
         getNonArtist();
+        getOtherAnswers();
+        
         wrong.push(curr.title);
         clueBox.text(curr.lyric);
         
