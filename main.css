@@ -163,7 +163,7 @@ footer {
 
 }
 
-#choose-artist, #choose-genre, #game, #lyric, #clip {
+#choose-artist, #choose-genre, #game, #lyric-box, #clip-box {
     display: none;
 }
 

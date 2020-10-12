@@ -16,7 +16,7 @@ Is someone whose lost and insecure`,
 `Don't try to be cute with me
 'Cause I know you hate yourself
 And you'd end your stupid lies now
-But your too spineless`],
+But you're too spineless`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "You're Cute When Your Scream",
@@ -449,35 +449,121 @@ $(".artist").click(function(){
 
     $("#landing").hide();
     $("#game").show();
-    $("#lyric").show();
+    $("#lyric-box").show();
+
+    playLyric(artistIndex);
 });
 
 function playLyric(artist) {
-    let count = 3;
-    let clueBox = $("$clue");
-    let curr;
-    let clue = [];
+    let count = 5;
+    let clueBox = $("#lyric");
+    let guessBox = $(".guess");
+    let curr = {title: "", lyric: ""};
+    let wrong = [];
     let albumRand = 0;
     let songRand = 0;
+    let lyricsRand = 0;
+    let done = [];
     let chosenArtist = library[artist];
     let noOfAlbums = chosenArtist.albums.length;
+    let pointedAlbum;
+    let numOfSongs;
+    let pointedSong;
+    let score = 0;
 
-    while (count){
-        // set curr as the current correct answer
-        // curr into clue[];
-        // find 3 more songs to put into clue[];
-            // rmb to make sure no repeated clues
-        //output clues
-        // if clicked.text = curr then correct
-        //score + 1
-        // wipe clueBox
-        // count --
+    function getRandomSong() {
+        albumRand = generateRandom(noOfAlbums);
+        pointedAlbum = chosenArtist.albums[albumRand];
+        numOfSongs = pointedAlbum.tracks.length;
+        songRand = generateRandom(numOfSongs);
+        pointedSong = pointedAlbum.tracks[songRand];
+        return;
     }
 
+    function correctAnswer() {
+        getRandomSong();
+
+        if (!done.includes(pointedSong.tracktitle)){
+            lyricsRand = generateRandom(pointedSong.lyrics.length);
+        
+        curr.title = pointedSong.tracktitle;
+        curr.lyric = pointedSong.lyrics[lyricsRand];
+        done.push(curr.title);
+        }else{
+            correctAnswer();
+        }
+        return;
+    }
+
+    function getOtherAnswers() {
+        wrong = [];
+        while (wrong.length < 2){
+            getRandomSong();
+            if(!wrong.includes(pointedSong.tracktitle) && pointedSong.tracktitle != curr.title && !done.includes(pointedSong.tracktitle)){
+                wrong.push(pointedSong.tracktitle);
+            }else{
+                getOtherAnswers();
+            }
+        }
+        return;
+    }
+
+    function getNonArtist (){
+        let randomArtist = library[generateRandom(library.length)];
+        while (randomArtist.artist == chosenArtist.artist){
+            randomArtist = library[generateRandom(library.length)];
+        }
+        let rAAlbum = randomArtist.albums[generateRandom(randomArtist.albums.length)];
+        let rASong = rAAlbum.tracks[generateRandom(rAAlbum.tracks.length)];
+        wrong.push(rASong.tracktitle);
+        return;
+    }
+
+    function generateQuestion (){
+        correctAnswer();
+        getOtherAnswers();
+        getNonArtist();
+        wrong.push(curr.title);
+        clueBox.text(curr.lyric);
+        
+        console.log (count + " more questions left");
+        console.log ("score" + score);
+        
+        for (let i = 0; i< guessBox.length; i++){
+            let now = generateRandom(wrong.length);
+            guessBox[i].innerText = wrong[now];
+            if (wrong.length!=1){
+                wrong.splice(now, 1);
+            }
+        };
+
+        guessBox.click(function (){
+            let guess = $(this).text();
+            if (guess == curr.title){
+                swal({
+                    title: "you chose CORRECTLY",
+                    text: guess,
+                  });
+                  score++;
+                  count--;
+                  setTimeout(generateQuestion, 2000);
+            }else{
+                swal({
+                    title: "you chose WONRGLY",
+                    text: guess,
+                  });
+            }
+        });
+        return;
+    }
+    generateQuestion ();    
 }
 
+function generateRandom(x) {
+    return Math.floor(Math.random()*x);
+}
 
-console.log(library[0].albums[0].tracks[0].lyrics[1]);
+//console.log(library[0].albums[0].tracks[0].lyrics[1]);
 
 /* /* function tranIn(x) {
     x.show();
