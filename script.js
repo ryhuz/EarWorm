@@ -2459,7 +2459,7 @@ function fillGenre(){
         
         if (!exists){
             let genre = document.createElement("div");
-            genre.setAttribute("class", "genre-option");
+            genre.setAttribute("class", "genre-option genre");
             genre.setAttribute("data-id", curr);
             genre.innerText = curr;
             cGenre.append(genre);
@@ -2554,8 +2554,7 @@ $("#start").click(function(){
             }else if (mode == "genre"){
                 cGenre.show();
             }else {
-                cArtist.show();
-                cGenre.show();
+
             }
         }, 500);
     }
@@ -2573,6 +2572,7 @@ $(".back").click(function(){
         }, 500);
 });
 
+// choosing artist for artist mode
 $(".artist").click(function(){
     artistIndex = $(this).attr("data-id");
     let insert = $(".logo");
@@ -2591,6 +2591,29 @@ $(".artist").click(function(){
 
     playLyric(artistIndex);
 });
+
+// repurpose artist mode for genre mode
+$(".genre").click(function(){
+
+    /* artistIndex = $(this).attr("data-id");
+    let insert = $(".logo");
+
+    insert.empty();
+    let thumbPath = library[artistIndex].artistThumb;
+    let image = document.createElement("img");
+    image.setAttribute("src", thumbPath);
+    insert.append(image);
+
+    $("#landing").hide();
+    $("#choose-artist").hide();
+    $("#game").show();
+    $("#lyric-box").show();
+    $(".timer").show();
+
+    playLyric(artistIndex); */
+});
+
+
 
 function playLyric(artist) {
     // set correct answer
@@ -2650,7 +2673,6 @@ function playLyric(artist) {
             }while (options.includes(song.tracktitle));
             options.push(song.tracktitle);
         }
-        console.log(options);
     }
 
     function doGame() {
@@ -2678,8 +2700,6 @@ function playLyric(artist) {
         $(".guess").addClass("done");
 
         let guess = $(this).text();
-        console.log(guess);
-        console.log ("answer is " + curr.title);
         if (guess == curr.title){
             swal({
                 title: "you chose CORRECTLY",
