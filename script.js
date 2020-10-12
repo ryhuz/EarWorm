@@ -460,6 +460,7 @@ $(".artist").click(function(){
     insert.append(image);
 
     $("#landing").hide();
+    $("#choose-artist").hide();
     $("#game").show();
     $("#lyric-box").show();
 
@@ -572,9 +573,21 @@ function playLyric(artist) {
             setTimeout(function(){
                 swal({
                     title: "GameOver",
+                    text: "Play again?",
+                    buttons: {
+                        yes: {
+                            text: "Yes",
+                            value: "Yes"
+                        }
+                    },
+                });
+                $("button").click(function(){
+                    $("#game").hide();
+                    $("#landing").show();
+                    $("#rules").show();
+                    $("#options").show();
                 });
             }, 4000);
-            
         }
     });
 
