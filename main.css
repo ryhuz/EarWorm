@@ -1,4 +1,4 @@
-#choose-artist, #choose-genre, #game, #lyric-box, #clip-box, #landing, #rules, #options{
+#choose-artist, #choose-genre, #game, #lyric-box, #clip-box, #landing, #rules, #options, .timer{
     display: none;
 }
 
@@ -83,12 +83,12 @@ header {
     min-width: 140px;
 }
 
-#player input, .mode-option, .sbButton{
+#player input, .mode-option, .sbButton, .guess {
     background-color: white;
     box-shadow: -3px 5px 5px 5px rgba(63, 61, 61, 0.596);
 }
 
-#player input, .mode-option, .sbButton, .genre-option {
+#player input, .mode-option, .sbButton, .genre-option, .guess {
     background-clip: padding-box;
     border-radius: .65rem;
     padding: 7px 1%;
@@ -99,7 +99,7 @@ header {
     color: white;
 }
 
-#mode .mode-option, .genre-option {
+#mode .mode-option, .genre-option, .guess {
     padding: 2.5% 1%;
 }
 
@@ -112,30 +112,30 @@ header {
     font-size: 18px;
 }
 
-.mode-option, .sbButton, .genre-option{
+.mode-option, .sbButton, .genre-option, .guess{
     text-align: center;
     transition: 0.5s;
     flex: 1 1 auto;
     margin: 5px 3%;
 }
 
-.mode-option, .sbButton, #artist-select img:hover, .genre-option{
+.mode-option, .sbButton, #artist-select img:hover, .genre-option, .guess {
     cursor: pointer;
 }
 
-.mode-option:hover, .mode-option:active, .clicked, .sbButton:hover {
+.mode-option:hover, .mode-option:active, .clicked, .sbButton:hover, .guess:active, .guess:hover {
     background-color: rgb(66, 60, 60);
 }
 
-.clicked, .mode-option:hover, .sbButton:hover {
+.clicked, .mode-option:hover, .sbButton:hover, .guess:hover {
     color: rgb(0, 255, 55);
 }
 
-.mode-option:hover, .sbButton:hover {
+.mode-option:hover, .sbButton:hover, .guess:hover {
     opacity: 0.4;
 }
 
-.mode-option:active, .clicked, .sbButton:active {
+.mode-option:active, .clicked, .sbButton:active, .guess:active {
     opacity: 1;
     box-shadow: 0 5px #666;
     transform: translateY(4px);
@@ -146,9 +146,12 @@ header {
     line-height: 12px;
 }
 
+#artist-select, #genre-select, #guess .container {
+    display: grid;
+}
+
 #artist-select, #genre-select {
     width: 100%;
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 4%;
     margin: 15px 0;
@@ -169,11 +172,9 @@ header {
 
 footer {
     height: 80px;
-
 }
 
 #game .logo {
-    border: chartreuse 1px solid;
     padding: 20px 0;
     width: 25%;
 }
@@ -185,6 +186,44 @@ footer {
 
 #lyric {
     border: chartreuse 1px solid;
-    padding: 20px 0;
+    margin: 1% 1% 1% 4%;
+    padding: 2%;
+}
 
+#guess .container {
+    grid-template-columns: repeat(2, 1fr);
+    padding: 1% 1% 1.5% 1%;
+    grid-gap: 7%;
+}
+
+.timer {
+    background-color: chocolate;
+    width: 100%;
+    height: 6%;
+    position: absolute;
+    bottom: 1%;
+    left: 0;
+    display: flex;
+}
+
+#timer {
+    text-align: center;
+    width: 100%;
+    height: 70%;
+    background-color: white;
+    margin: .5% auto;
+    display: flex;
+    justify-content: center;
+}
+
+#timer p {
+    margin-top: 0;
+    height: 100%;
+    min-width: 90px;
+    line-height: 38px;
+    padding: 0;
+}
+#timer p:not(:first-child){
+    min-width: 40px;
+    font-weight: 800;
 }

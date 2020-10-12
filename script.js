@@ -454,6 +454,7 @@ $(".artist").click(function(){
     artistIndex = $(this).attr("data-id");
     let insert = $(".logo");
 
+    insert.empty();
     let thumbPath = library[artistIndex].artistThumb;
     let image = document.createElement("img");
     image.setAttribute("src", thumbPath);
@@ -463,6 +464,7 @@ $(".artist").click(function(){
     $("#choose-artist").hide();
     $("#game").show();
     $("#lyric-box").show();
+    $(".timer").show();
 
     playLyric(artistIndex);
 });
@@ -470,7 +472,7 @@ $(".artist").click(function(){
 function playLyric(artist) {
     // set correct answer
     // set wrong answers
-    let roundsLeft = 3;
+    let rounds = 0;
     let score = 0;
     let curr = [];
     let done = [];
@@ -488,7 +490,6 @@ function playLyric(artist) {
         options = [];
         do {
             getRandomSong();
-            console.log ("resovled");
         }while (done.includes(pointedSong.tracktitle));
         
         lyricsRand = generateRandom(pointedSong.lyrics.length);
@@ -530,13 +531,10 @@ function playLyric(artist) {
     }
 
     function doGame() {
-        console.log("meh");
-        console.log(roundsLeft);
-        console.log(score);
-
         getCorrectAnswer();
         $("#lyric").html(curr.lyric);
-        let guessBox = $(".guess");
+        
+        let guessBox = $(".guess")
         for (let i = 0; i< guessBox.length; i++){
             let now = generateRandom(options.length);
             guessBox[i].innerText = options[now];
@@ -544,6 +542,7 @@ function playLyric(artist) {
                 options.splice(now, 1);
             }
         };
+        //timer(15);
     }
 
     doGame();
@@ -565,15 +564,20 @@ function playLyric(artist) {
                 timer: 4000,
             });
         }
-        roundsLeft--;
-        if (roundsLeft){
-            console.log("timeout");
-            setTimeout(doGame, 3000);
+        $(".guess").off();
+        rounds++;
+        if (rounds < 3){
+            setTimeout(doGame, 4000);
         }else {
             setTimeout(function(){
+                let finalScore = document.createElement("p");
+                let str = "You scored " + score + " points";
+                finalScore.innerText= str;
+
                 swal({
-                    title: "GameOver",
+                    title: "Game Over",
                     text: "Play again?",
+                    content: finalScore,
                     buttons: {
                         yes: {
                             text: "Yes",
@@ -582,16 +586,52 @@ function playLyric(artist) {
                     },
                 });
                 $("button").click(function(){
+                    rounds = 0;
+                    score = 0;
                     $("#game").hide();
                     $("#landing").show();
                     $("#rules").show();
                     $("#options").show();
                 });
             }, 4000);
+
         }
     });
-
 }
+
+function timer(x){
+    var elem = document.getElementById("timer");
+    var i = 0;
+      if (i == 0) {
+        i = 1;
+        var width = 100;
+        var rate = setInterval(crawling, x);
+        function crawling() {
+            if (width <= 0) {
+                clearInterval(rate);
+                i = 0;
+                setTimeout(() => {
+                    let rebuild = setInterval(growing, 3);
+                    function growing() {
+                        if (width >= 100) {
+                            clearInterval(rebuild);
+                        }else{
+                            width += 0.1;
+                            elem.style.width = width + "%";
+                        }
+                    }
+                }, 1000);
+            } else {
+               width -= 0.1;
+               elem.style.width = width + "%";
+            }
+            let time = $(".time");
+
+        }
+    } 
+}
+
+
 
 
 
@@ -618,117 +658,3 @@ function tranOut(x) {
 } */
 
 // set options as buttons, put data-id of the artist/genre in the respective boxes
-
-
-
-
-// the old recursive method
-/* let count = 5;
-    let clueBox = $("#lyric");
-    let guessBox = $(".guess");
-    let curr = {title: "", lyric: ""};
-    let wrong = [];
-    let albumRand = 0;
-    let songRand = 0;
-    let lyricsRand = 0;
-    let done = [];
-    let chosenArtist = library[artist];
-    let noOfAlbums = chosenArtist.albums.length;
-    let pointedAlbum;
-    let numOfSongs;
-    let pointedSong;
-    let score = 0;
-
-    function getRandomSong() {
-        albumRand = generateRandom(noOfAlbums);
-        pointedAlbum = chosenArtist.albums[albumRand];
-        numOfSongs = pointedAlbum.tracks.length;
-        songRand = generateRandom(numOfSongs);
-        pointedSong = pointedAlbum.tracks[songRand];
-        return;
-    }
-
-    function correctAnswer() {
-        getRandomSong();
-
-        if (!done.includes(pointedSong.tracktitle)){
-            lyricsRand = generateRandom(pointedSong.lyrics.length);
-        
-            curr.title = pointedSong.tracktitle;
-            curr.lyric = pointedSong.lyrics[lyricsRand];
-            done.push(curr.title);
-        }else{
-            correctAnswer();
-        }
-        return;
-    }
-
-    function getOtherAnswers() {
-            getRandomSong();
-            if(pointedSong.tracktitle != curr.title){
-                wrong.push(pointedSong.tracktitle);
-            }else{
-                getOtherAnswers();
-            }
-        return;
-    }
-
-    function getNonArtist (){
-        while (wrong.length < 2){
-            let randomArtist = library[generateRandom(library.length)];
-            while (randomArtist.artist == chosenArtist.artist){
-                randomArtist = library[generateRandom(library.length)];
-            }
-            
-            let rAAlbum = randomArtist.albums[generateRandom(randomArtist.albums.length)];
-            let rASong = rAAlbum.tracks[generateRandom(rAAlbum.tracks.length)];
-
-            if(!wrong.includes(rASong.tracktitle)){
-                wrong.push(rASong.tracktitle);
-            }
-            else{
-                getNonArtist();
-            }
-        }
-        return;
-    }
-
-    function generateQuestion (){
-        correctAnswer();
-        getNonArtist();
-        getOtherAnswers();
-        
-        wrong.push(curr.title);
-        clueBox.text(curr.lyric);
-        
-        console.log (count + " more questions left");
-        console.log ("score" + score);
-        
-        for (let i = 0; i< guessBox.length; i++){
-            let now = generateRandom(wrong.length);
-            guessBox[i].innerText = wrong[now];
-            if (wrong.length!=1){
-                wrong.splice(now, 1);
-            }
-        };
-
-        guessBox.click(function (){
-            let guess = $(this).text();
-            if (guess == curr.title){
-                swal({
-                    title: "you chose CORRECTLY",
-                    text: guess,
-                  });
-                  score++;
-                  count--;
-                  setTimeout(generateQuestion, 2000);
-            }else{
-                swal({
-                    title: "you chose WONRGLY",
-                    text: guess,
-                  });
-            }
-        });
-        return;
-    }
-    generateQuestion (); */
