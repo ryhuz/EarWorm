@@ -19,7 +19,7 @@ let library = [
                                         And you'd end your stupid lies now<br/>
                                         But you're too spineless`
                                     ],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/lady1.mp3", "/resources/clips/sf/lady2.mp3", "/resources/clips/sf/lady3.mp3"]
                             },
                             {   tracktitle: "You're Cute When Your Scream",
                                 lyrics: [
@@ -36,7 +36,7 @@ let library = [
                                     But now I will<br/>
                                     Spit bullets with my pen`
                                 ],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/cute1.mp3", "/resources/clips/sf/cute2.mp3", "/resources/clips/sf/cute3.mp3"]
                             },
                             {   tracktitle: "Bite To Break Skin",
                                 lyrics: [
@@ -55,7 +55,7 @@ let library = [
                                     I am the son<br/>
                                     Follow my footsteps.`
                                 ],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/bite1.mp3", "/resources/clips/sf/bite2.mp3", "/resources/clips/sf/bite3.mp3"]
                             },
                             {   tracktitle: "Rum Is For Drinking, Not For Burning",
                                 lyrics: [
@@ -73,7 +73,7 @@ let library = [
                                     A pirate's life for me,<br/>
                                     I won't go quietly.`
                                 ],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/rum1.mp3", "/resources/clips/sf/rum2.mp3", "/resources/clips/sf/rum3.mp3"]
                             },
                             {   tracktitle: "Irony Of Dying On Your Birthday",
                                 lyrics: [
@@ -92,7 +92,7 @@ let library = [
                                     So follow your bliss<br/>
                                     And destroy the beauty`
                                 ],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/irony1.mp3", "/resources/clips/sf/irony2.mp3", "/resources/clips/sf/irony3.mp3"]
                             },
                             {   tracktitle: "Martini Kiss",
                                 lyrics: [
@@ -108,7 +108,7 @@ let library = [
                                     So in love with me, like shaped you would be.<br/>
                                     I'll write both our names into the wet concrete.`
                                 ],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/martini1.mp3", "/resources/clips/sf/martini2.mp3", "/resources/clips/sf/martini3.mp3"]
                             },
                         ]
                 },
@@ -127,7 +127,7 @@ let library = [
                                     But they're not meant for you<br/>
                                     And my bed's filled with black roses<br/>
                                     To show that our love is through`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/bone1.mp3", "/resources/clips/sf/bone2.mp3", "/resources/clips/sf/bone3.mp3"]
                             },
                             {   tracktitle: "Can't Be Saved",
                                 lyrics: [
@@ -146,7 +146,7 @@ let library = [
                                     Loose lips and sunken ship<br/>
                                     To a shallow grave<br/>
                                     Washed up upon the rocks`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/cant1.mp3", "/resources/clips/sf/cant2.mp3", "/resources/clips/sf/cant3.mp3"]
                             },
                             {   tracktitle: "Calling All Cars",
                                 lyrics: [
@@ -162,7 +162,7 @@ let library = [
                                     And I don't have love left, inside, inside<br/>
                                     Are you desperate for an answer? I don't have an ounce of good<br/>
                                     Left in me now, that's why I walked out`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/calling1.mp3", "/resources/clips/sf/calling2.mp3", "/resources/clips/sf/calling3.mp3"]
                             },
                             {   tracktitle: "Everyday Is A Struggle",
                                 lyrics: [
@@ -176,7 +176,7 @@ let library = [
                                     I'm burning out my bedside, and I'm rotting out my insides slowly`,
                                     `I stole your perfume to spray in my room<br/>
                                     You will always be here`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/everyday1.mp3", "/resources/clips/sf/everyday2.mp3", "/resources/clips/sf/everyday3.mp3"]
                             },
                             {   tracktitle: "All The Best Cowboys Have Daddy Issues",
                                 lyrics: [
@@ -192,7 +192,7 @@ let library = [
                                     I haven't seen him in years<br/>
                                     My mother's sins are out tonight<br/>
                                     I haven't loved her in years`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/all1.mp3", "/resources/clips/sf/all2.mp3", "/resources/clips/sf/all3.mp3"]
                             },
                             {   tracktitle: "The Priest And The Matador",
                                 lyrics: [
@@ -208,7 +208,7 @@ let library = [
                                     I start to take my last breath as blood pours out my mouth<br/>
                                     The medics walk in my way, I think this could be it<br/>
                                     I hear 'em start to state the time of death is half past six`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/priest1.mp3", "/resources/clips/sf/priest2.mp3", "/resources/clips/sf/priest3.mp3"]
                             },
                         ]
                 },
@@ -228,7 +228,7 @@ let library = [
                                     Come visit me in 20 years and maybe then<br/>
                                     Cause I'm not done screaming yet<br/>
                                     You can call off the intervention`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/lungs1.mp3", "/resources/clips/sf/lungs2.mp3", "/resources/clips/sf/lungs3.mp3"]
                             },
                             {   tracktitle: "Family Tradition",
                                 lyrics: [
@@ -247,7 +247,7 @@ let library = [
                                     That I can find peace, while still numbing my pain?<br/>
                                     Is this my fate?<br/>
                                     'Cause your only son still can't seem to find a way`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/family1.mp3", "/resources/clips/sf/family2.mp3", "/resources/clips/sf/family3.mp3"]
                             },
                             {   tracktitle: "Wolves At The Door",
                                 lyrics: [
@@ -262,7 +262,7 @@ let library = [
                                     Stare away from the mirror and right into the sun<br/>
                                     I forgive myself for all of my mistakes<br/>
                                     When will I learn, when will I, when will I burn?`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/wolves1.mp3", "/resources/clips/sf/wolves2.mp3", "/resources/clips/sf/wolves3.mp3"]
                             },
                             {   tracktitle: "Four Years",
                                 lyrics: [
@@ -277,7 +277,7 @@ let library = [
                                     If I have enough left in the bottle to say all the things I'm thinking<br/>
                                     I've been practicing my exit plan, nervously checking time<br/>
                                     I still don't know how I'll survive`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/four1.mp3", "/resources/clips/sf/four2.mp3", "/resources/clips/sf/four3.mp3"]
                             },
                             {   tracktitle: "Blackout",
                                 lyrics: [
@@ -286,7 +286,7 @@ let library = [
                                     And think about all the things we did<br/>
                                     At least I'm feeling more alive<br/>
                                     But I still have some old weight that I've got to shed<br/>
-                                    Before I find happiness"`,
+                                    Before I find happiness`,
                                     `I make mountains out of my worries<br/>
                                     And I plant pain instead of sturdy trees<br/>
                                     I have got to wash these old sheets<br/>
@@ -295,7 +295,7 @@ let library = [
                                     But I still see you sneaking through my weary head<br/>
                                     I suffer from a drought of medicine to dull self-doubt<br/>
                                     I just wanna drown you out with southern poison`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/black1.mp3", "/resources/clips/sf/black2.mp3", "/resources/clips/sf/black3.mp3"]
                             },
                         ]
                 },
@@ -315,7 +315,7 @@ let library = [
                                     And you will pass your poison down onto your child's feet<br/>
                                     And they will struggle, struggle to breathe<br/>
                                     Cowering in shadows that you cast they cannot see`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/war1.mp3", "/resources/clips/sf/war2.mp3", "/resources/clips/sf/war3.mp3"]
                             },
                         ]
                 },
@@ -338,7 +338,7 @@ let library = [
                                     What wasn't nailed down will be washed away<br/>
                                     My hands are shaking but I will not hesitate<br/>
                                     I found the strength to face`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/fire1.mp3", "/resources/clips/sf/fire2.mp3", "/resources/clips/sf/fire3.mp3"]
                             },
                             {   tracktitle: "Safe House",
                                 lyrics: [
@@ -351,7 +351,7 @@ let library = [
                                     `I fall to pieces and I get weak in the knees when I think about eternity<br/>
                                     Have I been lead astray feeling like fate forget me<br/>
                                     He had the right name but the wrong street`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/sf/safe1.mp3", "/resources/clips/sf/safe2.mp3", "/resources/clips/sf/safe3.mp3"]
                             },
                         ]
                 }
@@ -377,7 +377,7 @@ let library = [
                                     Drown us in it's wake<br/>
                                     And clearly I will stay and wipe the blood from<br/>
                                     Your white wedding dress`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Juneau",
                                 lyrics: [
@@ -390,7 +390,7 @@ let library = [
                                     Fall forward to even the score<br/>
                                     Just a thought to you`,
                                     `And I'm nothing more than a line in your book`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Bend Your Arms To Look Like Wings",
                                 lyrics: [
@@ -402,7 +402,7 @@ let library = [
                                     Just enough to cut the air from your lungs`,
                                     `And paper cuts and bloody hands<br/>
                                     In the middle they would meet`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Escape Artists Never Die",
                                 lyrics: [
@@ -418,7 +418,7 @@ let library = [
                                     `We'll start a fire<br/>
                                     And burn some bridges<br/>
                                     And make it out of here tonight`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Red Is The New Black",
                                 lyrics: [
@@ -431,7 +431,7 @@ let library = [
                                     Just to feel something`,
                                     `This situation isn't getting any better<br/>
                                     I see that look in your eyes`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "She Drove Me To Daytime Television",
                                 lyrics: [
@@ -445,7 +445,7 @@ let library = [
                                     You're the only one who's fading here`,
                                     `Such holidays in the sun don't come without sacrifices<br/>
                                     You know it makes more sense`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -463,21 +463,21 @@ let library = [
                                     And boring me with your body<br/>
                                     How many times can I say I'm sorry<br/>
                                     And really mean it`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Streetcar",
                                 lyrics: [
-                                    `So goodbye to you and your life
-                                    Your new best friends
-                                    Your confidence
+                                    `So goodbye to you and your life<br/>
+                                    Your new best friends<br/>
+                                    Your confidence<br/>
                                     And I'll be here when you get home`,
-                                    `Sitting half way, away from nowhere
-                                    Praying for our lips to touch
-                                    Holding myself For a second
+                                    `Sitting half way, away from nowhere<br/>
+                                    Praying for our lips to touch<br/>
+                                    Holding myself For a second<br/>
                                     Just to catch a smile on this line`,
-                                    `Is it just like you said it would be?
+                                    `Is it just like you said it would be?<br/>
                                     I can't feel the same about you anymore`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Roses For The Dead",
                                 lyrics: [
@@ -495,7 +495,7 @@ let library = [
                                     And let this rain pour on.<br/>
                                     So raise your hands up high,<br/>
                                     And wash us away.`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Monsters",
                                 lyrics: [
@@ -508,7 +508,7 @@ let library = [
                                     It makes no sense at all`,
                                     `In every despair I'll find you standing there,<br/>
                                     With the bitter taste of envy on your sleeve`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "History",
                                 lyrics: [
@@ -521,7 +521,7 @@ let library = [
                                     Your history is mine`,
                                     `I don't care for your sweet scent<br/>
                                     Or the way you want me more than I want you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Recovery",
                                 lyrics: [
@@ -539,7 +539,7 @@ let library = [
                                     And I can't go on this way<br/>
                                     And this hearts not beating<br/>
                                     It just doesn't seem the same`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -556,7 +556,7 @@ let library = [
                                     But now I'm tired and alone<br/>
                                     I used to mean something to you<br/>
                                     Locked out and left here in the cold`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Front Row Seats To The End Of The World",
                                 lyrics: [
@@ -572,7 +572,7 @@ let library = [
                                     Falling slowly with the little numbers<br/>
                                     Every time I feel like hating someone<br/>
                                     Can't think of anyone that would make it worth the fight`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Sixteen",
                                 lyrics: [
@@ -585,7 +585,7 @@ let library = [
                                     Preaching god and country like lines on a telegraph<br/>
                                     Seems like we all want to be<br/>
                                     So very different but nothing changes`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Damned If You Do, Dead If You Don't",
                                 lyrics: [
@@ -599,7 +599,7 @@ let library = [
                                     `I have a feeling, at the bottom of this glass<br/>
                                     Everything will pass, at least not for us<br/>
                                     So sing it loud`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Broken Foundation",
                                 lyrics: [
@@ -616,7 +616,7 @@ let library = [
                                     Leaving this place so empty handed<br/>
                                     Beaten down, with a bad taste in my mouth<br/>
                                     Until it falls apart`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 }
@@ -636,7 +636,7 @@ let library = [
                                     She'll burn our horizons, make no mistake`,
                                     `And I'll hide from the world behind a broken frame<br/>
                                     And I'll burn forever, I can't face the shame`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Muscle Museum",
                                 lyrics: [
@@ -655,7 +655,7 @@ let library = [
                                     `Too long trying to resist it<br/>
                                     You've just gone and missed it<br/>
                                     It's escaped your world`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Showbiz",
                                 lyrics: [
@@ -670,7 +670,7 @@ let library = [
                                     Trying to please you far too long<br/>
                                     Visions of greed you wallow<br/>
                                     Visions of greed you wallow`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -697,7 +697,7 @@ let library = [
                                     Just break the silence<br/>
                                     'Cause I'm drifting away<br/>
                                     Away from you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Plug In Baby",
                                 lyrics: [
@@ -715,7 +715,7 @@ let library = [
                                     Baby you're gonna lose your own game<br/>
                                     Change me<br/>
                                     And replace the envying to forget your love`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Citizen Erased",
                                 lyrics: [
@@ -735,7 +735,7 @@ let library = [
                                     Erase all the memories<br/>
                                     They will only bring us pain<br/>
                                     And I've seen, all I'll ever need`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -755,7 +755,7 @@ let library = [
                                     But I'm restricted<br/>
                                     I tried to give you up<br/>
                                     But I'm addicted`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Hysteria",
                                 lyrics: [
@@ -777,7 +777,7 @@ let library = [
                                     To be endlessly<br/>
                                     Caving in<br/>
                                     And dreaming I'm alive`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Butterflies And Hurricanes",
                                 lyrics: [
@@ -795,7 +795,7 @@ let library = [
                                     `Don't let yourself down<br/>
                                     Don't let yourself go<br/>
                                     Your last chance has arrived`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -813,7 +813,7 @@ let library = [
                                     `Now I'll never let you go<br/>
                                     If you promised not to fade away<br/>
                                     Never fade away`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Supermassive Black Hole",
                                 lyrics: [
@@ -827,7 +827,7 @@ let library = [
                                     Oh baby, I'm a fool for you<br/>
                                     You're the queen of the superficial<br/>
                                     And how long before you tell the truth?`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Map Of The Problematique",
                                 lyrics: [
@@ -839,7 +839,7 @@ let library = [
                                     `And no one thinks they are to blame<br/>
                                     Why can't we see<br/>
                                     That when we bleed we bleed the same`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Knights Of Cydonia",
                                 lyrics: [
@@ -855,7 +855,7 @@ let library = [
                                     Time has come to make things right<br/>
                                     You and I must fight for our rights<br/>
                                     You and I must fight to survive`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -872,7 +872,7 @@ let library = [
                                     We are caged in simulations`,
                                     `Algorithms evolve<br/>
                                     Push us aside and render us obsolete`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "The Dark Side",
                                 lyrics: [
@@ -888,7 +888,7 @@ let library = [
                                     For all my life, I've been besieged<br/>
                                     You'd be scared living with my despair<br/>
                                     And if you could feel the things, I am able to feel`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Pressure",
                                 lyrics: [
@@ -904,7 +904,7 @@ let library = [
                                     I'm not blind<br/>
                                     I'll carry the burden and take the strain<br/>
                                     And when I am done I will make you pay`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Thought Contagion",
                                 lyrics: [
@@ -920,7 +920,7 @@ let library = [
                                     Give it up and watch them break through<br/>
                                     It's too late for a revolution<br/>
                                     Brace for the final solution`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -946,7 +946,7 @@ let library = [
                                     I feel the light betray me<br/>
                                     The sun goes down<br/>
                                     I feel the light betray me`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "One Step Closer",
                                 lyrics: [
@@ -968,7 +968,7 @@ let library = [
                                     I find bliss in ignorance<br/>
                                     Nothing seems to go away<br/>
                                     Over and over again`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Points Of Authority",
                                 lyrics: [
@@ -986,7 +986,7 @@ let library = [
                                     You have to act like you're someone<br/>
                                     You want someone to hurt like you<br/>
                                     You want to share what you've been through`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Crawling",
                                 lyrics: [
@@ -1002,7 +1002,7 @@ let library = [
                                     These wounds, they will not heal<br/>
                                     Fear is how I fall<br/>
                                     Confusing what is real`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "By Myself",
                                 lyrics: [
@@ -1018,7 +1018,7 @@ let library = [
                                     I can't tell you how to make it go<br/>
                                     No matter what I do, how hard I try<br/>
                                     I can't seem to convince myself why`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "A Place For My Head",
                                 lyrics: [
@@ -1031,7 +1031,7 @@ let library = [
                                     Find another place to feed your greed<br/>
                                     While I find a place to rest`,
                                     `You try to take the best of me, go away`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1051,7 +1051,7 @@ let library = [
                                     I will never be<br/>
                                     Anything 'til I break away from me<br/>
                                     And I will break away, and find myself today`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Lying From You",
                                 lyrics: [
@@ -1068,7 +1068,7 @@ let library = [
                                     Remember condescending talk of who I ought to be<br/>
                                     Remember listening to all of that and this again<br/>
                                     So I pretended up a person who was fitting in`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Faint",
                                 lyrics: [
@@ -1085,7 +1085,7 @@ let library = [
                                     Right now, hear me out now<br/>
                                     You're gonna listen to me like it or not<br/>
                                     Right now`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Figure.09",
                                 lyrics: [
@@ -1101,7 +1101,7 @@ let library = [
                                     You'll always be right here<br/>
                                     You've become a part of me<br/>
                                     You'll always be my fear`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "From The Inside",
                                 lyrics: [
@@ -1114,7 +1114,7 @@ let library = [
                                     `All I ever think about is this<br/>
                                     All the tiring time between<br/>
                                     And how trying to put my trust in you just takes so much out of me`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Numb",
                                 lyrics: [
@@ -1128,7 +1128,7 @@ let library = [
                                     Has fallen apart right in front of you`,
                                     `And I know I may end up failing too<br/>
                                     But I know you were just like me with someone disappointed in you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1154,7 +1154,7 @@ let library = [
                                     I hyperventilate<br/>
                                     Looking for help somehow, somewhere<br/>
                                     And no one cares`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Leave Out All The Rest",
                                 lyrics: [
@@ -1169,7 +1169,7 @@ let library = [
                                     Not all the way through<br/>
                                     I've never been perfect<br/>
                                     But neither have you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "What I've Done",
                                 lyrics: [
@@ -1184,7 +1184,7 @@ let library = [
                                     I'll face myself to cross out what I've become<br/>
                                     Erase myself<br/>
                                     And let go of what I've done`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "No More Sorrow",
                                 lyrics: [
@@ -1202,7 +1202,7 @@ let library = [
                                     I've paid for your mistakes<br/>
                                     Your time is borrowed<br/>
                                     Your time has come to be replaced`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1226,7 +1226,7 @@ let library = [
                                     We're not without<br/>
                                     We're like each other<br/>
                                     Pretending we're here alone`],
-                                    clip: ["clip 1", "clip 2", "clip 3"]
+                                    clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1251,7 +1251,7 @@ let library = [
                                     Wonderin' if you were ever comin' around<br/>
                                     My faith in you was fading<br/>
                                     When I met you on the outskirts of town, and I said`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "You Belong With Me",
                                 lyrics: [
@@ -1266,7 +1266,7 @@ let library = [
                                     In the middle of the night<br/>
                                     I'm the one who makes you laugh<br/>
                                     When you know you're 'bout to cry`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Tell Me Why",
                                 lyrics: [
@@ -1281,13 +1281,14 @@ let library = [
                                     Yes, I remember what you said last night<br/>
                                     And I know that you see what you're doing to me<br/>
                                     Tell me why`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "You're Not Sorry",
                                 lyrics: [
-                                    `Once upon a time, I believe it was a Tuesday when I caught your eye<br/>
-                                    And we caught onto something<br/>
-                                    I hold onto the night, you looked me in the eye and told me you loved me`,
+                                    `And it's taking me this long
+                                    Baby but I figured you out
+                                    And you're thinking we'll be fine again
+                                    But not this time around`,
                                     `You don't have to call anymore<br/>
                                     I won't pick up the phone<br/>
                                     This is the last straw<br/>
@@ -1296,7 +1297,7 @@ let library = [
                                     I might believe you if I didn't know<br/>
                                     Could've loved you all my life<br/>
                                     If you hadn't left me waiting in the cold`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Forever And Always",
                                 lyrics: [
@@ -1309,7 +1310,7 @@ let library = [
                                     `And it rains in your bedroom<br/>
                                     Everything is wrong<br/>
                                     It rains when you're here and it rains when you're gone`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "The Best Day",
                                 lyrics: [
@@ -1325,7 +1326,7 @@ let library = [
                                     From back when I was three<br/>
                                     You set up a paint set in the kitchen<br/>
                                     And you're talking to me`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1344,7 +1345,7 @@ let library = [
                                     `And I remember that fight, two-thirty a.m.<br/>
                                     'Cause everything was slipping right out of our hands<br/>
                                     I ran out, crying, and you followed me out into the street`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Sparks Fly",
                                 lyrics: [
@@ -1361,7 +1362,7 @@ let library = [
                                     Won't you whisper soft and slow<br/>
                                     And I'm captivated by you baby<br/>
                                     Like a fireworks show`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Back To December",
                                 lyrics: [
@@ -1374,7 +1375,7 @@ let library = [
                                     `It turns out freedom ain't nothing but missing you<br/>
                                     Wishing I'd realized what I had when you were mine<br/>
                                     I'd go back to December turn around and change my own mind`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "The Story Of Us",
                                 lyrics: [
@@ -1388,7 +1389,7 @@ let library = [
                                     `Now I'm standing alone In a crowded room<br/>
                                     And we're not speaking and I'm dying to know<br/>
                                     Is it killing you like it's killing me yeah`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Enchanted",
                                 lyrics: [
@@ -1404,7 +1405,7 @@ let library = [
                                     Not where the story line ends<br/>
                                     My thoughts will echo your name, until I see you again<br/>
                                     These are the words I held back, as I was leaving too soon`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Haunted",
                                 lyrics: [
@@ -1423,7 +1424,7 @@ let library = [
                                     He will try to take away my pain<br/>
                                     And he just might make me smile<br/>
                                     But the whole time I'm wishin' he was you instead`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1445,7 +1446,7 @@ let library = [
                                     Gotta let go<br/>
                                     But moving on from him is impossible<br/>
                                     When I still see it all in my head`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "I Knew You Were Trouble.",
                                 lyrics: [
@@ -1463,7 +1464,7 @@ let library = [
                                     When he's next to me<br/>
                                     And I realize<br/>
                                     The blame is on me`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "22",
                                 lyrics: [
@@ -1478,7 +1479,7 @@ let library = [
                                     But I'm feeling twenty-two<br/>
                                     Everything will be alright, if<br/>
                                     You keep me next to you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "We Are Never Ever Getting Back Together",
                                 lyrics: [
@@ -1492,7 +1493,7 @@ let library = [
                                     And me, falling for it screaming that I'm right<br/>
                                     And you, would hide away and find your peace of mind<br/>
                                     With some indie record that's much cooler than mine`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Starlight",
                                 lyrics: [
@@ -1508,7 +1509,7 @@ let library = [
                                     `He said, "Look at you, worrying so much about things you can't change<br/>
                                     You'll spend your whole life singing the blues<br/>
                                     If you keep thinking that way"`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 }
@@ -1534,7 +1535,7 @@ let library = [
                                     `Sadly, you never gave me<br/>
                                     Too many chances to show you<br/>
                                     How much I care`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Flying Without Wings",
                                 lyrics: [
@@ -1551,7 +1552,7 @@ let library = [
                                     'Cause who's to know<br/>
                                     Which one you let go<br/>
                                     Would have made you complete`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "More Than Words",
                                 lyrics: [
@@ -1565,7 +1566,7 @@ let library = [
                                     `What would you say if I took those words away<br/>
                                     Then you couldn't make things new<br/>
                                     Just by saying I love you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1587,23 +1588,9 @@ let library = [
                                     And hope my dreams will take me there<br/>
                                     Where the skies are blue<br/>
                                     To see you once again, my love`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "What Makes A Man",
-                                lyrics: [
-                                    `Saying I love you<br/>
-                                    Is not the words I want to hear from you<br/>
-                                    It's not that I want you<br/>
-                                    Not to say, but if you only knew`,
-                                    `What would you do if my heart was torn in two<br/>
-                                    More than words to show you feel<br/>
-                                    That your love for me is real`,
-                                    `What would you say if I took those words away<br/>
-                                    Then you couldn't make things new<br/>
-                                    Just by saying I love you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
-                            },
-                            {   tracktitle: "I Lay My Love On You",
                                 lyrics: [
                                     `Any other girl I let you walk away<br/>
                                     Any other girl I'm sure I'll be okay`,
@@ -1612,7 +1599,22 @@ let library = [
                                     This isn't goodbye`,
                                     `Tell me what makes a man want to give you all his heart<br/>
                                     Smile when you're around and cry when you're apart`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                            },
+                            {   tracktitle: "I Lay My Love On You",
+                                lyrics: [
+                                    `Just a smile and the rain is gone<br/>
+                                    Can hardly believe it<br/>
+                                    There's an angel standing next to me<br/>
+                                    Reaching for my heart`,
+                                    `You open up my heart<br/>
+                                    Show me all your love, and walk right through<br/>
+                                    As I lay my love on you`,
+                                    `I was lost in a lonely place<br/>
+                                    Could hardly believe it<br/>
+                                    Holding on to yesterdays<br/>
+                                    Far, far too long`],
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "When You're Looking Like That",
                                 lyrics: [
@@ -1625,7 +1627,7 @@ let library = [
                                     `But she's out of my reach forever<br/>
                                     And just a week ago she lied next to me<br/>
                                     It's so ironic how I had to lose just to see`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Lonliness Knows Me By Name",
                                 lyrics: [
@@ -1639,7 +1641,7 @@ let library = [
                                     The cried out tears and a never ending maze<br/>
                                     I have found what only loneliness provides<br/>
                                     A strength within knowing I will find`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1659,7 +1661,7 @@ let library = [
                                     Still looking for the one that feels right<br/>
                                     See, moving on just isn't working<br/>
                                     You lit the fire that I'm burning`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Desparado",
                                 lyrics: [
@@ -1673,7 +1675,7 @@ let library = [
                                     `Now it seems to me, some fine things<br/>
                                     Have been laid upon your table<br/>
                                     But you only want the ones that you can't get`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Colour My World",
                                 lyrics: [
@@ -1686,7 +1688,7 @@ let library = [
                                     `I've had enough of not believing<br/>
                                     Living life without a meaning<br/>
                                     I want something real and I feel it when I'm next to you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Heart Without A Home",
                                 lyrics: [
@@ -1702,7 +1704,7 @@ let library = [
                                     One you never had before<br/>
                                     I got a feeling if I gave you some<br/>
                                     You'd probably want some more`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1710,18 +1712,19 @@ let library = [
                     tracks:[
                             {   tracktitle: "Bop Bop Baby",
                                 lyrics: [
-                                    `You make me feel funny<br/>
-                                    When you come around<br/>
-                                    Yeah that's what I found out honey<br/>
-                                    What am I doing without you?`,
-                                    `Oh, took for granted everything we had<br/>
-                                    As if I'd find someone<br/>
-                                    Who's just like you`,
-                                    `And all the things I've been looking for<br/>
-                                    Have always been here outside my door<br/>
-                                    And all of the time I'm looking for something new<br/>
-                                    What am I doing without you?`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                    `My mama said nothing would break me or lead me astray<br/>
+                                    Who would have guessed I'd let my mind drift so far away`,
+                                    `When I call you at home and he answers the phone<br/>
+                                    Or I get your machine and I don't hear me<br/>
+                                    When I lie in my bed with the thoughts in my head<br/>
+                                    When we danced and we sang and we laughed all night`,
+                                    `Maybe it's time to say goodbye<br/>
+                                    Maybe it's time to let this lie<br/>
+                                    This is when we must set things right<br/>
+                                    Now that we've gone our separate ways<br/>
+                                    I just can't live these desperate days<br/>
+                                    This is what I've been trying to say`],
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Why Do I Love You",
                                 lyrics: [
@@ -1737,7 +1740,7 @@ let library = [
                                     `I'm gonna keep my senses<br/>
                                     But deep down when no one can hear me<br/>
                                     Baby I'll be crying for you`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Evergreen",
                                 lyrics: [
@@ -1753,7 +1756,7 @@ let library = [
                                     Like velvet to my skin<br/>
                                     And I wonder, wonder why you wanna stay the night<br/>
                                     What you're dreaming what's behind<br/>`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Don’t Let Me Go",
                                 lyrics: [
@@ -1775,7 +1778,7 @@ let library = [
                                     Should I stay<br/>
                                     Should I turn away<br/>
                                     Stop playing games now you know it's not fair`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 }
@@ -1803,7 +1806,7 @@ let library = [
                                     Hope they never lie<br/>
                                     Instead of reading in a letter that they've gone to something better<br/>
                                     "Bet your sorry now! I won't be coming home tonight"`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Before The Worst",
                                 lyrics: [
@@ -1818,7 +1821,7 @@ let library = [
                                     Best friends, yeah, talking til the daylight<br/>
                                     Took the joys alongside the pain<br/>
                                     With not much to lose but so much to gain`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Talk You Down",
                                 lyrics: [
@@ -1835,7 +1838,7 @@ let library = [
                                     Cops can chase but they wont catch me<br/>
                                     Not before I get to speak my mind<br/>
                                     If there's still time`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "The Man Who Can't Be Moved",
                                 lyrics: [
@@ -1852,7 +1855,7 @@ let library = [
                                     I said, "There's someone I'm waiting for if it's a day, a month, a year"<br/>
                                     Gotta stand my ground even if it rains or snows<br/>
                                     If she changes her mind this is the first place she will go`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Breakeven",
                                 lyrics: [
@@ -1868,7 +1871,7 @@ let library = [
                                     You took your suitcase, I took the blame<br/>
                                     Now I'm tryna make sense of what little remains ooh<br/>
                                     'Cause you left me with no love and no love to my name`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -1891,7 +1894,7 @@ let library = [
                                     While I just lost my job but didn't lose my pride<br/>
                                     But we both know how we're gonna make it work when it hurts<br/>
                                     When you pick yourself up you get kicked to the dirt`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Nothing",
                                 lyrics: [
@@ -1909,7 +1912,7 @@ let library = [
                                     I can change her mind turn it all around<br/>
                                     And I know that I'm drunk but I'll say the words<br/>
                                     And she'll listen this time even though they're slurred`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Science & Faith",
                                 lyrics: [
@@ -1925,7 +1928,7 @@ let library = [
                                     I broke her heart.`,
                                     `Of all of the things that she's ever said<br/>
                                     She goes and says something that just knocks me dead.`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "If You Ever Come Back",
                                 lyrics: [
@@ -1942,7 +1945,7 @@ let library = [
                                     And it will be just like you were never gone<br/>
                                     There'll be a light in the hall and the key under the mat<br/>
                                     If you ever come back, if you ever come back now`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Dead Man Walking",
                                 lyrics: [
@@ -1957,7 +1960,7 @@ let library = [
                                     `We're in the same room just one million miles away<br/>
                                     With all these books around but we ain't go two words to say<br/>
                                     Am I a dead man now, left living with the shame?`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "This = Love",
                                 lyrics: [
@@ -1976,7 +1979,7 @@ let library = [
                                     This is where we fall down<br/>
                                     And get back up again<br/>
                                     This is where the heart lies`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -2000,7 +2003,7 @@ let library = [
                                     Tarrow cards, gems and stones<br/>
                                     Believing all the shit's gonna heal your soul<br/>
                                     Well it's not`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Hall Of Fame",
                                 lyrics: [
@@ -2021,7 +2024,7 @@ let library = [
                                     Be believers, be leaders<br/>
                                     Be astronauts Be champions<br/>
                                     Be truth seekers`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "If You Could See Me Now",
                                 lyrics: [
@@ -2041,7 +2044,7 @@ let library = [
                                     And if you lost a dad then someone's lost a son<br/>
                                     And they're all missing out, yeah they're all missing out<br/>
                                     So if you get a second to look down on me now`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Glowing",
                                 lyrics: [
@@ -2056,7 +2059,7 @@ let library = [
                                     When you're headin' off on nowhere<br/>
                                     But the lady on the door said<br/>
                                     You haven't left that long`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Broken Arrow",
                                 lyrics: [
@@ -2072,7 +2075,7 @@ let library = [
                                     Anything you've learned it's all programmed, all programmed<br/>
                                     Every break, every burn, every toss, every turn, every sin,<br/>
                                     Everything we've learned it's all programmed, all programmed`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 }
@@ -2094,7 +2097,7 @@ let library = [
                                     `You're making me laugh out when you strike your pose<br/>
                                     Take off all your preppy clothes<br/>
                                     You know you're not fooling anyone`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Sk8er Boi",
                                 lyrics:[
@@ -2112,7 +2115,7 @@ let library = [
                                     Well, tough, luck that boy's mine now<br/>
                                     We are more than just good friends<br/>
                                     This is how the story ends`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "I'm With You",
                                 lyrics: [
@@ -2130,7 +2133,7 @@ let library = [
                                     But I, I'm with you`,
                                     `Isn't anyone tryin' to find me?<br/>
                                     Won't somebody come take me home?`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Anything But Ordinary",
                                 lyrics: [
@@ -2146,7 +2149,7 @@ let library = [
                                     I even freak myself out<br/>
                                     I laugh myself to sleep<br/>
                                     It's my lullaby`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Things I'll Never Say",
                                 lyrics: [
@@ -2162,7 +2165,7 @@ let library = [
                                     I'd say I want to blow you, away<br/>
                                     Be with you every night<br/>
                                     Am I squeezing you too tight`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -2182,7 +2185,7 @@ let library = [
                                     I'm lying here<br/>
                                     My thoughts are choking on you, my dear<br/>
                                     On you, my dear`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Don't Tell Me",
                                 lyrics: [
@@ -2198,7 +2201,7 @@ let library = [
                                     And the fact that your arm is now around my neck<br/>
                                     Will get you in my pants, I'll have to kick your ass<br/>
                                     And make you never forget`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "He Wasn't",
                                 lyrics: [
@@ -2214,7 +2217,7 @@ let library = [
                                     And clean my room when all else fails<br/>
                                     I think it's time for me to bail (time to bail)<br/>
                                     This point of view is getting stale-ale`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "My Happy Ending",
                                 lyrics: [
@@ -2231,7 +2234,7 @@ let library = [
                                     It's nice to know we had it all<br/>
                                     Thanks for watching as I fall<br/>
                                     And letting me know we were done`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Nobody's Home",
                                 lyrics: [
@@ -2249,7 +2252,7 @@ let library = [
                                     Too many, too many problems<br/>
                                     Don't know where she belongs<br/>
                                     Where she belongs`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Freak Out",
                                 lyrics: [
@@ -2265,7 +2268,7 @@ let library = [
                                     And put up a fight<br/>
                                     Walk around with your hands up in the air<br/>
                                     Like you don't care`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -2287,7 +2290,7 @@ let library = [
                                     `And all I ever wanted was for you to know<br/>
                                     Everything I do, I give my heart and soul<br/>
                                     I can hardly breathe; I need to feel you here with me`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Innocence",
                                 lyrics: [
@@ -2302,7 +2305,7 @@ let library = [
                                     `It's a state of bliss; you think you're dreaming<br/>
                                     It's the happiness inside that you're feeling<br/>
                                     It's so beautiful, it makes you wanna cry`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -2323,7 +2326,7 @@ let library = [
                                     It's who I am, don't have to try hard<br/>
                                     We always say, say it like it is<br/>
                                     And the truth is that I really miss`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Smile",
                                 lyrics: [
@@ -2345,7 +2348,7 @@ let library = [
                                     I woke up with a new tattoo<br/>
                                     Your name was on me and my name was on you<br/>
                                     I would do it all over again`],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 }
@@ -2358,15 +2361,15 @@ let library = [
                     tracks:[
                             {   tracktitle: "Unholy Confessions",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Chapter Four",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Eternal Rest",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -2374,15 +2377,15 @@ let library = [
                     tracks:[
                             {   tracktitle: "Beast And The Harlot",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Bat Country",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Seize The Day",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 }
@@ -2395,15 +2398,15 @@ let library = [
                     tracks:[
                             {   tracktitle: "Guys Like You Make Us Look Bad",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Higinia",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "Rise Up",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 },
@@ -2411,15 +2414,15 @@ let library = [
                     tracks:[
                             {   tracktitle: "What's Left Of Me",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "To Hell & Back",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                             {   tracktitle: "God Wears Gucci",
                                 lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["clip 1", "clip 2", "clip 3"]
+                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
                             },
                         ]
                 }
@@ -2428,6 +2431,7 @@ let library = [
 ];
 let mode = "";
 let diff = "";
+let timerOnOff = "";
 let genre = "";
 let artistIndex = "";
 
@@ -2505,8 +2509,10 @@ $(".mode-option").click(function(){
     function setSetting (){
         if (box == "mode") {
             mode = curr;
-        }else{
+        }else if (box == "difficulty"){
             diff = curr;
+        }else{
+            timerOnOff = curr;
         }
     }
 
@@ -2527,18 +2533,32 @@ $(".mode-option").click(function(){
 $("#start").click(function(){
     // check if options are valid
     let str = "";
-    if (mode == "" || diff == ""){
-        if (mode == "" && diff == ""){
-            str = "game mode and difficulty";
-        }else if (mode == ""){
-            str = "game mode";
+    if (mode == "" || diff == "" || timerOnOff == ""){
+        if (mode == "" && diff == "" && timerOnOff == ""){
+            str = "any of the options";
         }else{
-            str = "difficulty";
+            let final = [];
+
+            if (mode == ""){
+                final.push("mode");
+            }
+            if (diff == ""){
+                final.push("difficulty");
+            }
+            if (timerOnOff == ""){
+                final.push("timer option");
+            }
+
+            if (final.length == 1){
+                str = "the " + final[0];
+            }else{
+                str = "your " + final[0] + " and " + final[1];
+            }
         }
 
         swal({
             title: "Please select your options",
-            text: "You didn't select the " + str, 
+            text: "You didn't select " + str, 
             icon: "error",
           });
     }else {
@@ -2554,10 +2574,8 @@ $("#start").click(function(){
         setTimeout(function () {
             if (mode == "artist"){
                 cArtist.show();
-            }else if (mode == "genre"){
-                cGenre.show();
             }else {
-
+                cGenre.show();
             }
         }, 500);
     }
@@ -2565,7 +2583,8 @@ $("#start").click(function(){
 
 // Back to menu button
 $(".back").click(function(){
-    let box = $(this).parent().parent().parent();
+    if ($(this).attr("id") != "from-game"){
+        let box = $(this).parent().parent().parent();
     
         box.hide();
 
@@ -2573,11 +2592,17 @@ $(".back").click(function(){
             $("#rules").show();
             $("#options").show();          
         }, 500);
+    }
 });
 
 // choosing artist for artist mode
 $(".artist").click(function(){
     artistIndex = $(this).attr("data-id");
+    let timer = false;
+    if (timerOnOff == "timer-on"){
+        timer = true;
+    }
+
     let insert = $(".logo");
 
     insert.empty();
@@ -2590,14 +2615,21 @@ $(".artist").click(function(){
     $("#choose-artist").hide();
     $("#game").show();
     $("#lyric-box").show();
-    $(".timer").show();
-    playArtist(artistIndex);
+    if (timer){
+        $("#timer").show();
+    }else{
+        $("#timer").hide();
+    }
+    playArtist(artistIndex, timer);
 });
 
 // repurpose artist mode for genre mode
 $(".genre").click(function(){
-
     genreIndex = $(this).attr("data-id");
+    let timer = false;
+    if (timerOnOff == "timer-on"){
+        timer = true;
+    }
     let insert = $(".logo");
 
     insert.empty();
@@ -2605,12 +2637,15 @@ $(".genre").click(function(){
     $("#choose-genre").hide();
     $("#game").show();
     $("#lyric-box").show();
-    $(".timer").show();
-
-    playGenre(genreIndex);
+    if (timer){
+        $("#timer").show();
+    }else{
+        $("#timer").hide();
+    }
+    playGenre(genreIndex, timer);
 });
 
-function playGenre(genre) {
+function playGenre(genre, timed) {
     let genreArtists = [];
     let rounds = 0;
     let score = 0;
@@ -2624,6 +2659,101 @@ function playGenre(genre) {
     let numOfSongs;
     let pointedSong;
     let lyricsRand = 0;
+    let scoreBoard = $("span");
+    
+    scoreBoard.text(updateScore);
+
+    function updateScore(){
+        let final = score+"/"+rounds
+        return final;
+    }
+
+    function timer(x){
+        var elem = document.getElementById("timer");
+        var width = 100;
+        var rate = setInterval(crawling, x);
+        function crawling() {
+            if (width <= 0) {
+                // timeout
+                clearInterval(rate);
+                i = 0;
+                timesUpPU(curr.title);
+                $(".guess").addClass("done");
+                roundEnd();
+                scoreBoard.text(updateScore);
+                setTimeout(() => {
+                    let rebuild = setInterval(growing, 3);
+                    function growing() {
+                        if (width >= 100) {
+                            clearInterval(rebuild);
+                            elem.style.width = "100%";
+                        }else{
+                            width += 0.5;
+                            elem.style.width = width + "%";
+                        }
+                    }
+                }, 50);
+            } else {
+               width -= 0.1;
+                elem.style.width = width + "%";
+            }
+        }
+        $(".guess").click(function (){
+            // stop timer when answer is selected. and reset the timer bar
+            clearInterval(rate);
+            setTimeout(() => {
+                let rebuild = setInterval(growing, 2);
+                function growing() {
+                    if (width >= 100) {
+                        clearInterval(rebuild);
+                        elem.style.width = "100%";
+                    }else{
+                        width += 0.2;
+                        elem.style.width = width + "%";
+                    }
+                }
+            }, 1000);
+        });
+    }
+
+    function gameEnd() {
+        setTimeout(function(){
+            $(".guess").off();
+            let finalScore = document.createElement("p");
+            let str = "You scored " + score + " out of " + rounds + " points";
+            finalScore.innerText= str;
+
+            swal({
+                title: "Game Over",
+                text: "Play again?",
+                content: finalScore,
+                buttons: {
+                    yes: {
+                        text: "Yes",
+                        value: "Yes"
+                    }
+                },
+                closeOnClickOutside: false,
+            });
+            $("button").click(function(){
+                rounds = 0;
+                score = 0;
+                $("#game").hide();
+                $("#landing").show();
+                $("#rules").show();
+                $("#options").show();
+            });
+        }, 4000);
+    }
+
+    function roundEnd() {
+        rounds++;
+        if (rounds < 3){
+            setTimeout(doGame, 4000);
+        }else {
+            gameEnd();
+        }
+    }
 
     function getGenreArtists () {
         library.forEach ((x, index) => {
@@ -2681,69 +2811,34 @@ function playGenre(genre) {
                 options.splice(now, 1);
             }
         };
-        //timer(15);
-    }
+        if (timed){
+            timer(15);
+        }    }
     
     getGenreArtists();
     doGame();
+
     $(".guess").click(function (){
-
         if(! $(this).hasClass("done")){
-        
             $(".guess").addClass("done");
-
             let guess = $(this).text();
             if (guess == curr.title){
-                swal({
-                    title: "you chose CORRECTLY",
-                    text: guess,
-                    timer: 4000,
-                });
+                correctPU(guess);
                 score++;
             }else{
-                swal({
-                    title: "you chose WRONGLY",
-                    text: guess,
-                    timer: 4000,
-                });
+                wrongPU(curr.title);
             }
-            rounds++;
-            if (rounds < 3){
-                setTimeout(doGame, 4000);
-            }else {
-                setTimeout(function(){
-                    $(".guess").off();
-                    let finalScore = document.createElement("p");
-                    let str = "You scored " + score + " points";
-                    finalScore.innerText= str;
-
-                    swal({
-                        title: "Game Over",
-                        text: "Play again?",
-                        content: finalScore,
-                        buttons: {
-                            yes: {
-                                text: "Yes",
-                                value: "Yes"
-                            }
-                        },
-                    });
-                    $("button").click(function(){
-                        rounds = 0;
-                        score = 0;
-                        $("#game").hide();
-                        $("#landing").show();
-                        $("#rules").show();
-                        $("#options").show();
-                    });
-                }, 4000);
-            }
+            roundEnd();
+            scoreBoard.text(updateScore);
         }
     });
-    return;
+    // Back to menu button
+    $(".back").click(function(){
+        location.reload();
+    });
 }
 
-function playArtist(artist) {
+function playArtist(artist, timed) {
     let rounds = 0;
     let score = 0;
     let curr = {};
@@ -2757,6 +2852,120 @@ function playArtist(artist) {
     let numOfSongs;
     let pointedSong;
     let lyricsRand = 0;
+    let scoreBoard = $("span");
+    scoreBoard.text(updateScore);
+    let soundClip;
+
+    function timer(x){
+        var elem = document.getElementById("timer");
+        var width = 100;
+        var rate = setInterval(crawling, x);
+        function crawling() {
+            if (width <= 0) {
+                // timeout
+                clearInterval(rate);
+                i = 0;
+                timesUpPU(curr.title);
+                $(".guess").addClass("done");
+                roundEnd();
+                scoreBoard.text(updateScore);
+                setTimeout(() => {
+                    let rebuild = setInterval(growing, 3);
+                    function growing() {
+                        if (width >= 100) {
+                            clearInterval(rebuild);
+                            elem.style.width = "100%";
+                        }else{
+                            width += 0.5;
+                            elem.style.width = width + "%";
+                        }
+                    }
+                }, 50);
+            } else {
+               width -= 0.1;
+                elem.style.width = width + "%";
+            }
+        }
+        $(".guess").click(function (){
+            // stop timer when answer is selected. and reset the timer bar
+            clearInterval(rate);
+            setTimeout(() => {
+                let rebuild = setInterval(growing, 2);
+                function growing() {
+                    if (width >= 100) {
+                        clearInterval(rebuild);
+                        elem.style.width = "100%";
+                    }else{
+                        width += 0.2;
+                        elem.style.width = width + "%";
+                    }
+                }
+            }, 1000);
+        });
+    }
+
+    function updateScore(){
+        let final = score+"/"+rounds
+        return final;
+    }
+
+    function sound(src) {
+        this.sound = document.createElement("audio");
+        this.sound.src = src;
+        this.sound.setAttribute("preload", "auto");
+        this.sound.setAttribute("controls", "none");
+        this.sound.setAttribute("loop", "true");
+        this.sound.style.display = "none";
+        document.body.appendChild(this.sound);
+        this.play = function(){
+            this.sound.play();
+        }
+        this.stop = function(){
+            this.sound.pause();
+        }
+    }
+
+    function gameEnd() {
+        setTimeout(function(){
+            $(".guess").off();
+            let finalScore = document.createElement("p");
+            let str = "You scored " + score + " out of " + rounds + " points";
+            finalScore.innerText= str;
+
+            swal({
+                title: "Game Over",
+                text: "Play again?",
+                content: finalScore,
+                buttons: {
+                    yes: {
+                        text: "Yes",
+                        value: "Yes"
+                    }
+                },
+                closeOnClickOutside: false,
+            });
+            $("button").click(function(){
+                rounds = 0;
+                score = 0;
+                $("#game").hide();
+                $("#landing").show();
+                $("#rules").show();
+                $("#options").show();
+            });
+        }, 4000);
+    }
+
+    function roundEnd() {
+        soundClip.stop();
+        rounds++;
+        let s = document.querySelector("audio");
+        s.remove();
+        if (rounds < 3){
+            setTimeout(doGame, 4000);
+        }else {
+            gameEnd();
+        }
+    }
 
     function getCorrectAnswer() {
         options = [];
@@ -2769,7 +2978,10 @@ function playArtist(artist) {
         curr.lyric = pointedSong.lyrics[lyricsRand];
         done.push(curr.title);
         options.push(curr.title);
-
+        
+        // getting clip
+        let randClip = generateRandom(pointedSong.clip.length);
+        soundClip = new sound(pointedSong.clip[randClip]);
         getOtherAnswers();
     }
 
@@ -2812,106 +3024,70 @@ function playArtist(artist) {
                 options.splice(now, 1);
             }
         };
-        //timer(15);
+        soundClip.play();
+        if (timed){
+            timer(15);
+        }
     }
 
     doGame();
+    
     $(".guess").click(function (){
-
         if(! $(this).hasClass("done")){
             $(".guess").addClass("done");
-
             let guess = $(this).text();
             if (guess == curr.title){
-                swal({
-                    title: "you chose CORRECTLY",
-                    text: guess,
-                    timer: 4000,
-                });
+                correctPU(guess);
                 score++;
             }else{
-                swal({
-                    title: "you chose WRONGLY",
-                    text: guess,
-                    timer: 4000,
-                });
+                wrongPU(curr.title);
             }
-            rounds++;
-            if (rounds < 3){
-                setTimeout(doGame, 4000);
-            }else {
-                setTimeout(function(){
-                    $(".guess").off();
-                    let finalScore = document.createElement("p");
-                    let str = "You scored " + score + " points";
-                    finalScore.innerText= str;
-
-                    swal({
-                        title: "Game Over",
-                        text: "Play again?",
-                        content: finalScore,
-                        buttons: {
-                            yes: {
-                                text: "Yes",
-                                value: "Yes"
-                            }
-                        },
-                    });
-                    $("button").click(function(){
-                        rounds = 0;
-                        score = 0;
-                        $("#game").hide();
-                        $("#landing").show();
-                        $("#rules").show();
-                        $("#options").show();
-                    });
-                }, 4000);
-
-            }
+            roundEnd();
+            scoreBoard.text(updateScore);
         }
     });
-    
+    // Back to menu button
+    $(".back").click(function(){
+        location.reload();
+    });
     return;
 }
 
-function timer(x){
-    var elem = document.getElementById("timer");
-    var i = 0;
-      if (i == 0) {
-        i = 1;
-        var width = 100;
-        var rate = setInterval(crawling, x);
-        function crawling() {
-            if (width <= 0) {
-                clearInterval(rate);
-                i = 0;
-                setTimeout(() => {
-                    let rebuild = setInterval(growing, 3);
-                    function growing() {
-                        if (width >= 100) {
-                            clearInterval(rebuild);
-                        }else{
-                            width += 0.1;
-                            elem.style.width = width + "%";
-                        }
-                    }
-                }, 1000);
-            } else {
-               width -= 0.1;
-               elem.style.width = width + "%";
-            }
-            let time = $(".time");
-
-        }
-    } 
-}
-
-
-
-
-
 function generateRandom(x) {
     return Math.floor(Math.random()*x);
+}
+
+function correctPU(guess) {
+    let str = guess + " was the answer!"
+    swal({
+        icon: "success",
+        title: "you chose CORRECTLY",
+        text: str,
+        timer: 4000,
+        closeOnClickOutside: false,
+    });
+}
+
+function wrongPU(answer) {
+    let str = "The correct answer was: " + answer;
+    swal({
+        icon: "error",
+        title: "you chose WRONGLY",
+        text: str,
+        timer: 4000,
+        closeOnClickOutside: false,
+    });
+}
+
+function timesUpPU(answer) {
+    let str = "The correct answer was: " + answer;
+    swal({
+        icon: "error",
+        title: "Oops! You ran out of time!",
+        text: str,
+        timer: 4000,
+        closeOnClickOutside: false,
+    });
 }
 
 //console.log(library[0].albums[0].tracks[0].lyrics[1]);

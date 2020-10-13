@@ -52,6 +52,15 @@
                     </div>
                 </div>
             </div>
+            <div id="timer-option" class="box">
+                <div class="container">
+                    <h2>15s Timer on:</h2>
+                    <div class="container mode">
+                        <div class="mode-option" data-id="timer-on">On</div>
+                        <div class="mode-option" data-id="timer-off">Off</div>
+                    </div>
+                </div>
+            </div>
             <div class="box">
                 <div class="container">
                     <div id="start" class="sbButton">Start</div>
@@ -105,6 +114,7 @@
             </section>
             <section id="clip-box">
                 Song playing
+                <audio src=""></audio>
                 <div>iPod frame</div>
             </section>
         </div>   
@@ -119,10 +129,18 @@
         <section class="scoreboard">
 
         </section>
-        <section class="timer">
-            <div id="timer">
-                <p>Time Left:</p>
-                <p class="time"></p>
+        <section class="footer">
+            <section class="timer">
+                <div id="timer">
+                    <p>Time Left:</p>
+                    <p class="time"></p>
+                </div>
+            </section>
+            <div class="box">
+                <div class="container">
+                    <div class="score">Current Score:<span></span></div>
+                    <div id="from-game" class="sbButton back">Back to Menu</div>
+                </div>
             </div>
         </section>
     </section>
