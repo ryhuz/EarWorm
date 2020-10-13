@@ -2599,17 +2599,13 @@ $(".back").click(function(){
 $(".artist").click(function(){
     artistIndex = $(this).attr("data-id");
     let timer = false;
+    let clip = false;
     if (timerOnOff == "timer-on"){
         timer = true;
     }
-
-    let insert = $(".logo");
-
-    insert.empty();
-    let thumbPath = library[artistIndex].artistThumb;
-    let image = document.createElement("img");
-    image.setAttribute("src", thumbPath);
-    insert.append(image);
+    if(diff != "lyrics"){
+        clip = true;
+    }
 
     $("#landing").hide();
     $("#choose-artist").hide();
@@ -2620,19 +2616,21 @@ $(".artist").click(function(){
     }else{
         $("#timer").hide();
     }
-    playArtist(artistIndex, timer);
+    playGame(artistIndex, "", clip, timer);
 });
 
 // repurpose artist mode for genre mode
 $(".genre").click(function(){
     genreIndex = $(this).attr("data-id");
     let timer = false;
+    let clip = false;
     if (timerOnOff == "timer-on"){
         timer = true;
     }
-    let insert = $(".logo");
+    if(diff != "lyrics"){
+        clip = true;
+    }
 
-    insert.empty();
     $("#landing").hide();
     $("#choose-genre").hide();
     $("#game").show();
@@ -2642,119 +2640,34 @@ $(".genre").click(function(){
     }else{
         $("#timer").hide();
     }
-    playGenre(genreIndex, timer);
+    playGame("", genreIndex, clip, timer);
 });
 
-function playGenre(genre, timed) {
-    let genreArtists = [];
+function playGame(artist, genre, clip, timed) {
     let rounds = 0;
     let score = 0;
-    let curr = [];
+    let curr = {};
     let done = [];
     let options = [];
-    let artistRand = 0;
-    let albumRand = 0;
-    let songRand = 0;
+    let mode = 0; // mode 0 - chosen artist; mode 1 - chosen genre
+    let chosenArtist;
+    let genreArtists = [];
+    if(artist != ""){ // not inserting and emptying for genre mode
+        chosenArtist = library[artist];
+        insertArtistLogo(artist);
+    }else if(genre != ""){
+        getGenreArtists ();
+        mode = 1;
+    }
+
     let pointedAlbum;
-    let numOfSongs;
     let pointedSong;
     let lyricsRand = 0;
     let scoreBoard = $("span");
-    
     scoreBoard.text(updateScore);
+    let soundClip;
 
-    function updateScore(){
-        let final = score+"/"+rounds
-        return final;
-    }
-
-    function timer(x){
-        var elem = document.getElementById("timer");
-        var width = 100;
-        var rate = setInterval(crawling, x);
-        function crawling() {
-            if (width <= 0) {
-                // timeout
-                clearInterval(rate);
-                i = 0;
-                timesUpPU(curr.title);
-                $(".guess").addClass("done");
-                roundEnd();
-                scoreBoard.text(updateScore);
-                setTimeout(() => {
-                    let rebuild = setInterval(growing, 3);
-                    function growing() {
-                        if (width >= 100) {
-                            clearInterval(rebuild);
-                            elem.style.width = "100%";
-                        }else{
-                            width += 0.5;
-                            elem.style.width = width + "%";
-                        }
-                    }
-                }, 50);
-            } else {
-               width -= 0.1;
-                elem.style.width = width + "%";
-            }
-        }
-        $(".guess").click(function (){
-            // stop timer when answer is selected. and reset the timer bar
-            clearInterval(rate);
-            setTimeout(() => {
-                let rebuild = setInterval(growing, 2);
-                function growing() {
-                    if (width >= 100) {
-                        clearInterval(rebuild);
-                        elem.style.width = "100%";
-                    }else{
-                        width += 0.2;
-                        elem.style.width = width + "%";
-                    }
-                }
-            }, 1000);
-        });
-    }
-
-    function gameEnd() {
-        setTimeout(function(){
-            $(".guess").off();
-            let finalScore = document.createElement("p");
-            let str = "You scored " + score + " out of " + rounds + " points";
-            finalScore.innerText= str;
-
-            swal({
-                title: "Game Over",
-                text: "Play again?",
-                content: finalScore,
-                buttons: {
-                    yes: {
-                        text: "Yes",
-                        value: "Yes"
-                    }
-                },
-                closeOnClickOutside: false,
-            });
-            $("button").click(function(){
-                rounds = 0;
-                score = 0;
-                $("#game").hide();
-                $("#landing").show();
-                $("#rules").show();
-                $("#options").show();
-            });
-        }, 4000);
-    }
-
-    function roundEnd() {
-        rounds++;
-        if (rounds < 3){
-            setTimeout(doGame, 4000);
-        }else {
-            gameEnd();
-        }
-    }
-
+    
     function getGenreArtists () {
         library.forEach ((x, index) => {
             if (x.genre == genre) {
@@ -2763,98 +2676,16 @@ function playGenre(genre, timed) {
         });
     }
     
-    function getRandomSong() {
-        artistRand = generateRandom(genreArtists.length);
-        let artist = genreArtists[artistRand];  
-        albumRand = generateRandom(library[artist].albums.length);
-        pointedAlbum = library[artist].albums[albumRand];
-        numOfSongs = pointedAlbum.tracks.length;
-        songRand = generateRandom(numOfSongs);
-        pointedSong = pointedAlbum.tracks[songRand];
-        
-        return;
+    function insertArtistLogo(i) {
+        let insert = $(".logo");
+        insert.empty();
+
+        let thumbPath = library[i].artistThumb;
+        let image = document.createElement("img");
+
+        image.setAttribute("src", thumbPath);
+        insert.append(image);
     }
-    
-    function getCorrectAnswer() {
-        options = [];
-        do {
-            getRandomSong();
-        }while (done.includes(pointedSong.tracktitle));
-        
-        lyricsRand = generateRandom(pointedSong.lyrics.length);
-        curr.title = pointedSong.tracktitle;
-        curr.lyric = pointedSong.lyrics[lyricsRand];
-        done.push(curr.title);
-        options.push(curr.title);
-        getOtherAnswers();
-    }
-
-    function getOtherAnswers() {
-        while (options.length < 4) {
-            do {
-                getRandomSong();
-            }while (curr.title == pointedSong.tracktitle);
-            options.push (pointedSong.tracktitle);
-        }
-    }
-
-    function doGame() {
-        getCorrectAnswer();
-        $("#lyric").html(curr.lyric);
-        
-        $(".guess").removeClass("done");
-        let guessBox = $(".guess");
-        for (let i = 0; i< guessBox.length; i++){
-            let now = generateRandom(options.length);
-            guessBox[i].innerText = options[now];
-            if (options.length!=1){
-                options.splice(now, 1);
-            }
-        };
-        if (timed){
-            timer(15);
-        }    }
-    
-    getGenreArtists();
-    doGame();
-
-    $(".guess").click(function (){
-        if(! $(this).hasClass("done")){
-            $(".guess").addClass("done");
-            let guess = $(this).text();
-            if (guess == curr.title){
-                correctPU(guess);
-                score++;
-            }else{
-                wrongPU(curr.title);
-            }
-            roundEnd();
-            scoreBoard.text(updateScore);
-        }
-    });
-    // Back to menu button
-    $(".back").click(function(){
-        location.reload();
-    });
-}
-
-function playArtist(artist, timed) {
-    let rounds = 0;
-    let score = 0;
-    let curr = {};
-    let done = [];
-    let options = [];
-    let chosenArtist = library[artist];
-    let noOfAlbums = chosenArtist.albums.length;
-    let albumRand = 0;
-    let songRand = 0;
-    let pointedAlbum;
-    let numOfSongs;
-    let pointedSong;
-    let lyricsRand = 0;
-    let scoreBoard = $("span");
-    scoreBoard.text(updateScore);
-    let soundClip;
 
     function timer(x){
         var elem = document.getElementById("timer");
@@ -2956,10 +2787,12 @@ function playArtist(artist, timed) {
     }
 
     function roundEnd() {
-        soundClip.stop();
+        if(clip){
+            soundClip.stop();
+            let s = document.querySelector("audio");
+            s.remove();
+        }
         rounds++;
-        let s = document.querySelector("audio");
-        s.remove();
         if (rounds < 3){
             setTimeout(doGame, 4000);
         }else {
@@ -2979,18 +2812,36 @@ function playArtist(artist, timed) {
         done.push(curr.title);
         options.push(curr.title);
         
-        // getting clip
-        let randClip = generateRandom(pointedSong.clip.length);
-        soundClip = new sound(pointedSong.clip[randClip]);
+        if (clip){
+            let randClip = generateRandom(pointedSong.clip.length);
+            soundClip = new sound(pointedSong.clip[randClip]);
+        }
         getOtherAnswers();
     }
 
     function getRandomSong() {
-        albumRand = generateRandom(noOfAlbums);
-        pointedAlbum = chosenArtist.albums[albumRand];
-        numOfSongs = pointedAlbum.tracks.length;
-        songRand = generateRandom(numOfSongs);
-        pointedSong = pointedAlbum.tracks[songRand];
+        let noOfAlbums;
+        let albumRand;
+        let songRand;
+        
+        let numOfSongs;
+
+        if (mode == 0) {
+            noOfAlbums = chosenArtist.albums.length;
+            albumRand = generateRandom(noOfAlbums);
+            pointedAlbum = chosenArtist.albums[albumRand];
+            numOfSongs = pointedAlbum.tracks.length;
+            songRand = generateRandom(numOfSongs);
+            pointedSong = pointedAlbum.tracks[songRand];
+        }else if (mode == 1) {
+            let artistRand = generateRandom(genreArtists.length);
+            let artist = genreArtists[artistRand];  
+            albumRand = generateRandom(library[artist].albums.length);
+            pointedAlbum = library[artist].albums[albumRand];
+            numOfSongs = pointedAlbum.tracks.length;
+            songRand = generateRandom(numOfSongs);
+            pointedSong = pointedAlbum.tracks[songRand];
+        }
         return;
     }
 
@@ -3024,7 +2875,9 @@ function playArtist(artist, timed) {
                 options.splice(now, 1);
             }
         };
-        soundClip.play();
+        if (clip){
+            soundClip.play();
+        }
         if (timed){
             timer(15);
         }
