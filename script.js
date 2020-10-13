@@ -467,14 +467,16 @@ let library = [
                             },
                             {   tracktitle: "Streetcar",
                                 lyrics: [
-                                    `As the sun sets on battlefields<br/>
-                                    I hope you can save me<br/>
-                                    I hope you can save our wounded hearts`,
-                                    `Distance makes my heart grow colder<br/>
-                                    Distance makes my heart grow older<br/>
-                                    Just enough to cut the air from your lungs`,
-                                    `And paper cuts and bloody hands<br/>
-                                    In the middle they would meet`],
+                                    `So goodbye to you and your life
+                                    Your new best friends
+                                    Your confidence
+                                    And I'll be here when you get home`,
+                                    `Sitting half way, away from nowhere
+                                    Praying for our lips to touch
+                                    Holding myself For a second
+                                    Just to catch a smile on this line`,
+                                    `Is it just like you said it would be?
+                                    I can't feel the same about you anymore`],
                                 clip: ["clip 1", "clip 2", "clip 3"]
                             },
                             {   tracktitle: "Roses For The Dead",
@@ -1515,7 +1517,8 @@ let library = [
     {   artist: "Westlife",
         genre: "Pop",
         artistThumb: "/resources/artistthumb/westlife.jpeg",
-        albums:[{   title: "Westlife",
+        albums:[
+                {   title: "Westlife",
                     tracks:[
                             {   tracktitle: "Fool Again",
                                 lyrics: [
@@ -2588,39 +2591,162 @@ $(".artist").click(function(){
     $("#game").show();
     $("#lyric-box").show();
     $(".timer").show();
-
-    playLyric(artistIndex);
+    playArtist(artistIndex);
 });
 
 // repurpose artist mode for genre mode
 $(".genre").click(function(){
 
-    /* artistIndex = $(this).attr("data-id");
+    genreIndex = $(this).attr("data-id");
     let insert = $(".logo");
 
     insert.empty();
-    let thumbPath = library[artistIndex].artistThumb;
-    let image = document.createElement("img");
-    image.setAttribute("src", thumbPath);
-    insert.append(image);
-
     $("#landing").hide();
-    $("#choose-artist").hide();
+    $("#choose-genre").hide();
     $("#game").show();
     $("#lyric-box").show();
     $(".timer").show();
 
-    playLyric(artistIndex); */
+    playGenre(genreIndex);
 });
 
-
-
-function playLyric(artist) {
-    // set correct answer
-    // set wrong answers
+function playGenre(genre) {
+    let genreArtists = [];
     let rounds = 0;
     let score = 0;
     let curr = [];
+    let done = [];
+    let options = [];
+    let artistRand = 0;
+    let albumRand = 0;
+    let songRand = 0;
+    let pointedAlbum;
+    let numOfSongs;
+    let pointedSong;
+    let lyricsRand = 0;
+
+    function getGenreArtists () {
+        library.forEach ((x, index) => {
+            if (x.genre == genre) {
+                genreArtists.push(index);
+            }
+        });
+    }
+    
+    function getRandomSong() {
+        artistRand = generateRandom(genreArtists.length);
+        let artist = genreArtists[artistRand];  
+        albumRand = generateRandom(library[artist].albums.length);
+        pointedAlbum = library[artist].albums[albumRand];
+        numOfSongs = pointedAlbum.tracks.length;
+        songRand = generateRandom(numOfSongs);
+        pointedSong = pointedAlbum.tracks[songRand];
+        
+        return;
+    }
+    
+    function getCorrectAnswer() {
+        options = [];
+        do {
+            getRandomSong();
+        }while (done.includes(pointedSong.tracktitle));
+        
+        lyricsRand = generateRandom(pointedSong.lyrics.length);
+        curr.title = pointedSong.tracktitle;
+        curr.lyric = pointedSong.lyrics[lyricsRand];
+        done.push(curr.title);
+        options.push(curr.title);
+        getOtherAnswers();
+    }
+
+    function getOtherAnswers() {
+        while (options.length < 4) {
+            do {
+                getRandomSong();
+            }while (curr.title == pointedSong.tracktitle);
+            options.push (pointedSong.tracktitle);
+        }
+    }
+
+    function doGame() {
+        getCorrectAnswer();
+        $("#lyric").html(curr.lyric);
+        
+        $(".guess").removeClass("done");
+        let guessBox = $(".guess");
+        for (let i = 0; i< guessBox.length; i++){
+            let now = generateRandom(options.length);
+            guessBox[i].innerText = options[now];
+            if (options.length!=1){
+                options.splice(now, 1);
+            }
+        };
+        //timer(15);
+    }
+    
+    getGenreArtists();
+    doGame();
+    $(".guess").click(function (){
+
+        if(! $(this).hasClass("done")){
+        
+            $(".guess").addClass("done");
+
+            let guess = $(this).text();
+            if (guess == curr.title){
+                swal({
+                    title: "you chose CORRECTLY",
+                    text: guess,
+                    timer: 4000,
+                });
+                score++;
+            }else{
+                swal({
+                    title: "you chose WRONGLY",
+                    text: guess,
+                    timer: 4000,
+                });
+            }
+            rounds++;
+            if (rounds < 3){
+                setTimeout(doGame, 4000);
+            }else {
+                setTimeout(function(){
+                    $(".guess").off();
+                    let finalScore = document.createElement("p");
+                    let str = "You scored " + score + " points";
+                    finalScore.innerText= str;
+
+                    swal({
+                        title: "Game Over",
+                        text: "Play again?",
+                        content: finalScore,
+                        buttons: {
+                            yes: {
+                                text: "Yes",
+                                value: "Yes"
+                            }
+                        },
+                    });
+                    $("button").click(function(){
+                        rounds = 0;
+                        score = 0;
+                        $("#game").hide();
+                        $("#landing").show();
+                        $("#rules").show();
+                        $("#options").show();
+                    });
+                }, 4000);
+            }
+        }
+    });
+    return;
+}
+
+function playArtist(artist) {
+    let rounds = 0;
+    let score = 0;
+    let curr = {};
     let done = [];
     let options = [];
     let chosenArtist = library[artist];
@@ -2657,22 +2783,20 @@ function playLyric(artist) {
     }
 
     function getOtherAnswers() {
-        do {
-            getRandomSong();
-        }while (curr.title == pointedSong.tracktitle);
-        
-        options.push (pointedSong.tracktitle);
-
-        while (options.length < 4) {
-            let song = "";
-            do{
-                let randArt = generateRandom(library.length);
-                let randAlb = generateRandom(library[randArt].albums.length);
-                let randSong = generateRandom(library[randArt].albums[randAlb].tracks.length);
-                song = library[randArt].albums[randAlb].tracks[randSong];
-            }while (options.includes(song.tracktitle));
-            options.push(song.tracktitle);
+        while (options.length < 3) {
+            do {
+                getRandomSong();
+            }while (options.includes(pointedSong.tracktitle));
+            options.push(pointedSong.tracktitle);
         }
+        let song;
+        do{
+            let randArt = generateRandom(library.length);
+            let randAlb = generateRandom(library[randArt].albums.length);
+            let randSong = generateRandom(library[randArt].albums[randAlb].tracks.length);
+            song = library[randArt].albums[randAlb].tracks[randSong];
+        }while (options.includes(song.tracktitle));
+        options.push(song.tracktitle);
     }
 
     function doGame() {
@@ -2695,59 +2819,59 @@ function playLyric(artist) {
     $(".guess").click(function (){
 
         if(! $(this).hasClass("done")){
+            $(".guess").addClass("done");
 
-        
-        $(".guess").addClass("done");
-
-        let guess = $(this).text();
-        if (guess == curr.title){
-            swal({
-                title: "you chose CORRECTLY",
-                text: guess,
-                timer: 4000,
-            });
-            score++;
-        }else{
-            swal({
-                title: "you chose WRONGLY",
-                text: guess,
-                timer: 4000,
-            });
-        }
-        //$(".guess").off();
-        rounds++;
-        if (rounds < 3){
-            setTimeout(doGame, 4000);
-        }else {
-            setTimeout(function(){
-                let finalScore = document.createElement("p");
-                let str = "You scored " + score + " points";
-                finalScore.innerText= str;
-
+            let guess = $(this).text();
+            if (guess == curr.title){
                 swal({
-                    title: "Game Over",
-                    text: "Play again?",
-                    content: finalScore,
-                    buttons: {
-                        yes: {
-                            text: "Yes",
-                            value: "Yes"
-                        }
-                    },
+                    title: "you chose CORRECTLY",
+                    text: guess,
+                    timer: 4000,
                 });
-                $("button").click(function(){
-                    rounds = 0;
-                    score = 0;
-                    $("#game").hide();
-                    $("#landing").show();
-                    $("#rules").show();
-                    $("#options").show();
+                score++;
+            }else{
+                swal({
+                    title: "you chose WRONGLY",
+                    text: guess,
+                    timer: 4000,
                 });
-            }, 4000);
+            }
+            rounds++;
+            if (rounds < 3){
+                setTimeout(doGame, 4000);
+            }else {
+                setTimeout(function(){
+                    $(".guess").off();
+                    let finalScore = document.createElement("p");
+                    let str = "You scored " + score + " points";
+                    finalScore.innerText= str;
 
-        }
+                    swal({
+                        title: "Game Over",
+                        text: "Play again?",
+                        content: finalScore,
+                        buttons: {
+                            yes: {
+                                text: "Yes",
+                                value: "Yes"
+                            }
+                        },
+                    });
+                    $("button").click(function(){
+                        rounds = 0;
+                        score = 0;
+                        $("#game").hide();
+                        $("#landing").show();
+                        $("#rules").show();
+                        $("#options").show();
+                    });
+                }, 4000);
+
+            }
         }
     });
+    
+    return;
 }
 
 function timer(x){
