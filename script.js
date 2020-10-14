@@ -2478,10 +2478,10 @@ fillGenre();
 
 $(document).ready(function(){
     setTimeout(function(){
-        $("#intro").hide();
-        $("#landing").show();
-        $("#rules").show();
-        $("#options").show();
+        tranOut($("#intro"));
+        tranIn($("#landing"));
+        tranIn($("#rules"));
+        tranIn($("#options"));
     }, 3000)
 });
 
@@ -2576,35 +2576,33 @@ $("#start").click(function(){
         let cShow = $(".show-artist");
         
         // hide current windows and show 2nd option window
-        options.hide();
-        rules.hide();
-
+        tranOut(options);
+        tranOut(rules);
         setTimeout(function () {
-            $("#choose").show();
+            tranIn($("#choose"));
             if (mode == "artist"){
-                cArtist.show();
+                tranIn(cArtist);
             }else if(mode == "genre") {
-                cGenre.show();
-                cShow.show();
+                tranIn(cGenre);
+                tranIn(cShow);
             }else {
-                cShow.show();
-                $(".mixgo").show();
+                tranIn(cShow);
+                tranIn($(".mixgo"));
             }
-        }, 500);
+        }, 1600);
     }
 });
 
 // Back to menu button
 $(".back").click(function(){
     if ($(this).attr("id") != "from-game"){
-        $("#choose").hide();
-        $(".artist").hide();
-        $(".genre").hide();
-
+        tranOut($("#choose"));
+        tranOut( $(".artist"));
+        tranOut($(".genre"));
         setTimeout( function() {
-            $("#rules").show();
-            $("#options").show();          
-        }, 500);
+            tranIn($("#rules"));
+            tranIn($("#options"));    
+        }, 1600);
     }
 });
 
@@ -2629,25 +2627,22 @@ $(".game-start").click(function(){
     if(diff != "lyrics"){
         clip = true;
     }
-
-    $("#landing").hide();
-    $("#choose").hide();
-    $("#choose").hide();
-    $(".artist").hide();
-    $(".genre").hide();
-    $(".show-artist").hide();
-    $(".mixgo").hide();
-    $("#game").show();
-    $("#lyric-box").show();
-    if (timer){
-        $("#timer").show();
-    }else{
-        $("#timer").hide();
+    tranOut( $("#landing"));
+    tranOut($("#choose"));
+    tranOut($(".artist"));
+    tranOut($(".genre"));
+    tranOut($(".show-artist"));
+    tranOut($(".mixgo"));
+    if (!timer){
+        tranOut($(".timer"));
     }
-    playGame(artistIndex, genreIndex, clip, timer, showArtist);
+    setTimeout( function() {
+        playGame(artistIndex, genreIndex, clip, timer, showArtist);
+    }, 1600);
 });
 
 function playGame(artist, genre, clip, timed, showArtist) {
+    let first = true;
     let rounds = 0;
     let score = 0;
     let curr = {};
@@ -2680,7 +2675,6 @@ function playGame(artist, genre, clip, timed, showArtist) {
     if(diff == "clip") {
         noLyrics = true;
     }
-
     
     function getGenreArtists () {
         library.forEach ((x, index) => {
@@ -2809,10 +2803,12 @@ function playGame(artist, genre, clip, timed, showArtist) {
             $("button").click(function(){
                 rounds = 0;
                 score = 0;
-                $("#game").hide();
-                $("#landing").show();
-                $("#rules").show();
-                $("#options").show();
+                tranOut($("#game"));
+                setTimeout( function() {
+                    tranIn($("#landing"));
+                    tranIn($("#rules"));
+                    tranIn($("#options"));
+                }, 1600);
                 $("#lyric").html("");
             });
         }, 4000);
@@ -2826,7 +2822,11 @@ function playGame(artist, genre, clip, timed, showArtist) {
         }
         rounds++;
         if (rounds < 3){
-            setTimeout(doGame, 4000);
+            setTimeout(()=>{
+                tranOut($("#lyric-box"));
+                tranOut($("#guess"));
+                setTimeout(doGame, 2000);
+            }, 2000);
         }else {
             gameEnd();
         }
@@ -2902,6 +2902,10 @@ function playGame(artist, genre, clip, timed, showArtist) {
     }
 
     function doGame() {
+        tranIn($("#game"));
+        tranIn($("#lyric-box"));
+        tranIn($("#guess"));
+
         getCorrectAnswer();
         if (!noLyrics){
             $("#lyric").html(curr.lyric);
@@ -2913,7 +2917,6 @@ function playGame(artist, genre, clip, timed, showArtist) {
             $("#lyric").append(image);
 
         }
-        
         $(".guess").removeClass("done");
         let guessBox = $(".guess");
         for (let i = 0; i< guessBox.length; i++){
@@ -2926,7 +2929,14 @@ function playGame(artist, genre, clip, timed, showArtist) {
         if (clip){
             soundClip.play();
         }
-        if (timed){
+        if (timed && first){
+            first = false;
+            tranIn($(".timer"));
+            tranIn($("#timer"));
+            setTimeout(function () {
+                timer(15);              
+            }, 1800);
+        }else if(timed){
             timer(15);
         }
     }
@@ -2991,13 +3001,13 @@ function timesUpPU(answer) {
     });
 }
 
-//console.log(library[0].albums[0].tracks[0].lyrics[1]);
-
-/* /* function tranIn(x) {
+function tranIn(x) {
     x.show();
     x.addClass("animate__animated animate__backInUp animate__slow");
     x.on('animationend', () => {
         x.removeClass("animate__animated animate__backInUp animate__slow");
+        x.replaceWith(x);
+        x.show();
     });
 }
 
@@ -3005,8 +3015,7 @@ function tranOut(x) {
     x.on('animationend', () => {
         x.hide();
         x.removeClass("animate__animated animate__backOutDown animate__slow");
+        x.replaceWith(x);
     });
     x.addClass("animate__animated animate__backOutDown animate__slow");
-} */
-
-// set options as buttons, put data-id of the artist/genre in the respective boxes
+}

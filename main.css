@@ -1,4 +1,4 @@
-#choose, .artist, .genre, #game, #lyric-box, #clip-box, #landing, #rules, #options, .timer, .show-artist, .mixgo {
+#choose, .artist, .genre, #game, #lyric-box, #clip-box, #landing, #rules, #options, #guess, .timer, #timer, .show-artist, .mixgo {
     display: none;
 }
 
