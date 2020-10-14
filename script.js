@@ -217,7 +217,7 @@ let library = [
                             {   tracktitle: "Lungs Like Gallows",
                                 lyrics: [
                                     `I give blood
-                                    To prove to myself that I can amtter to someone else<br/>
+                                    To prove to myself that I can matter to someone else<br/>
                                     Is what makes a man the dirt on his hands<br/>
                                     Don't put your faith in the desert sand`,
                                     `Is it luck that's knocking right on my back door<br/>
@@ -2669,14 +2669,17 @@ function playGame(artist, genre, clip, timed, showArtist) {
         let insert = $(".logo");
         insert.empty();
     }
-
     let currArtist;
     let pointedAlbum;
     let pointedSong;
     let lyricsRand = 0;
-    let scoreBoard = $("span");
+    let scoreBoard = $(".c-score");
     scoreBoard.text(updateScore);
     let soundClip;
+    let noLyrics = false;
+    if(diff == "clip") {
+        noLyrics = true;
+    }
 
     
     function getGenreArtists () {
@@ -2699,14 +2702,20 @@ function playGame(artist, genre, clip, timed, showArtist) {
     }
 
     function timer(x){
+        let timeLeft = $(".time");
+        let preSec = "<b>"
+        let sec = "</b> seconds";
+        let time = 15;
+        timeLeft.html(preSec+time+sec);
         var elem = document.getElementById("timer");
         var width = 100;
+        let count = 0;
         var rate = setInterval(crawling, x);
         function crawling() {
             if (width <= 0) {
                 // timeout
                 clearInterval(rate);
-                i = 0;
+                timeLeft.html("<b>0</b> seconds");
                 timesUpPU(curr.title);
                 $(".guess").addClass("done");
                 roundEnd();
@@ -2724,7 +2733,18 @@ function playGame(artist, genre, clip, timed, showArtist) {
                     }
                 }, 50);
             } else {
-               width -= 0.1;
+                if (count < 66){
+                    count++
+                }else{
+                    time --;
+                    count = 0;
+                    if (time == 1){
+                        timeLeft.html(preSec+time+"</b> second");
+                    }else{
+                        timeLeft.html(preSec+time+sec);
+                    }
+                }
+                width -= 0.1;
                 elem.style.width = width + "%";
             }
         }
@@ -2793,6 +2813,7 @@ function playGame(artist, genre, clip, timed, showArtist) {
                 $("#landing").show();
                 $("#rules").show();
                 $("#options").show();
+                $("#lyric").html("");
             });
         }, 4000);
     }
@@ -2882,7 +2903,16 @@ function playGame(artist, genre, clip, timed, showArtist) {
 
     function doGame() {
         getCorrectAnswer();
-        $("#lyric").html(curr.lyric);
+        if (!noLyrics){
+            $("#lyric").html(curr.lyric);
+        }else{
+            $("#lyric").html("");
+            let image = document.createElement("img");
+            image.setAttribute("src", "https://media1.tenor.com/images/15a09f187de5da5ec503a09a9980c37c/tenor.gif?itemid=5538913");
+
+            $("#lyric").append(image);
+
+        }
         
         $(".guess").removeClass("done");
         let guessBox = $(".guess");

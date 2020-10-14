@@ -27,7 +27,7 @@ header {
     justify-content: center;
 }
 
-#player>.container, #intro, #landing, .mode, #clue .container, #timer, .timer, .footer .container, .score{
+#player>.container, #intro, #landing, .mode, #clue .container, .timer, .footer .container, .score{
     display: flex;
 }
 
@@ -157,7 +157,7 @@ header {
     display: grid;
 }
 
-#artist-select, #genre-select, #artist-select img, .genre-option, .logo img, .footer, .footer .box, #timer {
+#lyric img, #artist-select, #genre-select, #artist-select img, .genre-option, .logo img, .footer, .footer .box, #timer {
     width: 100%;
 }
 
@@ -179,21 +179,23 @@ header {
     box-shadow: 0px 0px 8px 8px orangered;
 }
 
-footer {
-    height: 80px;
-}
-
 #game .logo {
-    padding: 20px 0;
     width: 25%;
 }
 
-.logo img {
+#lyric img, #game .logo {
+    padding: 20px 0;
+}
+
+#lyric img {
+    margin-top: -40px;
+}
+
+.logo img, #lyric img {
     object-fit: contain;
 }
 
 #lyric {
-    border: chartreuse 1px solid;
     margin: 1% 1% 1% 4%;
     padding: 2%;
 }
@@ -214,23 +216,21 @@ footer {
     background-color: chocolate;
     flex-direction: column;
     align-items: center;
+    display: relative;
 }
 
 #timer {
-    text-align: center;
     background-color: white;
     margin: 5px auto;
-    justify-content: center;
     height: 30px;
 }
 
-#timer p {
+.timer p {
+    height: 30px;
     min-width: 90px;
-    margin-top: 4px;
-}
-#timer p:not(:first-child){
-    min-width: 40px;
-    font-weight: 800;
+    margin: -36px 0 6px 0;
+    padding-top: 3px;
+    line-height: 30px;
 }
 
 .footer .box {
