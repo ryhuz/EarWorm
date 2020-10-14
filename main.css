@@ -1,4 +1,4 @@
-#choose-artist, #choose-genre, #game, #lyric-box, #clip-box, #landing, #rules, #options, .timer {
+#choose, .artist, .genre, #game, #lyric-box, #clip-box, #landing, #rules, #options, .timer, .show-artist, .mixgo {
     display: none;
 }
 
@@ -46,7 +46,7 @@ header {
 }
 
 #rules {
-    padding-top: 8%;
+    padding-top: 4px;
 }
 
 .container, #landing, #game {
@@ -65,7 +65,7 @@ header {
     box-shadow: -1px 1px 10px 4px orangered;
 }
 
-#choose-artist .box:first-child {
+.artist {
     height: 100%;
 }
 
@@ -73,7 +73,7 @@ header {
     width: 40%;
 }
 
-#options, #player input, #choose-artist, #choose-genre {
+#options, #player input, #choose {
     width: 50%;
 }
 
@@ -157,8 +157,11 @@ header {
     display: grid;
 }
 
-#artist-select, #genre-select {
+#artist-select, #genre-select, #artist-select img, .genre-option, .logo img, .footer, .footer .box, #timer {
     width: 100%;
+}
+
+#artist-select, #genre-select {   
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 4%;
     margin: 15px 0;
@@ -166,7 +169,6 @@ header {
 }
 
 #artist-select img, .genre-option {
-    width: 100%;
     height: auto;
     box-shadow: 0px 0px 0px 0px orangered;
     transition: box-shadow 0.3s linear;
@@ -187,7 +189,6 @@ footer {
 }
 
 .logo img {
-    width: 100%;
     object-fit: contain;
 }
 
@@ -207,7 +208,6 @@ footer {
     position: absolute;
     bottom: 0;
     left: 0;
-    width: 100%;
 }
 
 .timer {
@@ -218,7 +218,6 @@ footer {
 
 #timer {
     text-align: center;
-    width: 100%;
     background-color: white;
     margin: 5px auto;
     justify-content: center;
@@ -235,7 +234,6 @@ footer {
 }
 
 .footer .box {
-    width: 100%;
     margin-left: -1px;
 }
 

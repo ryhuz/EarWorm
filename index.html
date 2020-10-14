@@ -19,9 +19,13 @@
         <div id="rules" class="box">
             <div class="container">
                 <h2>Rules / How to play</h2>
-                <p>You have 15 seconds to guess what the song is. Guess either from the lyrics, from listening to the song, or have both clues given to you!</p>
-                <p>You can choose 2 categories: Artists, or Genre.</p>
+                <p>Can you recognise lyrics? Or is 15s of a song enough for you to identify it? Think you are an expert in a certain artist or genre?</p>
                 <p>Test your music knowledge now!</p>
+                <p><b>Artist mode:</b><br/>Play from songs by the selected artist</p>
+                <p><b>Genre mode:</b><br/>Be tested on songs from the selected genre</p>
+                <p><b>Lyric/clips:</b><br/>Have only lyrics or clips as clues, or chicken out and get both</p>
+                <p><b>Timer mode:</b><br/>You only get 15s to guess</p>
+                <p><b>Show Artist (in Genre and Mix mode):</b><br/>Game will diplay which artist the song belongs to</p>
             </div>
         </div>
         
@@ -67,9 +71,8 @@
                 </div>
             </div>
         </div>
-
-        <div id="choose-artist">
-            <div class="box">
+        <div id="choose">
+            <div class="box artist">
                 <div class="container">
                     <h2>Choose your artist</h2>
                     <div id="artist-select" class="container">
@@ -77,19 +80,26 @@
                     </div>
                 </div>
             </div>
-            <div class="box">
+            <div class="box show-artist" id="show-artist">
                 <div class="container">
-                    <div class="sbButton back">Back to Menu</div>
+                    <h2>Show Artist</h2>
+                    <div class="container mode">
+                        <div class="mode-option" data-id="show">On</div>
+                        <div class="mode-option clicked" data-id="noshow">Off</div>
+                    </div>
                 </div>
             </div>
-        </div>
-        <div id="choose-genre">
-            <div class="box">
+            <div class="box genre">
                 <div class="container">
                     <h2>Choose your genre</h2>
                     <div id="genre-select" class="container">
                         <!--DOM will put genres from library here-->
                     </div>
+                </div>
+            </div>
+            <div class="box mixgo">
+                <div class="container">
+                    <div id="mixgo" class="sbButton game-start">Go!</div>
                 </div>
             </div>
             <div class="box">

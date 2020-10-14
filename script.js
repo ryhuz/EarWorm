@@ -2432,8 +2432,9 @@ let library = [
 let mode = "";
 let diff = "";
 let timerOnOff = "";
-let genre = "";
+let genreIndex = "";
 let artistIndex = "";
+let showArtist = false;
 
 // get artists/genres from library and populate the choice menu
 function fillArtist(){
@@ -2444,7 +2445,7 @@ function fillArtist(){
         let image = document.createElement("img");
         image.setAttribute("src", thumbPath);
         image.setAttribute("data-id", index);
-        image.setAttribute("class", "artist");
+        image.setAttribute("class", "artist game-start");
         cArtist.append(image);
     });
 };
@@ -2466,7 +2467,7 @@ function fillGenre(){
         
         if (!exists){
             let genre = document.createElement("div");
-            genre.setAttribute("class", "genre-option genre");
+            genre.setAttribute("class", "genre-option genre game-start");
             genre.setAttribute("data-id", curr);
             genre.innerText = curr;
             cGenre.append(genre);
@@ -2511,6 +2512,12 @@ $(".mode-option").click(function(){
             mode = curr;
         }else if (box == "difficulty"){
             diff = curr;
+        }else if(box == "show-artist"){
+            if (curr == "show"){
+                showArtist = true;
+            }else{
+                showArtist = false;
+            }
         }else{
             timerOnOff = curr;
         }
@@ -2564,18 +2571,24 @@ $("#start").click(function(){
     }else {
         let rules = $("#rules");
         let options = $("#options");
-        let cArtist = $("#choose-artist");
-        let cGenre = $("#choose-genre");
+        let cArtist = $(".artist");
+        let cGenre = $(".genre");
+        let cShow = $(".show-artist");
         
         // hide current windows and show 2nd option window
         options.hide();
         rules.hide();
 
         setTimeout(function () {
+            $("#choose").show();
             if (mode == "artist"){
                 cArtist.show();
-            }else {
+            }else if(mode == "genre") {
                 cGenre.show();
+                cShow.show();
+            }else {
+                cShow.show();
+                $(".mixgo").show();
             }
         }, 500);
     }
@@ -2584,9 +2597,9 @@ $("#start").click(function(){
 // Back to menu button
 $(".back").click(function(){
     if ($(this).attr("id") != "from-game"){
-        let box = $(this).parent().parent().parent();
-    
-        box.hide();
+        $("#choose").hide();
+        $(".artist").hide();
+        $(".genre").hide();
 
         setTimeout( function() {
             $("#rules").show();
@@ -2595,9 +2608,19 @@ $(".back").click(function(){
     }
 });
 
-// choosing artist for artist mode
-$(".artist").click(function(){
-    artistIndex = $(this).attr("data-id");
+$(".game-start").click(function(){
+
+    if($(this).hasClass("artist")){
+        artistIndex = $(this).attr("data-id");
+        genreIndex = "";
+    }else if($(this).hasClass("genre")){
+        genreIndex = $(this).attr("data-id");
+        artistIndex = "";
+    }else {
+        genreIndex = "";
+        artistIndex = "";
+    }
+    
     let timer = false;
     let clip = false;
     if (timerOnOff == "timer-on"){
@@ -2608,7 +2631,12 @@ $(".artist").click(function(){
     }
 
     $("#landing").hide();
-    $("#choose-artist").hide();
+    $("#choose").hide();
+    $("#choose").hide();
+    $(".artist").hide();
+    $(".genre").hide();
+    $(".show-artist").hide();
+    $(".mixgo").hide();
     $("#game").show();
     $("#lyric-box").show();
     if (timer){
@@ -2616,50 +2644,33 @@ $(".artist").click(function(){
     }else{
         $("#timer").hide();
     }
-    playGame(artistIndex, "", clip, timer);
+    playGame(artistIndex, genreIndex, clip, timer, showArtist);
 });
 
-// repurpose artist mode for genre mode
-$(".genre").click(function(){
-    genreIndex = $(this).attr("data-id");
-    let timer = false;
-    let clip = false;
-    if (timerOnOff == "timer-on"){
-        timer = true;
-    }
-    if(diff != "lyrics"){
-        clip = true;
-    }
-
-    $("#landing").hide();
-    $("#choose-genre").hide();
-    $("#game").show();
-    $("#lyric-box").show();
-    if (timer){
-        $("#timer").show();
-    }else{
-        $("#timer").hide();
-    }
-    playGame("", genreIndex, clip, timer);
-});
-
-function playGame(artist, genre, clip, timed) {
+function playGame(artist, genre, clip, timed, showArtist) {
     let rounds = 0;
     let score = 0;
     let curr = {};
     let done = [];
     let options = [];
-    let mode = 0; // mode 0 - chosen artist; mode 1 - chosen genre
+    let mode = 0; // mode 0 - chosen artist; mode 1 - chosen genre; mode 2 - mix it up
     let chosenArtist;
     let genreArtists = [];
-    if(artist != ""){ // not inserting and emptying for genre mode
+    if (artist == "" && genre == ""){
+        mode = 2;
+        let insert = $(".logo");
+        insert.empty();
+    }else if(artist != ""){ // not inserting and emptying for genre mode
         chosenArtist = library[artist];
         insertArtistLogo(artist);
     }else if(genre != ""){
         getGenreArtists ();
         mode = 1;
+        let insert = $(".logo");
+        insert.empty();
     }
 
+    let currArtist;
     let pointedAlbum;
     let pointedSong;
     let lyricsRand = 0;
@@ -2816,6 +2827,9 @@ function playGame(artist, genre, clip, timed) {
             let randClip = generateRandom(pointedSong.clip.length);
             soundClip = new sound(pointedSong.clip[randClip]);
         }
+        if(mode != 0 && showArtist){
+            insertArtistLogo(currArtist);
+        }
         getOtherAnswers();
     }
 
@@ -2823,7 +2837,6 @@ function playGame(artist, genre, clip, timed) {
         let noOfAlbums;
         let albumRand;
         let songRand;
-        
         let numOfSongs;
 
         if (mode == 0) {
@@ -2835,12 +2848,17 @@ function playGame(artist, genre, clip, timed) {
             pointedSong = pointedAlbum.tracks[songRand];
         }else if (mode == 1) {
             let artistRand = generateRandom(genreArtists.length);
-            let artist = genreArtists[artistRand];  
-            albumRand = generateRandom(library[artist].albums.length);
-            pointedAlbum = library[artist].albums[albumRand];
+            currArtist = genreArtists[artistRand];  
+            albumRand = generateRandom(library[currArtist].albums.length);
+            pointedAlbum = library[currArtist].albums[albumRand];
             numOfSongs = pointedAlbum.tracks.length;
             songRand = generateRandom(numOfSongs);
             pointedSong = pointedAlbum.tracks[songRand];
+        }else{
+            currArtist = generateRandom(library.length);
+            let randAlb = generateRandom(library[currArtist].albums.length);
+            let randSong = generateRandom(library[currArtist].albums[randAlb].tracks.length);
+            pointedSong = library[currArtist].albums[randAlb].tracks[randSong];
         }
         return;
     }
