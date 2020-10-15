@@ -2194,7 +2194,7 @@ let library = [
                                     `You're making me laugh out when you strike your pose<br/>
                                     Take off all your preppy clothes<br/>
                                     You know you're not fooling anyone`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/complicated1.mp3", "/resources/clips/avril/complicated2.mp3", "/resources/clips/avril/complicated3.mp3"]
                             },
                             {   tracktitle: "Sk8er Boi",
                                 lyrics:[
@@ -2212,7 +2212,7 @@ let library = [
                                     Well, tough, luck that boy's mine now<br/>
                                     We are more than just good friends<br/>
                                     This is how the story ends`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/skate1.mp3", "/resources/clips/avril/skate2.mp3", "/resources/clips/avril/skate3.mp3"]
                             },
                             {   tracktitle: "I'm With You",
                                 lyrics: [
@@ -2230,7 +2230,7 @@ let library = [
                                     But I, I'm with you`,
                                     `Isn't anyone tryin' to find me?<br/>
                                     Won't somebody come take me home?`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/with1.mp3", "/resources/clips/avril/with2.mp3", "/resources/clips/avril/with3.mp3"]
                             },
                             {   tracktitle: "Anything But Ordinary",
                                 lyrics: [
@@ -2246,23 +2246,7 @@ let library = [
                                     I even freak myself out<br/>
                                     I laugh myself to sleep<br/>
                                     It's my lullaby`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
-                            },
-                            {   tracktitle: "Things I'll Never Say",
-                                lyrics: [
-                                    `I'm tugging at my hair<br/>
-                                    I'm pulling at my clothes<br/>
-                                    I'm trying to keep my cool<br/>
-                                    I know it shows`,
-                                    `Cause I'm feeling nervous<br/>
-                                    Trying to be so perfect<br/>
-                                    'Cause I know you're worth it<br/>
-                                    You're worth it`,
-                                    `If I could say what I want to say<br/>
-                                    I'd say I want to blow you, away<br/>
-                                    Be with you every night<br/>
-                                    Am I squeezing you too tight`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/anything1.mp3", "/resources/clips/avril/anything2.mp3", "/resources/clips/avril/anything3.mp3"]
                             },
                         ]
                 },
@@ -2282,7 +2266,7 @@ let library = [
                                     I'm lying here<br/>
                                     My thoughts are choking on you, my dear<br/>
                                     On you, my dear`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/together1.mp3", "/resources/clips/avril/together2.mp3", "/resources/clips/avril/together3.mp3"]
                             },
                             {   tracktitle: "Don't Tell Me",
                                 lyrics: [
@@ -2298,7 +2282,7 @@ let library = [
                                     And the fact that your arm is now around my neck<br/>
                                     Will get you in my pants, I'll have to kick your ass<br/>
                                     And make you never forget`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/dont1.mp3", "/resources/clips/avril/dont2.mp3", "/resources/clips/avril/dont3.mp3"]
                             },
                             {   tracktitle: "He Wasn't",
                                 lyrics: [
@@ -2314,7 +2298,7 @@ let library = [
                                     And clean my room when all else fails<br/>
                                     I think it's time for me to bail (time to bail)<br/>
                                     This point of view is getting stale-ale`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/wanst1.mp3", "/resources/clips/avril/wanst2.mp3", "/resources/clips/avril/wanst3.mp3"]
                             },
                             {   tracktitle: "My Happy Ending",
                                 lyrics: [
@@ -2331,7 +2315,7 @@ let library = [
                                     It's nice to know we had it all<br/>
                                     Thanks for watching as I fall<br/>
                                     And letting me know we were done`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/happy1.mp3", "/resources/clips/avril/happy2.mp3", "/resources/clips/avril/happy3.mp3"]
                             },
                             {   tracktitle: "Nobody's Home",
                                 lyrics: [
@@ -2349,7 +2333,7 @@ let library = [
                                     Too many, too many problems<br/>
                                     Don't know where she belongs<br/>
                                     Where she belongs`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/nobody1.mp3", "/resources/clips/avril/nobody2.mp3", "/resources/clips/avril/nobody3.mp3"]
                             },
                             {   tracktitle: "Freak Out",
                                 lyrics: [
@@ -2365,7 +2349,7 @@ let library = [
                                     And put up a fight<br/>
                                     Walk around with your hands up in the air<br/>
                                     Like you don't care`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/freak1.mp3", "/resources/clips/avril/freak2.mp3", "/resources/clips/avril/freak3.mp3"]
                             },
                         ]
                 },
@@ -2387,7 +2371,7 @@ let library = [
                                     `And all I ever wanted was for you to know<br/>
                                     Everything I do, I give my heart and soul<br/>
                                     I can hardly breathe; I need to feel you here with me`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/gone1.mp3", "/resources/clips/avril/gone2.mp3", "/resources/clips/avril/gone3.mp3"]
                             },
                             {   tracktitle: "Innocence",
                                 lyrics: [
@@ -2402,7 +2386,7 @@ let library = [
                                     `It's a state of bliss; you think you're dreaming<br/>
                                     It's the happiness inside that you're feeling<br/>
                                     It's so beautiful, it makes you wanna cry`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/innocence1.mp3", "/resources/clips/avril/innocence2.mp3", "/resources/clips/avril/innocence3.mp3"]
                             },
                         ]
                 },
@@ -2423,7 +2407,7 @@ let library = [
                                     It's who I am, don't have to try hard<br/>
                                     We always say, say it like it is<br/>
                                     And the truth is that I really miss`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/wish1.mp3", "/resources/clips/avril/wish2.mp3", "/resources/clips/avril/wish3.mp3"]
                             },
                             {   tracktitle: "Smile",
                                 lyrics: [
@@ -2445,7 +2429,7 @@ let library = [
                                     I woke up with a new tattoo<br/>
                                     Your name was on me and my name was on you<br/>
                                     I would do it all over again`],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                clip: ["/resources/clips/avril/smile1.mp3", "/resources/clips/avril/smile2.mp3", "/resources/clips/avril/smile3.mp3"]
                             },
                         ]
                 }
@@ -2454,75 +2438,726 @@ let library = [
     {   artist: "Avenged Sevenfold",
         genre: "Metal",
         artistThumb: "/resources/artistthumb/a7x.jpeg",
-        albums:[{   title: "Waking The Fallen",
+        albums:[
+                {   title: "Waking The Fallen",
                     tracks:[
                             {   tracktitle: "Unholy Confessions",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                lyrics: [`"I'll try, " she said as he walked away<br/>
+                                "Try not to lose you"<br/>
+                                Two vibrant hearts could change<br/>
+                                Nothing tears the being more than deception, unmasked fear<br/>
+                                "I'll be here waiting" tested and secure`,
+                                `Nothing hurts my world,<br/>
+                                Just affects the ones around me<br/>
+                                When sin's deep in my blood<br/>
+                                You'll be the one to fall`,
+                                `Nothing will last in this life<br/>
+                                Our time is spent constructing<br/>
+                                Now you're perfecting a world, meant to sin<br/>
+                                Constrict your hands around me<br/>
+                                Squeeze till I cannot breathe<br/>
+                                This air tastes dead inside me<br/>
+                                Contribute to our plague`],
+                                clip: ["/resources/clips/a7x/unholy1.mp3", "/resources/clips/a7x/unholy2.mp3", "/resources/clips/a7x/unholy3.mp3"]
                             },
                             {   tracktitle: "Chapter Four",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                lyrics: [`Give me your hand<br/>
+                                Blood is spilt and man will follow<br/>
+                                Infernal man,<br/>
+                                punishment too great to bear`,
+                                `I've come here to kill you<br/>
+                                Won't leave until you've died<br/>
+                                Murder born of vengeance<br/>
+                                I closed my brothers eyes tonight`,
+                                `It's cold tonight as the clouds turn gray<br/>
+                                And from my hands to my brothers grave<br/>
+                                You took his side, you took his gift<br/>
+                                Feel the power of a fallen man, crestfallen man`],
+                                clip: ["/resources/clips/a7x/chapter1.mp3", "/resources/clips/a7x/chapter2.mp3", "/resources/clips/a7x/chapter3.mp3"]
                             },
                             {   tracktitle: "Eternal Rest",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                lyrics: [`Dark in their hearts,<br/>
+                                I can feel it burn inside of me<br/>
+                                Tormented young with no souls, haunting me<br/>
+                                Pain in their lives all they know is misery<br/>
+                                Take these chains away that are holding me down`,
+                                `Hear the haunting words<br/>
+                                Lost children with no heart are crying<br/>
+                                And you're the lost mother their calling<br/>
+                                I hear them crying at night<br/>
+                                Outside when the planets are falling<br/>
+                                They want to feel and know you hear them`,
+                                `They'll find you alone<br/>
+                                And your desperate and villainous ways<br/>
+                                Turning their hearts into stone<br/>
+                                They seek more then vengeance<br/>
+                                Look in their eyes your pain is their satisfaction<br/>
+                                Look in their eyes and see the darkness take hold`],
+                                clip: ["/resources/clips/a7x/eternal1.mp3", "/resources/clips/a7x/eternal2.mp3", "/resources/clips/a7x/eternal3.mp3"]
+                            },
+                            {   tracktitle: "Second Heartbeat",
+                                lyrics: [`As time passes by, regrets for the rest of my life.<br/>
+                                The ones who I confide were gone in the black of the night`,
+                                `Never will I forget you, and all the memories past.<br/>
+                                So rarely I get to see your face.<br/>
+                                Growing I looked to you in guidance.<br/>
+                                We knew that time would kill us, but you're still so close to me`,
+                                `Two in my heart have left me a while, I stand alone.<br/>
+                                When they get back, it won't be the same.`],
+                                clip: ["/resources/clips/a7x/second1.mp3", "/resources/clips/a7x/second2.mp3", "/resources/clips/a7x/second3.mp3"]
                             },
                         ]
                 },
                 {   title: "City Of Evil",
                     tracks:[
                             {   tracktitle: "Beast And The Harlot",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                lyrics: [`This shining city built of gold<br/>
+                                A far cry from innocence<br/>
+                                There's more than meets the eye round here look to the waters of the deep<br/>
+                                A city of evil`,
+                                `She's a dwelling place for demons<br/>
+                                She's a cage for every unclean spirit, every filthy bird<br/>
+                                And makes us drink the poisoned wine to fornicate with our kings<br/>
+                                Fallen now is Babylon the Great`,
+                                `The day has come for all us sinners<br/>
+                                If you're not a servant you'll be struck to the ground<br/>
+                                Flee the burning, greedy city looking back on her to see there's nothin' around`],
+                                clip: ["/resources/clips/a7x/beast1.mp3", "/resources/clips/a7x/beast2.mp3", "/resources/clips/a7x/beast3.mp3"]
                             },
                             {   tracktitle: "Bat Country",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                lyrics: [`Sometimes I don't know why we'd rather live than die<br/>
+                                We look up towards the sky for answers to our lives<br/>
+                                We may get some solutions but most just pass us by<br/>
+                                Don't want your absolution 'cause I can't make it right`,
+                                `Can't you help me as I'm startin' to burn (all alone)<br/>
+                                Too many doses and I'm starting to get an attraction<br/>
+                                My confidence is leaving me on my own (all alone)<br/>
+                                No one can save me and you know I don't want the attention`,
+                                `I've known it from the start<br/>
+                                These good ideas will tear your brains apart<br/>
+                                Scared but you can follow me<br/>
+                                I'm too weird to live but much too rare to die`],
+                                clip: ["/resources/clips/a7x/bat1.mp3", "/resources/clips/a7x/bat2.mp3", "/resources/clips/a7x/bat3.mp3"]
                             },
                             {   tracktitle: "Seize The Day",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                                lyrics: [`Seize the day or die regretting the time you lost<br/>
+                                It's empty and cold without you here, too many people to ache over`,
+                                `I found you here, now please just stay for a while<br/>
+                                I can move on with you around<br/>
+                                I hand you my mortal life, but will it be forever?<br/>
+                                I'd do anything for a smile<br/>
+                                Holding you 'til our time is done<br/>
+                                We both know the day will come<br/>
+                                But I don't want to leave you`,
+                                `So, what if I never hold you, yeah<br/>
+                                Or kiss your lips again?<br/>
+                                Woah, so I never want to leave you<br/>
+                                And the memories of us to see I beg don't leave me`],
+                                clip: ["/resources/clips/a7x/seize1.mp3", "/resources/clips/a7x/seize2.mp3", "/resources/clips/a7x/seize3.mp3"]
+                            },
+                            {   tracktitle: "The Wicked End",
+                                lyrics: [`Man's becoming more corrupt now, godless, wicked, and cruel<br/>
+                                The soulless man stood silenced, Mary's words rang so true<br/>
+                                Chastisement worse than the flood, spread the word, it's all through<br/>
+                                Don't kill the messenger 'cause<br/>
+                                As if we haven't swam enough in this life of misery`,
+                                `Dust the apple off, savor each bite<br/>
+                                And deep inside you know Adam was right<br/>
+                                Lust and power, indulgence, no fear<br/>
+                                Left with his sins, how does this end?<br/>
+                                We won't be here tomorrow, hold on to me for one last time`,
+                                `Walls are falling, churches burning, women ravaged, children crying<br/>
+                                Flesh is tearing, some still fighting<br/>
+                                In this world of misery`],
+                                clip: ["/resources/clips/a7x/wicked1.mp3", "/resources/clips/a7x/wicked2.mp3", "/resources/clips/a7x/wicked3.mp3"]
+                            },
+                        ]
+                },
+                {   title: "Avenged Sevenfold",
+                    tracks:[
+                            {   tracktitle: "Critical Acclaim",
+                                lyrics: [`Self-righteousness is wearing thin<br/>
+                                Heart bleeds but not for fellow men`,
+                                `I've had enough<br/>
+                                It's time for something real<br/>
+                                I don't respect the words you're speaking<br/>
+                                Gone too far<br/>
+                                A clone`,
+                                `Excuse the obscene, ignore the untrue<br/>
+                                Depictions we see try and get through<br/>
+                                Admitting mistakes can hurt<br/>
+                                I'm not the last but I sure ain't the first`],
+                                clip: ["/resources/clips/a7x/critical1.mp3", "/resources/clips/a7x/critical2.mp3", "/resources/clips/a7x/critical3.mp3"]
+                            },
+                            {   tracktitle: "Scream",
+                                lyrics: [`Caught up in this madness too blind to see<br/>
+                                Woke animal feelings in me<br/>
+                                Took over my sense and I lost control<br/>
+                                I'll taste your blood tonight`,
+                                `You know I make you wanna scream<br/>
+                                You know I make you wanna run from me baby<br/>
+                                But now it's too late you've wasted all your time`,
+                                `Cherishing, those feelings pleasuring<br/>
+                                Cover me, unwanted clemency<br/>
+                                Scream till there's silence<br/>
+                                Scream while there's life left, vanishing<br/>
+                                Scream from the pleasure, unmask your desire<br/>
+                                Perishing`],
+                                clip: ["/resources/clips/a7x/scream1.mp3", "/resources/clips/a7x/scream2.mp3", "/resources/clips/a7x/scream3.mp3"]
+                            },
+                            {   tracktitle: "Afterlife",
+                                lyrics: [`Like walking into a dream, so unlike what you've seen<br/>
+                                so unsure but it seems, 'cause we've been waiting for you<br/>
+                                Fallen into this place, just giving you a small taste<br/>
+                                of your afterlife here so stay, you'll be back here soon anyway`,
+                                `I don't belong here, I gotta move on dear escape from this afterlife<br/>
+                                'Cause this time I'm right to move on and on, far away from here<br/>
+                                Got nothing against you and surely I'll miss you<br/>
+                                This place full of peace and light, and I'd hope you might<br/>
+                                take me back inside when the time is right`,
+                                `I am unbroken; I'm choking on this ecstasy<br/>
+                                Unbreak me, unchain me, I need another chance to live`],
+                                clip: ["/resources/clips/a7x/afterlife1.mp3", "/resources/clips/a7x/afterlife2.mp3", "/resources/clips/a7x/afterlife3.mp3"]
+                            },
+                            {   tracktitle: "A Little Piece Of Heaven",
+                                lyrics: [`Before the story begins, is it such a sin,<br/>
+                                For me to take what's mine, until the end of time<br/>
+                                We were more than friends, before the story ends,<br/>
+                                And I will take what's mine, create what<br/>
+                                God would never design`,
+                                `You had my heart, at least for the most part<br/>
+                                'Cause everybody's gotta die sometime, we fell apart<br/>
+                                Let's make a new start<br/>
+                                'Cause everybody's gotta die sometime yeah<br/>
+                                But baby don't cry`,
+                                `Must have stabbed him fifty fucking times<br/>
+                                I can't believe it<br/>
+                                Ripped his heart out right before his eyes<br/>
+                                Eyes over easy<br/>
+                                Eat it eat it eat it`],
+                                clip: ["/resources/clips/a7x/little1.mp3", "/resources/clips/a7x/little2.mp3", "/resources/clips/a7x/little3.mp3"]
+                            },
+                        ]
+                },
+                {   title: "Nightmare",
+                    tracks:[
+                            {   tracktitle: "Nightmare",
+                                lyrics: [`Flesh is burning<br/>
+                                You can smell it in the air<br/>
+                                'Cause men like you have<br/>
+                                Such easy soul to steal<br/>
+                                So stand in line while<br/>
+                                They ink numbers in your head<br/>
+                                You're now a slave<br/>
+                                Until the end of time here`,
+                                `You should have known<br/>
+                                The price of evil<br/>
+                                And it hurts to know<br/>
+                                That you belong here, yeah<br/>
+                                Ooh, it's your fuckin' nightmare`,
+                                `And I know you hear their voices (calling from above)<br/>
+                                And I know they may seem real (these signals of love)<br/>
+                                But our life's made up of choices (some without appeal)<br/>
+                                They took for granted your soul<br/>
+                                And it's ours now to steal`],
+                                clip: ["/resources/clips/a7x/nightmare1.mp3", "/resources/clips/a7x/nightmare2.mp3", "/resources/clips/a7x/nightmare3.mp3"]
+                            },
+                            {   tracktitle: "Buried Alive",
+                                lyrics: [`Take the time just to listen<br/>
+                                When the voices screaming are much too loud<br/>
+                                Take a look in the distance<br/>
+                                Try and see it all`,
+                                `Hey, I can't live in here for another day<br/>
+                                Darkness has kept the light concealed<br/>
+                                Grim as ever<br/>
+                                Hold onto faith as I dig another grave<br/>
+                                Meanwhile the mice endure the wheel<br/>
+                                Real as ever<br/>
+                                And it seems I've been buried alive`,
+                                `While it seems sick<br/>
+                                Sober up quick<br/>
+                                Psycho lunatic<br/>
+                                Crushing you with hands of fate<br/>
+                                Shame to find out when it's too late<br/>
+                                But you're all the same<br/>
+                                Trapped inside inferno awaits`],
+                                clip: ["/resources/clips/a7x/buried1.mp3", "/resources/clips/a7x/buried2.mp3", "/resources/clips/a7x/buried3.mp3"]
+                            },
+                            {   tracktitle: "So Far Away",
+                                lyrics: [`Never feared for anything<br/>
+                                Never chained but never free<br/>
+                                A light that healed the broken heart<br/>
+                                With all that it could`,
+                                `How do I live without the ones I love?<br/>
+                                Time still turns the pages of the book it's burned<br/>
+                                Place and time always on my mind<br/>
+                                I have so much to say but you're so far away`,
+                                `Sleep tight I'm not afraid<br/>
+                                The ones that we love are here with me<br/>
+                                Lay away a place for me<br/>
+                                'Cause as soon as I'm done I'll be on my way<br/>
+                                To live eternally`],
+                                clip: ["/resources/clips/a7x/far1.mp3", "/resources/clips/a7x/far2.mp3", "/resources/clips/a7x/far3.mp3"]
+                            },
+                            {   tracktitle: "Save Me",
+                                lyrics: [`Sorry did I wake your dreams?<br/>
+                                Some questions are up to be<br/>
+                                We only only wake up when we sleep<br/>
+                                Left by the lunar light<br/>
+                                Troubles are all we find<br/>
+                                Lost our way tonight`,
+                                `If you'd only open your mind<br/>
+                                Then someday you will find<br/>
+                                Insanity's left us behind<br/>
+                                And walked right through the night<br/>
+                                I can see the picture's clear<br/>
+                                As yesterday pictures of my own<br/>
+                                I can hear the voice's begging you to stay<br/>
+                                But know you're not alone`,
+                                `Save me<br/>
+                                I'm losing my only dream<br/>
+                                I can use some guiding light<br/>
+                                Some place to go<br/>
+                                If you hear me let me know`],
+                                clip: ["/resources/clips/a7x/save1.mp3", "/resources/clips/a7x/save2.mp3", "/resources/clips/a7x/save3.mp3"]
+                            },
+                        ]
+                },
+                {   title: "Hail To The King",
+                    tracks:[
+                            {   tracktitle: "Shepherd Of Fire",
+                                lyrics: [`Lets take a moment and break the ice<br/>
+                                So my intentions are known<br/>
+                                See I pity in watching you suffer<br/>
+                                I know the feeling of feeling of being damned alone<br/>
+                                I got a storybook of my own`,
+                                `Don't you see I am your pride<br/>
+                                Agent of wealth, bearer of needs<br/>
+                                And you know it's right<br/>
+                                I am your war<br/>
+                                Arming the strong, aiding the weak<br/>
+                                Know me by name<br/>
+                                Shepherd of fire`,
+                                `Through the ages of time<br/>
+                                I've been known for my hate<br/>
+                                But I'm a dealer of simple choices<br/>
+                                For me it's never too late`],
+                                clip: ["/resources/clips/a7x/shepherd1.mp3", "/resources/clips/a7x/shepherd2.mp3", "/resources/clips/a7x/shepherd3.mp3"]
+                            },
+                        ]
+                },
+                {   title: "The Stage",
+                    tracks:[
+                            {   tracktitle: "The Stage",
+                                lyrics: [`Jesus Christ, was born to die<br/>
+                                Leave it to man to levitate his own to idolize<br/>
+                                We're simply sociopaths with no communication baby<br/>
+                                I see your angle but we differ from our points of view`,
+                                `So I arrived, naked and cold<br/>
+                                A welcomed change from the abeyance of a ghost town catacomb<br/>
+                                No need for counsel I appreciate the time I'm not alone`,
+                                `Who is the crowd that peers through the cage,<br/>
+                                As we perform here upon the stage?<br/>
+                                Tell me a lie in a beautiful way<br/>
+                                I believe in answers just not today`],
+                                clip: ["/resources/clips/a7x/stage1.mp3", "/resources/clips/a7x/stage2.mp3", "/resources/clips/a7x/stage3.mp3"]
+                            },
+                            {   tracktitle: "Creating God",
+                                lyrics: [`Standing in the shade of altruism, answering the call<br/>
+                                Came a modern messiah to save us all<br/>
+                                Something far beyond the work of fiction, Positronic brain<br/>
+                                A world that's void of all the anguish and suffering, pain`,
+                                `Have you noticed that I'm needin' it more now, more than it needs me<br/>
+                                Got a couple of billion that seem to agree<br/>
+                                Surfing in an artificial dimension, but we're not alone<br/>
+                                Now the master has become just a stepping stone, oh`,
+                                `We're creating god, master of our designs<br/>
+                                We're creating god, unsure of what we'll find<br/>
+                                We're creating god, in search of the divine<br/>
+                                We're creating god. Committing suicide`],
+                                clip: ["/resources/clips/a7x/creating1.mp3", "/resources/clips/a7x/creating2.mp3", "/resources/clips/a7x/creating3.mp3"]
+                            },
+                        ]
+                },
+        ]
+    },
+    {   artist: "Tool",
+        genre: "Metal",
+        artistThumb: "/resources/artistthumb/tool.jpeg",
+        albums:[{   title: "Ænima",
+                    tracks:[
+                            {   tracktitle: "46 & 2",
+                                lyrics: [`My shadow's shedding skin<br/>
+                                I've been picking scabs again<br/>
+                                I'm down, digging through<br/>
+                                My old muscles, looking for a clue`,
+                                `I've been crawling on my belly<br/>
+                                Clearing out what could've been<br/>
+                                I've been wallowing in my own confused<br/>
+                                And insecure delusions`,
+                                `I wanna feel the change consume me<br/>
+                                Feel the outside turning in<br/>
+                                I wanna feel the metamorphosis and<br/>
+                                Cleansing I've endured in`],
+                                clip: ["/resources/clips/tool/461.mp3", "/resources/clips/tool/462.mp3", "/resources/clips/tool/463.mp3"]
+                            },
+                            {   tracktitle: "Ænima",
+                                lyrics: [`Some say the end is near<br/>
+                                Some say we'll see Armageddon soon<br/>
+                                I certainly hope we will<br/>
+                                I sure could use a vacation from this<br/>
+                                Bullshit three ring circus sideshow of freaks`,
+                                `Here in this hopeless fucking hole we call LA<br/>
+                                The only way to fix it is to flush it all away<br/>
+                                Any fucking time, any fucking day<br/>
+                                Learn to swim, see you down in Arizona Bay`,
+                                `Some say a comet will fall from the sky<br/>
+                                Followed by meteor showers and tidal waves<br/>
+                                Followed by fault lines that cannot sit still<br/>
+                                Followed by millions of dumbfounded dipshits<br/>
+                                And some say the end is near<br/>
+                                Some say we'll see Armageddon soon<br/>
+                                I certainly hope we will<br/>
+                                I sure could use a vacation from this`],
+                                clip: ["/resources/clips/tool/enema1.mp3", "/resources/clips/tool/enema2.mp3", "/resources/clips/tool/enema3.mp3"]
+                            },
+                        ]
+                },
+                {   title: "Lateralus",
+                    tracks:[
+                            {   tracktitle: "Schism",
+                                lyrics: [`I know the pieces fit 'cause I watched them fall away<br/>
+                                Mildewed and smoldering, fundamental differing<br/>
+                                Pure intention juxtaposed will set two lover's souls in motion<br/>
+                                Disintegrating as it goes testing our communication`,
+                                `The poetry that comes from the squaring off between<br/>
+                                And the circling is worth it<br/>
+                                Finding beauty in the dissonance`,
+                                `There was a time that the pieces fit, but I watched them fall away<br/>
+                                Mildewed and smoldering, strangled by our coveting<br/>
+                                I've done the math enough to know the dangers of our second guessing<br/>
+                                Doomed to crumble unless we grow and strengthen our communication`],
+                                clip: ["/resources/clips/tool/schism1.mp3", "/resources/clips/tool/schism2.mp3", "/resources/clips/tool/schism3.mp3"]
+                            },
+                            {   tracktitle: "Lateralus",
+                                lyrics: [`Black then white are all I see in my infancy
+                                Red and yellow then came to be, reaching out to me
+                                Lets me see`,
+                                `Over thinking, over analyzing separates the body from the mind
+                                Withering my intuition, missing opportunities and I must
+                                Feed my will to feel my moment drawing way outside the lines`,
+                                `Feed my will to feel this moment
+                                Urging me to cross the line
+                                Reaching out to embrace the random
+                                Reaching out to embrace whatever may come`],
+                                clip: ["/resources/clips/tool/lateralus1.mp3", "/resources/clips/tool/lateralus2.mp3", "/resources/clips/tool/lateralus3.mp3"]
                             },
                         ]
                 }
         ]
     },
-    {   artist: "blessthefall",
+    {   artist: "Bullet For My Valentine",
         genre: "Metal",
-        artistThumb: "/resources/artistthumb/btf.jpeg",
-        albums:[{   title: "His Last Walk",
+        artistThumb: "/resources/artistthumb/bfmv.jpeg",
+        albums:[
+                {   title: "Poison",
                     tracks:[
-                            {   tracktitle: "Guys Like You Make Us Look Bad",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                            {   tracktitle: "Her Voice Resides",
+                                lyrics: [`Our time has ended<br/>
+                                I feel it's only just begun<br/>
+                                And I'm frustrated<br/>
+                                I can't believe you're not the one<br/>
+                                My ears are bleeding<br/>
+                                Her voice resides inside my head<br/>
+                                And now I'm choking<br/>
+                                Release this noose around my neck`,
+                                `Will I just fall to pieces<br/>
+                                Or am I alright?<br/>
+                                To iron out my creases<br/>
+                                You must lacerate me till they're done`,
+                                `Heaven, where is my angel?<br/>
+                                I need her now<br/>
+                                Heaven, where is my angel<br/>
+                                I need her now<br/>
+                                Holding me tonight`],
+                                clip: ["/resources/clips/bfmv/her1.mp3", "/resources/clips/bfmv/her2.mp3", "/resources/clips/bfmv/her3.mp3"]
                             },
-                            {   tracktitle: "Higinia",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                            {   tracktitle: "4 Words(To Choke Upon)",
+                                lyrics: [`Betrayed one more time<br/>
+                                But somewhere down that line<br/>
+                                You're gonna get what's coming to you`,
+                                `Too many time I've seen it, rip a hole into our friendship<br/>
+                                This is how it's been, how it always will be<br/>
+                                You think you're above me<br/>
+                                But now I'm here to envy`,
+                                `Pull it out from my back<br/>
+                                Soon I'm the one that's on attack<br/>
+                                Can't wait to return the favor`],
+                                clip: ["/resources/clips/bfmv/four1.mp3", "/resources/clips/bfmv/four2.mp3", "/resources/clips/bfmv/four3.mp3"]
                             },
-                            {   tracktitle: "Rise Up",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                            {   tracktitle: "Tears Don't Fall",
+                                lyrics: [`With blood shot eyes, I watch you sleeping<br/>
+                                The warmth I feel beside me is slowly fading<br/>
+                                Would she hear me, if I called her name?<br/>
+                                Would she hold me, if she knew my shame?`,
+                                `Your tears don't fall, they crash around me<br/>
+                                Her conscious calls, the guilty to come home<br/>
+                                Your tears don't fall, they crash around me<br/>
+                                Her conscious calls, the guilty to come home`,
+                                `This battered room I've seen before<br/>
+                                The broken bones they heal no more, no more<br/>
+                                With my last breath I'm choking<br/>
+                                Will this ever end I'm hoping<br/>
+                                My world is over one more time`],
+                                clip: ["/resources/clips/bfmv/tears1.mp3", "/resources/clips/bfmv/tears2.mp3", "/resources/clips/bfmv/tears3.mp3"]
+                            },
+                            {   tracktitle: "All These Things I Hate(Revolve Around Me)",
+                                lyrics: [`Once more I'll say goodbye to you<br/>
+                                Things happen but we don't really know why<br/>
+                                If it's supposed to be like this<br/>
+                                Why do most of us ignore the chance to miss?`,
+                                `Torn apart at the seams of my dreams turn to tears<br/>
+                                I'm not feelin' this situation<br/>
+                                Run away try to find that safe place you can hide<br/>
+                                It's the best place to be when you're feeling like`,
+                                `Once more you tell those lies to me<br/>
+                                Why can't you just be straight up with honesty?<br/>
+                                When you say those things in my ear<br/>
+                                Why do you always tell me what you wanna hear?`],
+                                clip: ["/resources/clips/bfmv/all1.mp3", "/resources/clips/bfmv/all2.mp3", "/resources/clips/bfmv/all3.mp3"]
+                            },
+                            {   tracktitle: "Suffocating Under Words Of Sorrow",
+                                lyrics: [`You line them up we'll put them down<br/>
+                                This is so frustrating<br/>
+                                To watch you sleezing all around<br/>
+                                Yet you keep on smiling`,
+                                `What can I do to make you see?<br/>
+                                You're guilty<br/>
+                                What can I do to make you feel?<br/>
+                                You're wanted<br/>
+                                What can I do to make you see?<br/>
+                                You're guilty<br/>
+                                I'm suffocating under words of sorrow`,
+                                `Her skin reflects behind the blur<br/>
+                                I'm intoxicated<br/>
+                                Where am I from why am I here<br/>
+                                Your so predictable<br/>
+                                Fingers running through my hair?<br/>
+                                But its all just fiction<br/>
+                                She steps out from her underwear?<br/>
+                                So beautiful`],
+                                clip: ["/resources/clips/bfmv/suffocating1.mp3", "/resources/clips/bfmv/suffocating2.mp3", "/resources/clips/bfmv/suffocating3.mp3"]
+                            },
+                            {   tracktitle: " The Poison",
+                                lyrics: [`Now, is your time to die<br/>
+                                We've gathered here to say goodbye<br/>
+                                No more, you'll cry<br/>
+                                No reason left for you to fight`,
+                                `Holding on to you, to keep from falling<br/>
+                                Your eyes are closing now<br/>
+                                Another chapter's ending`,
+                                `Hard times, we always saw<br/>
+                                There's nothing left of you no more<br/>
+                                Fear has no place, no place<br/>
+                                Cover her face!`],
+                                clip: ["/resources/clips/bfmv/poison1.mp3", "/resources/clips/bfmv/poison2.mp3", "/resources/clips/bfmv/poison3.mp3"]
                             },
                         ]
                 },
-                {   title: "Witness",
+                {   title: "Hand Of Blood",
                     tracks:[
-                            {   tracktitle: "What's Left Of Me",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                            {   tracktitle: "Hand Of Blood",
+                                lyrics: [`There goes my valentine again<br/>
+                                Soaked in red for what she said<br/>
+                                And now she's gone<br/>
+                                Oh my god have I done it again<br/>
+                                There's a pulse and it's deafening<br/>
+                                I can't help what I hear in my head<br/>
+                                It's the switch that I flick (they said)`,
+                                `I saw you look away<br/>
+                                Is what you've seen too much to take<br/>
+                                Or are you blind and seeing nothing?`,
+                                `There's a stain on my hand and it's red<br/>
+                                Oh my god, am I losing it<br/>
+                                I can't help what I've done or I've said<br/>
+                                It's the button I push (they said)`],
+                                clip: ["/resources/clips/bfmv/hand1.mp3", "/resources/clips/bfmv/hand2.mp3", "/resources/clips/bfmv/hand3.mp3"]
                             },
-                            {   tracktitle: "To Hell & Back",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
-                            },
-                            {   tracktitle: "God Wears Gucci",
-                                lyrics: ["excerpt 1", "excerpt 1", "excerpt 1"],
-                                clip: ["/resources/clips/1", "/resources/clips/2", "/resources/clips/3"]
+                            {   tracktitle: "No Control",
+                                lyrics: [`I scream into your face<br/>
+                                I scream into your face until<br/>
+                                My veins are bursting through<br/>
+                                Prisoners now live with no excuse`,
+                                `It comes down, don't take my name<br/>
+                                Its holds it holds<br/>
+                                It holds me down`],
+                                clip: ["/resources/clips/bfmv/no1.mp3", "/resources/clips/bfmv/no2.mp3", "/resources/clips/bfmv/no3.mp3"]
                             },
                         ]
-                }
+                },
+                {   title: "Scream Aim Fire",
+                    tracks:[
+                            {   tracktitle: "Scream Aim Fire",
+                                lyrics: [`Kill your enemies<br/>
+                                My brothers dead around me<br/>
+                                Wounds are hurting, death is creeping for me<br/>
+                                Smoke is blinding, hearts are pounding<br/>
+                                Chaos soon ignites<br/>
+                                The call is made, its one for all<br/>
+                                Will I meet thy maker`,
+                                `God has spoken through his conscience<br/>
+                                As I scream aim and fire<br/>
+                                The death toll grows higher`,
+                                `Fuck this battlefield<br/>
+                                The bullets shatter round me<br/>
+                                Bodies falling, voices calling for me<br/>
+                                Limbs are flying, men are crying<br/>
+                                Such a hurtful sight<br/>
+                                The call is made, it's one for all<br/>
+                                Take no prisoners`],
+                                clip: ["/resources/clips/bfmv/scream1.mp3", "/resources/clips/bfmv/scream2.mp3", "/resources/clips/bfmv/scream3.mp3"]
+                            },
+                            {   tracktitle: "Hearts Burst Into Fire",
+                                lyrics: [`I'm coming home<br/>
+                                I've been gone for far too long<br/>
+                                Do you remember me at all?<br/>
+                                I'm leaving<br/>
+                                Have I fucked things up again?<br/>
+                                I'm dreaming<br/>
+                                Too much time without you spent`,
+                                `It hurts!<br/>
+                                Wounds so sore<br/>
+                                Now I'm torn<br/>
+                                Now I'm torn`,
+                                `My bed's so cold, so lonely<br/>
+                                No arms, just sheets to hold me<br/>
+                                Has this world stop turning?<br/>
+                                Are we forever to be apart?`],
+                                clip: ["/resources/clips/bfmv/hearts1.mp3", "/resources/clips/bfmv/hearts2.mp3", "/resources/clips/bfmv/hearts3.mp3"]
+                            },
+                            {   tracktitle: "Waking The Demon",
+                                lyrics: [`Helpless, my eyes are bleeding from the fear that's inside<br/>
+                                You sealed your demise when you took what was mine<br/>
+                                Don't try and stop me from avenging this world<br/>
+                                No voice to be heard`,
+                                `Waking the Demon<br/>
+                                Where'd you run to?<br/>
+                                Walking in shadows<br/>
+                                Watch the blood flow`,
+                                `There's not much longer so don't try and fight<br/>
+                                Your body's weakening, walk to the light<br/>
+                                All those painful times, so alone, so ashamed<br/>
+                                Well I'm not coming back, there's nothing to gain`],
+                                clip: ["/resources/clips/bfmv/waking1.mp3", "/resources/clips/bfmv/waking2.mp3", "/resources/clips/bfmv/waking3.mp3"]
+                            },
+                            {   tracktitle: "Disappear",
+                                lyrics: [`Once again the same things on your mind<br/>
+                                Increasing pulse from what goes on inside<br/>
+                                Will you pay for what you've done, hatred<br/>
+                                Payback's such a bitch her vengeance haunts you`,
+                                `Now all those acts repaid<br/>
+                                Your turn to be afraid<br/>
+                                Not longer almost done<br/>
+                                Oh, God, just what have I become?`,
+                                `Your sweetest dreams turn into tears<br/>
+                                It's almost done, they're almost gone<br/>
+                                Our darkest days they fade away<br/>
+                                It's almost done, they're almost gone`],
+                                clip: ["/resources/clips/bfmv/disappear1.mp3", "/resources/clips/bfmv/disappear2.mp3", "/resources/clips/bfmv/disappear3.mp3"]
+                            },
+                            {   tracktitle: "Take It Out On Me",
+                                lyrics: [`I'm always thinking of you<br/>
+                                And all the things that you do<br/>
+                                Self-centered satisfaction<br/>
+                                No more will I run from you`,
+                                `The world is on your shoulders<br/>
+                                The weight is crushing me<br/>
+                                Now we're all getting older`,
+                                `I feel so much destruction<br/>
+                                In everything that you do<br/>
+                                Anger is creeping in me<br/>
+                                Watch I don't explode on you!`],
+                                clip: ["/resources/clips/bfmv/take1.mp3", "/resources/clips/bfmv/take2.mp3", "/resources/clips/bfmv/take3.mp3"]
+                            },
+                            {   tracktitle: "End Of Days",
+                                lyrics: [`We're wasting precious time<br/>
+                                The clock is ticking<br/>
+                                Can you hear the countdown<br/>
+                                With every hour, give me the power<br/>
+                                I need the strength to carry on<br/>
+                                On and on`,
+                                `No more I care to live<br/>
+                                When I'm just born to die<br/>
+                                We're all born to die`,
+                                `Befriend my enemies<br/>
+                                My pulse is racing<br/>
+                                I can hear my heart beat<br/>
+                                Is this the last time<br/>
+                                You get to be mine<br/>
+                                I lack the will to carry on<br/>
+                                On and on`],
+                                clip: ["/resources/clips/bfmv/end1.mp3", "/resources/clips/bfmv/end2.mp3", "/resources/clips/bfmv/end3.mp3"]
+                            },
+                        ]
+                },
+                {   title: "Fever",
+                tracks:[
+                        {   tracktitle: "Your Betrayal",
+                            lyrics: [`Am I going insane?<br/>
+                            My blood is boiling inside of my veins<br/>
+                            An evil feeling attacks<br/>
+                            My body shaking there's no turning back`,
+                            `You were told to to run away<br/>
+                            Soak the place and light the flame<br/>
+                            Pay the price for your betrayal<br/>
+                            Your betrayal`,
+                            `You said that we'd be forever<br/>
+                            How could you kill me and lie to my face<br/>
+                            Now that we can't be together<br/>
+                            There's just no hope for our final embrace<br/>
+                            So here we are, I'm in your head<br/>
+                            I'm in your heart`],
+                            clip: ["/resources/clips/bfmv/your1.mp3", "/resources/clips/bfmv/your2.mp3", "/resources/clips/bfmv/your3.mp3"]
+                        },
+                        {   tracktitle: "Fever",
+                            lyrics: [`It's hot as hell in here<br/>
+                            Everybody wants to lose control<br/>
+                            The music's turned up loud, the lights<br/>
+                            We'll turn them low`,
+                            `I can feel your fever, taking over<br/>
+                            Can you see your fever, taking over me<br/>
+                            I can feel your fever, taking over<br/>
+                            Got a dirty feeling, that you're the remedy`,
+                            `Push hard to breaking point<br/>
+                            And I'm ready to overload<br/>
+                            No limits and no regrets<br/>
+                            It's time to sell my soul`],
+                            clip: ["/resources/clips/bfmv/fever1.mp3", "/resources/clips/bfmv/fever2.mp3", "/resources/clips/bfmv/fever3.mp3"]
+                        },
+                        {   tracktitle: "The Last Fight",
+                            lyrics: [`I don't wanna stand beside you<br/>
+                            I don't wanna try and feel the pain you're going through<br/>
+                            'Til the death you've seen is through<br/>
+                            Cold sweats, hallucinations<br/>
+                            I wanna scream to show<br/>
+                            The hell I'm going through<br/>
+                            The addiction's taking you`,
+                            `Can you see me through bloodshot eyes<br/>
+                            Should I fight for what is right or let it die?<br/>
+                            Now I'm choking on force fed lies<br/>
+                            Do I fight or let it die?`,
+                            `I will fight, one more fight<br/>
+                            Don't break down in front of me<br/>
+                            I will fight, one more fight<br/>
+                            I am not the enemy<br/>
+                            I will try one last time<br/>
+                            Are you listening to me?<br/>
+                            I will fight, the last fight<br/>
+                            I am not your enemy`],
+                            clip: ["/resources/clips/bfmv/last1.mp3", "/resources/clips/bfmv/last2.mp3", "/resources/clips/bfmv/last3.mp3"]
+                        },
+                    ]
+            },
         ]
     }
 ];
