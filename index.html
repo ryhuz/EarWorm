@@ -26,6 +26,7 @@
                 <p><b>Lyric/clips:</b><br/>Have only lyrics or clips as clues, or chicken out and get both</p>
                 <p><b>Timer mode:</b><br/>You only get 15s to guess</p>
                 <p><b>Show Artist (in Genre and Mix mode):</b><br/>Game will diplay which artist the song belongs to</p>
+                <p><b>Scoring Mode:</b><br/><b>Basic:</b> Play 10 rounds!<br/><b>Staying Alive:</b>(requires Timer Mode: On) Start with 10000 points<br/>You lose points as time passes (up to 1000pts in 15s).<br/>You lose 1000pts if you run out of time<br/>You lose 500pts if you guess wrongly<br/>Guess as many as you can before you run out of points!</p>
             </div>
         </div>
         
@@ -62,6 +63,15 @@
                     <div class="container mode">
                         <div class="mode-option" data-id="timer-on">On</div>
                         <div class="mode-option" data-id="timer-off">Off</div>
+                    </div>
+                </div>
+            </div>
+            <div id="score-option" class="box">
+                <div class="container">
+                    <h2>Scoring mode:</h2>
+                    <div class="container mode">
+                        <div class="mode-option clicked" data-id="basic">Basic</div>
+                        <div class="mode-option" data-id="advanced">Staying Alive</div>
                     </div>
                 </div>
             </div>
@@ -136,9 +146,6 @@
                 <div class="guess"></div>
             </div>
         </div>
-        <section class="scoreboard">
-
-        </section>
         <section class="footer">
             <section class="timer">
                 <div id="timer">
@@ -147,7 +154,7 @@
             </section>
             <div class="box">
                 <div class="container">
-                    <div class="score">Current Score:<span class="c-score"></span></div>
+                    <div class="score">Current Score:<span class="c-score"></span><span class="ad-score"></span></div>
                     <div id="from-game" class="sbButton back">Back to Menu</div>
                 </div>
             </div>

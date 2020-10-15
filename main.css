@@ -47,6 +47,8 @@ header {
 
 #rules {
     padding-top: 4px;
+    width: 40%;
+    font-size: 18px;
 }
 
 .container, #landing, #game {
@@ -69,16 +71,12 @@ header {
     height: 100%;
 }
 
-#rules {
-    width: 40%;
-}
-
 #options, #player input, #choose {
     width: 50%;
 }
 
 .container h2{
-    font-size: 30px;
+    font-size: 25px;
     font-weight: 800;
     text-decoration: underline;
     margin: 5px auto;
@@ -248,7 +246,12 @@ header {
     padding-right: 5%;
 }
 
-.score span {
+.score .c-score {
     font-weight: 700;
     margin-left: 8%;
+}
+
+.score .ad-score {
+    padding-left: 8px;
+    margin-right: 1%;
 }
