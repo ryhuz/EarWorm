@@ -3403,7 +3403,7 @@ $(".game-start").click(function(){
 });
 
 function playGame(artist, genre, clip, timed, showArtist, scoring) {
-    let adScore = 2000;
+    let adScore = 10000;
     let first = true;
     let rounds = 0;
     let score = 0;
@@ -3495,7 +3495,9 @@ function playGame(artist, genre, clip, timed, showArtist, scoring) {
                     timesUpPU(curr.title);
                     $(".guess").addClass("done");
                     roundEnd();
-                    adScore-=999;
+                    if (scoring == "advanced"){
+                        adScore-=999;
+                    }
                     showScore(true);
                     
                     setTimeout(() => {
@@ -3819,7 +3821,6 @@ function zero() {
 
 function timesUpPU(answer) {
     let str = "The correct answer was: " + answer;
-    setTimeout(()=> {
         swal({
             icon: "error",
             title: "Oops! You ran out of time!",
@@ -3827,7 +3828,6 @@ function timesUpPU(answer) {
             timer: 4000,
             closeOnClickOutside: false,
         });
-    }, 2000);
 }
 
 function tranIn(x) {
