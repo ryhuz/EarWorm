@@ -19,6 +19,12 @@ header {
     height: 80px;
     border-bottom-left-radius: 30px;
     border-top-right-radius: 30px;
+    text-align: center;
+}
+
+header img {
+    width: 100px;
+    padding-top: 2%;
 }
 
 #intro {
@@ -254,4 +260,58 @@ header {
 .score .ad-score {
     padding-left: 8px;
     margin-right: 1%;
+}
+
+@media (max-width: 640px) {
+    header {
+        margin-bottom: 20px;
+    }
+    
+    #landing, #mode>.container>.container, #difficulty>.container>.container, #lyric-box .container, #game .logo {
+        display: block;
+    }
+    #landing, #rules {
+        width: 90%;
+    }
+    
+    #rules>.container {
+        max-height: 300px;
+        overflow-y: scroll;
+    }
+
+    #options{
+        width: 95%;
+    }
+
+    #landing, #rules, #options, #choose {
+        margin: 0 auto;
+    }
+
+    #choose, #lyric-box .container, #game .logo {
+        width: 100%;
+    }
+
+    .artist>.container {
+        height: 440px;
+    }
+
+    #game .logo {
+        text-align: center;
+        padding: 4px;
+    }
+
+    .logo img {
+        width: 50%;
+    }
+
+    #lyric {
+        border: green 1px solid;
+        padding: 0 0 0 5%;
+    }
+    #lyric, .guess {
+        font-size: 16px;
+    }
+    #guess>.container {
+        padding-bottom: 12px;
+    }
 }
