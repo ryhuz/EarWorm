@@ -1,6 +1,6 @@
 let library = [
     {   artist: "Senses Fail",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/sensesfail.jpeg",
+        artistThumb: "resources/artistthumb/sensesfail.jpeg",
         genre: "Rock",
         albums:[
                 {   title: "Let It Enfold You",
@@ -19,7 +19,7 @@ let library = [
                                         And you'd end your stupid lies now<br/>
                                         But you're too spineless`
                                     ],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/lady1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/lady2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/lady3.mp3"]
+                                clip: ["resources/clips/sf/lady1.mp3", "resources/clips/sf/lady2.mp3", "resources/clips/sf/lady3.mp3"]
                             },
                             {   tracktitle: "You're Cute When Your Scream",
                                 lyrics: [
@@ -36,7 +36,7 @@ let library = [
                                     But now I will<br/>
                                     Spit bullets with my pen`
                                 ],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/cute1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/cute2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/cute3.mp3"]
+                                clip: ["resources/clips/sf/cute1.mp3", "resources/clips/sf/cute2.mp3", "resources/clips/sf/cute3.mp3"]
                             },
                             {   tracktitle: "Bite To Break Skin",
                                 lyrics: [
@@ -55,7 +55,7 @@ let library = [
                                     I am the son<br/>
                                     Follow my footsteps.`
                                 ],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/bite1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/bite2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/bite3.mp3"]
+                                clip: ["resources/clips/sf/bite1.mp3", "resources/clips/sf/bite2.mp3", "resources/clips/sf/bite3.mp3"]
                             },
                             {   tracktitle: "Rum Is For Drinking, Not For Burning",
                                 lyrics: [
@@ -73,7 +73,7 @@ let library = [
                                     A pirate's life for me,<br/>
                                     I won't go quietly.`
                                 ],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/rum1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/rum2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/rum3.mp3"]
+                                clip: ["resources/clips/sf/rum1.mp3", "resources/clips/sf/rum2.mp3", "resources/clips/sf/rum3.mp3"]
                             },
                             {   tracktitle: "Irony Of Dying On Your Birthday",
                                 lyrics: [
@@ -92,7 +92,7 @@ let library = [
                                     So follow your bliss<br/>
                                     And destroy the beauty`
                                 ],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/irony1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/irony2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/irony3.mp3"]
+                                clip: ["resources/clips/sf/irony1.mp3", "resources/clips/sf/irony2.mp3", "resources/clips/sf/irony3.mp3"]
                             },
                             {   tracktitle: "Martini Kiss",
                                 lyrics: [
@@ -108,7 +108,7 @@ let library = [
                                     So in love with me, like shaped you would be.<br/>
                                     I'll write both our names into the wet concrete.`
                                 ],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/martini1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/martini2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/martini3.mp3"]
+                                clip: ["resources/clips/sf/martini1.mp3", "resources/clips/sf/martini2.mp3", "resources/clips/sf/martini3.mp3"]
                             },
                         ]
                 },
@@ -127,7 +127,7 @@ let library = [
                                     But they're not meant for you<br/>
                                     And my bed's filled with black roses<br/>
                                     To show that our love is through`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/bone1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/bone2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/bone3.mp3"]
+                                clip: ["resources/clips/sf/bone1.mp3", "resources/clips/sf/bone2.mp3", "resources/clips/sf/bone3.mp3"]
                             },
                             {   tracktitle: "Can't Be Saved",
                                 lyrics: [
@@ -146,7 +146,7 @@ let library = [
                                     Loose lips and sunken ship<br/>
                                     To a shallow grave<br/>
                                     Washed up upon the rocks`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/cant1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/cant2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/cant3.mp3"]
+                                clip: ["resources/clips/sf/cant1.mp3", "resources/clips/sf/cant2.mp3", "resources/clips/sf/cant3.mp3"]
                             },
                             {   tracktitle: "Calling All Cars",
                                 lyrics: [
@@ -162,7 +162,7 @@ let library = [
                                     And I don't have love left, inside, inside<br/>
                                     Are you desperate for an answer? I don't have an ounce of good<br/>
                                     Left in me now, that's why I walked out`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/calling1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/calling2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/calling3.mp3"]
+                                clip: ["resources/clips/sf/calling1.mp3", "resources/clips/sf/calling2.mp3", "resources/clips/sf/calling3.mp3"]
                             },
                             {   tracktitle: "Everyday Is A Struggle",
                                 lyrics: [
@@ -176,7 +176,7 @@ let library = [
                                     I'm burning out my bedside, and I'm rotting out my insides slowly`,
                                     `I stole your perfume to spray in my room<br/>
                                     You will always be here`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/everyday1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/everyday2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/everyday3.mp3"]
+                                clip: ["resources/clips/sf/everyday1.mp3", "resources/clips/sf/everyday2.mp3", "resources/clips/sf/everyday3.mp3"]
                             },
                             {   tracktitle: "All The Best Cowboys Have Daddy Issues",
                                 lyrics: [
@@ -192,7 +192,7 @@ let library = [
                                     I haven't seen him in years<br/>
                                     My mother's sins are out tonight<br/>
                                     I haven't loved her in years`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/all1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/all2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/all3.mp3"]
+                                clip: ["resources/clips/sf/all1.mp3", "resources/clips/sf/all2.mp3", "resources/clips/sf/all3.mp3"]
                             },
                             {   tracktitle: "The Priest And The Matador",
                                 lyrics: [
@@ -208,7 +208,7 @@ let library = [
                                     I start to take my last breath as blood pours out my mouth<br/>
                                     The medics walk in my way, I think this could be it<br/>
                                     I hear 'em start to state the time of death is half past six`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/priest1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/priest2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/priest3.mp3"]
+                                clip: ["resources/clips/sf/priest1.mp3", "resources/clips/sf/priest2.mp3", "resources/clips/sf/priest3.mp3"]
                             },
                         ]
                 },
@@ -228,7 +228,7 @@ let library = [
                                     Come visit me in 20 years and maybe then<br/>
                                     Cause I'm not done screaming yet<br/>
                                     You can call off the intervention`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/lungs1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/lungs2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/lungs3.mp3"]
+                                clip: ["resources/clips/sf/lungs1.mp3", "resources/clips/sf/lungs2.mp3", "resources/clips/sf/lungs3.mp3"]
                             },
                             {   tracktitle: "Family Tradition",
                                 lyrics: [
@@ -247,7 +247,7 @@ let library = [
                                     That I can find peace, while still numbing my pain?<br/>
                                     Is this my fate?<br/>
                                     'Cause your only son still can't seem to find a way`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/family1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/family2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/family3.mp3"]
+                                clip: ["resources/clips/sf/family1.mp3", "resources/clips/sf/family2.mp3", "resources/clips/sf/family3.mp3"]
                             },
                             {   tracktitle: "Wolves At The Door",
                                 lyrics: [
@@ -262,7 +262,7 @@ let library = [
                                     Stare away from the mirror and right into the sun<br/>
                                     I forgive myself for all of my mistakes<br/>
                                     When will I learn, when will I, when will I burn?`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/wolves1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/wolves2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/wolves3.mp3"]
+                                clip: ["resources/clips/sf/wolves1.mp3", "resources/clips/sf/wolves2.mp3", "resources/clips/sf/wolves3.mp3"]
                             },
                             {   tracktitle: "Four Years",
                                 lyrics: [
@@ -277,7 +277,7 @@ let library = [
                                     If I have enough left in the bottle to say all the things I'm thinking<br/>
                                     I've been practicing my exit plan, nervously checking time<br/>
                                     I still don't know how I'll survive`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/four1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/four2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/four3.mp3"]
+                                clip: ["resources/clips/sf/four1.mp3", "resources/clips/sf/four2.mp3", "resources/clips/sf/four3.mp3"]
                             },
                             {   tracktitle: "Blackout",
                                 lyrics: [
@@ -295,7 +295,7 @@ let library = [
                                     But I still see you sneaking through my weary head<br/>
                                     I suffer from a drought of medicine to dull self-doubt<br/>
                                     I just wanna drown you out with southern poison`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/black1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/black2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/black3.mp3"]
+                                clip: ["resources/clips/sf/black1.mp3", "resources/clips/sf/black2.mp3", "resources/clips/sf/black3.mp3"]
                             },
                         ]
                 },
@@ -315,7 +315,7 @@ let library = [
                                     And you will pass your poison down onto your child's feet<br/>
                                     And they will struggle, struggle to breathe<br/>
                                     Cowering in shadows that you cast they cannot see`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/war1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/war2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/war3.mp3"]
+                                clip: ["resources/clips/sf/war1.mp3", "resources/clips/sf/war2.mp3", "resources/clips/sf/war3.mp3"]
                             },
                         ]
                 },
@@ -338,7 +338,7 @@ let library = [
                                     What wasn't nailed down will be washed away<br/>
                                     My hands are shaking but I will not hesitate<br/>
                                     I found the strength to face`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/fire1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/fire2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/fire3.mp3"]
+                                clip: ["resources/clips/sf/fire1.mp3", "resources/clips/sf/fire2.mp3", "resources/clips/sf/fire3.mp3"]
                             },
                             {   tracktitle: "Safe House",
                                 lyrics: [
@@ -351,7 +351,7 @@ let library = [
                                     `I fall to pieces and I get weak in the knees when I think about eternity<br/>
                                     Have I been lead astray feeling like fate forget me<br/>
                                     He had the right name but the wrong street`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/safe1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/safe2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/sf/safe3.mp3"]
+                                clip: ["resources/clips/sf/safe1.mp3", "resources/clips/sf/safe2.mp3", "resources/clips/sf/safe3.mp3"]
                             },
                         ]
                 }
@@ -359,7 +359,7 @@ let library = [
     },
     {   artist: "Funeral For A Friend",
         genre: "Rock",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/ffaf.jpeg",
+        artistThumb: "resources/artistthumb/ffaf.jpeg",
         albums:[
                 {   title: "Casually Dressed And Deep In Conversation",
                     tracks:[
@@ -377,7 +377,7 @@ let library = [
                                     Drown us in it's wake<br/>
                                     And clearly I will stay and wipe the blood from<br/>
                                     Your white wedding dress`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/rookie1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/rookie2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/rookie3.mp3"]
+                                    clip: ["resources/clips/ffaf/rookie1.mp3", "resources/clips/ffaf/rookie2.mp3", "resources/clips/ffaf/rookie3.mp3"]
                             },
                             {   tracktitle: "Juneau",
                                 lyrics: [
@@ -390,7 +390,7 @@ let library = [
                                     Fall forward to even the score<br/>
                                     Just a thought to you`,
                                     `And I'm nothing more than a line in your book`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/juneau1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/juneau2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/juneau3.mp3"]
+                                    clip: ["resources/clips/ffaf/juneau1.mp3", "resources/clips/ffaf/juneau2.mp3", "resources/clips/ffaf/juneau3.mp3"]
                             },
                             {   tracktitle: "Bend Your Arms To Look Like Wings",
                                 lyrics: [
@@ -402,7 +402,7 @@ let library = [
                                     Just enough to cut the air from your lungs`,
                                     `And paper cuts and bloody hands<br/>
                                     In the middle they would meet`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/bend1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/bend1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/bend3.mp3"]
+                                clip: ["resources/clips/ffaf/bend1.mp3", "resources/clips/ffaf/bend1.mp3", "resources/clips/ffaf/bend3.mp3"]
                             },
                             {   tracktitle: "Escape Artists Never Die",
                                 lyrics: [
@@ -418,7 +418,7 @@ let library = [
                                     `We'll start a fire<br/>
                                     And burn some bridges<br/>
                                     And make it out of here tonight`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/escape1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/escape2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/escape3.mp3"]
+                                    clip: ["resources/clips/ffaf/escape1.mp3", "resources/clips/ffaf/escape2.mp3", "resources/clips/ffaf/escape3.mp3"]
                             },
                             {   tracktitle: "Red Is The New Black",
                                 lyrics: [
@@ -431,7 +431,7 @@ let library = [
                                     Just to feel something`,
                                     `This situation isn't getting any better<br/>
                                     I see that look in your eyes`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/red1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/red2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/red3.mp3"]
+                                    clip: ["resources/clips/ffaf/red1.mp3", "resources/clips/ffaf/red2.mp3", "resources/clips/ffaf/red3.mp3"]
                             },
                             {   tracktitle: "She Drove Me To Daytime Television",
                                 lyrics: [
@@ -445,7 +445,7 @@ let library = [
                                     You're the only one who's fading here`,
                                     `Such holidays in the sun don't come without sacrifices<br/>
                                     You know it makes more sense`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/shedrove1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/shedrove2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/shedrove3.mp3"]
+                                clip: ["resources/clips/ffaf/shedrove1.mp3", "resources/clips/ffaf/shedrove2.mp3", "resources/clips/ffaf/shedrove3.mp3"]
                             },
                         ]
                 },
@@ -463,7 +463,7 @@ let library = [
                                     And boring me with your body<br/>
                                     How many times can I say I'm sorry<br/>
                                     And really mean it`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/rage1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/rage2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/rage3.mp3"]
+                                clip: ["resources/clips/ffaf/rage1.mp3", "resources/clips/ffaf/rage2.mp3", "resources/clips/ffaf/rage3.mp3"]
                             },
                             {   tracktitle: "Streetcar",
                                 lyrics: [
@@ -477,7 +477,7 @@ let library = [
                                     Just to catch a smile on this line`,
                                     `Is it just like you said it would be?<br/>
                                     I can't feel the same about you anymore`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/streetcar1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/streetcar2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/streetcar3.mp3"]
+                                clip: ["resources/clips/ffaf/streetcar1.mp3", "resources/clips/ffaf/streetcar2.mp3", "resources/clips/ffaf/streetcar3.mp3"]
                             },
                             {   tracktitle: "Roses For The Dead",
                                 lyrics: [
@@ -495,7 +495,7 @@ let library = [
                                     And let this rain pour on.<br/>
                                     So raise your hands up high,<br/>
                                     And wash us away.`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/roses1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/roses2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/roses3.mp3"]
+                                clip: ["resources/clips/ffaf/roses1.mp3", "resources/clips/ffaf/roses2.mp3", "resources/clips/ffaf/roses3.mp3"]
                             },
                             {   tracktitle: "Monsters",
                                 lyrics: [
@@ -508,7 +508,7 @@ let library = [
                                     It makes no sense at all`,
                                     `In every despair I'll find you standing there,<br/>
                                     With the bitter taste of envy on your sleeve`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/monsters1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/monsters2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/monsters3.mp3"]
+                                clip: ["resources/clips/ffaf/monsters1.mp3", "resources/clips/ffaf/monsters2.mp3", "resources/clips/ffaf/monsters3.mp3"]
                             },
                             {   tracktitle: "History",
                                 lyrics: [
@@ -521,7 +521,7 @@ let library = [
                                     Your history is mine`,
                                     `I don't care for your sweet scent<br/>
                                     Or the way you want me more than I want you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/history1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/history2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/history3.mp3"]
+                                clip: ["resources/clips/ffaf/history1.mp3", "resources/clips/ffaf/history2.mp3", "resources/clips/ffaf/history3.mp3"]
                             },
                             {   tracktitle: "Recovery",
                                 lyrics: [
@@ -539,7 +539,7 @@ let library = [
                                     And I can't go on this way<br/>
                                     And this hearts not beating<br/>
                                     It just doesn't seem the same`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/recovery1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/recovery2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/recovery3.mp3"]
+                                clip: ["resources/clips/ffaf/recovery1.mp3", "resources/clips/ffaf/recovery2.mp3", "resources/clips/ffaf/recovery3.mp3"]
                             },
                         ]
                 },
@@ -556,7 +556,7 @@ let library = [
                                     Clearing way for the armies of our demise`,
                                     `If you want to believe in, believe in something<br/>
                                     No holy cause will change your mind`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/serpents1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/serpents2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/serpents3.mp3"]
+                                clip: ["resources/clips/ffaf/serpents1.mp3", "resources/clips/ffaf/serpents2.mp3", "resources/clips/ffaf/serpents3.mp3"]
                             },
                         ]
                 },
@@ -573,7 +573,7 @@ let library = [
                                     But now I'm tired and alone<br/>
                                     I used to mean something to you<br/>
                                     Locked out and left here in the cold`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/hymns1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/hymns2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/hymns3.mp3"]
+                                clip: ["resources/clips/ffaf/hymns1.mp3", "resources/clips/ffaf/hymns2.mp3", "resources/clips/ffaf/hymns3.mp3"]
                             },
                             {   tracktitle: "Front Row Seats To The End Of The World",
                                 lyrics: [
@@ -589,7 +589,7 @@ let library = [
                                     Falling slowly with the little numbers<br/>
                                     Every time I feel like hating someone<br/>
                                     Can't think of anyone that would make it worth the fight`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/front1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/front2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/front3.mp3"]
+                                clip: ["resources/clips/ffaf/front1.mp3", "resources/clips/ffaf/front2.mp3", "resources/clips/ffaf/front3.mp3"]
                             },
                             {   tracktitle: "Sixteen",
                                 lyrics: [
@@ -602,7 +602,7 @@ let library = [
                                     Preaching god and country like lines on a telegraph<br/>
                                     Seems like we all want to be<br/>
                                     So very different but nothing changes`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/sixteen1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/sixteen2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/sixteen3.mp3"]
+                                clip: ["resources/clips/ffaf/sixteen1.mp3", "resources/clips/ffaf/sixteen2.mp3", "resources/clips/ffaf/sixteen3.mp3"]
                             },
                             {   tracktitle: "Damned If You Do, Dead If You Don't",
                                 lyrics: [
@@ -616,7 +616,7 @@ let library = [
                                     `I have a feeling, at the bottom of this glass<br/>
                                     Everything will pass, at least not for us<br/>
                                     So sing it loud`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/damned1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/damned2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/damned3.mp3"]
+                                clip: ["resources/clips/ffaf/damned1.mp3", "resources/clips/ffaf/damned2.mp3", "resources/clips/ffaf/damned3.mp3"]
                             },
                             {   tracktitle: "Broken Foundation",
                                 lyrics: [
@@ -633,7 +633,7 @@ let library = [
                                     Leaving this place so empty handed<br/>
                                     Beaten down, with a bad taste in my mouth<br/>
                                     Until it falls apart`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/broken1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/broken2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ffaf/broken3.mp3"]
+                                clip: ["resources/clips/ffaf/broken1.mp3", "resources/clips/ffaf/broken2.mp3", "resources/clips/ffaf/broken3.mp3"]
                             },
                         ]
                 }
@@ -641,7 +641,7 @@ let library = [
     },
     {   artist: "Muse",
         genre: "Rock",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/muse.jpeg",
+        artistThumb: "resources/artistthumb/muse.jpeg",
         albums:[
                 {   title: "Showbiz",
                     tracks:[
@@ -653,7 +653,7 @@ let library = [
                                     She'll burn our horizons, make no mistake`,
                                     `And I'll hide from the world behind a broken frame<br/>
                                     And I'll burn forever, I can't face the shame`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/sunburn1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/sunburn2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/sunburn3.mp3"]
+                                    clip: ["resources/clips/muse/sunburn1.mp3", "resources/clips/muse/sunburn2.mp3", "resources/clips/muse/sunburn3.mp3"]
                             },
                             {   tracktitle: "Muscle Museum",
                                 lyrics: [
@@ -672,7 +672,7 @@ let library = [
                                     `Too long trying to resist it<br/>
                                     You've just gone and missed it<br/>
                                     It's escaped your world`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/muscle1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/muscle3.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/muscle3.mp3"]
+                                    clip: ["resources/clips/muse/muscle1.mp3", "resources/clips/muse/muscle3.mp3", "resources/clips/muse/muscle3.mp3"]
                             },
                             {   tracktitle: "Showbiz",
                                 lyrics: [
@@ -687,7 +687,7 @@ let library = [
                                     Trying to please you far too long<br/>
                                     Visions of greed you wallow<br/>
                                     Visions of greed you wallow`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/showbiz1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/showbiz2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/showbiz3.mp3"]
+                                clip: ["resources/clips/muse/showbiz1.mp3", "resources/clips/muse/showbiz2.mp3", "resources/clips/muse/showbiz3.mp3"]
                             },
                         ]
                 },
@@ -714,7 +714,7 @@ let library = [
                                     Just break the silence<br/>
                                     'Cause I'm drifting away<br/>
                                     Away from you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/new1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/new2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/new3.mp3"]
+                                clip: ["resources/clips/muse/new1.mp3", "resources/clips/muse/new2.mp3", "resources/clips/muse/new3.mp3"]
                             },
                             {   tracktitle: "Plug In Baby",
                                 lyrics: [
@@ -732,7 +732,7 @@ let library = [
                                     Baby you're gonna lose your own game<br/>
                                     Change me<br/>
                                     And replace the envying to forget your love`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/plug1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/plug2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/plug3.mp3"]
+                                clip: ["resources/clips/muse/plug1.mp3", "resources/clips/muse/plug2.mp3", "resources/clips/muse/plug3.mp3"]
                             },
                             {   tracktitle: "Citizen Erased",
                                 lyrics: [
@@ -752,7 +752,7 @@ let library = [
                                     Erase all the memories<br/>
                                     They will only bring us pain<br/>
                                     And I've seen, all I'll ever need`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/citizen1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/citizen2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/citizen3.mp3"]
+                                clip: ["resources/clips/muse/citizen1.mp3", "resources/clips/muse/citizen2.mp3", "resources/clips/muse/citizen3.mp3"]
                             },
                         ]
                 },
@@ -772,7 +772,7 @@ let library = [
                                     But I'm restricted<br/>
                                     I tried to give you up<br/>
                                     But I'm addicted`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/time1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/time2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/time3.mp3"]
+                                clip: ["resources/clips/muse/time1.mp3", "resources/clips/muse/time2.mp3", "resources/clips/muse/time3.mp3"]
                             },
                             {   tracktitle: "Hysteria",
                                 lyrics: [
@@ -794,7 +794,7 @@ let library = [
                                     To be endlessly<br/>
                                     Caving in<br/>
                                     And dreaming I'm alive`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/hysteria1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/hysteria2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/hysteria3.mp3"]
+                                clip: ["resources/clips/muse/hysteria1.mp3", "resources/clips/muse/hysteria2.mp3", "resources/clips/muse/hysteria3.mp3"]
                             },
                             {   tracktitle: "Butterflies And Hurricanes",
                                 lyrics: [
@@ -812,7 +812,7 @@ let library = [
                                     `Don't let yourself down<br/>
                                     Don't let yourself go<br/>
                                     Your last chance has arrived`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/butterflies1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/butterflies2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/butterflies3.mp3"]
+                                clip: ["resources/clips/muse/butterflies1.mp3", "resources/clips/muse/butterflies2.mp3", "resources/clips/muse/butterflies3.mp3"]
                             },
                         ]
                 },
@@ -830,7 +830,7 @@ let library = [
                                     `Now I'll never let you go<br/>
                                     If you promised not to fade away<br/>
                                     Never fade away`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/starlight1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/starlight2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/starlight3.mp3"]
+                                    clip: ["resources/clips/muse/starlight1.mp3", "resources/clips/muse/starlight2.mp3", "resources/clips/muse/starlight3.mp3"]
                             },
                             {   tracktitle: "Supermassive Black Hole",
                                 lyrics: [
@@ -844,7 +844,7 @@ let library = [
                                     Oh baby, I'm a fool for you<br/>
                                     You're the queen of the superficial<br/>
                                     And how long before you tell the truth?`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/supermassive1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/supermassive2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/supermassive3.mp3"]
+                                    clip: ["resources/clips/muse/supermassive1.mp3", "resources/clips/muse/supermassive2.mp3", "resources/clips/muse/supermassive3.mp3"]
                             },
                             {   tracktitle: "Map Of The Problematique",
                                 lyrics: [
@@ -856,7 +856,7 @@ let library = [
                                     `And no one thinks they are to blame<br/>
                                     Why can't we see<br/>
                                     That when we bleed we bleed the same`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/map1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/map2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/map3.mp3"]
+                                clip: ["resources/clips/muse/map1.mp3", "resources/clips/muse/map2.mp3", "resources/clips/muse/map3.mp3"]
                             },
                             {   tracktitle: "Knights Of Cydonia",
                                 lyrics: [
@@ -872,7 +872,7 @@ let library = [
                                     Time has come to make things right<br/>
                                     You and I must fight for our rights<br/>
                                     You and I must fight to survive`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/knights1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/knights2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/knights3.mp3"]
+                                clip: ["resources/clips/muse/knights1.mp3", "resources/clips/muse/knights2.mp3", "resources/clips/muse/knights3.mp3"]
                             },
                         ]
                 },
@@ -894,7 +894,7 @@ let library = [
                                     I gave you everything<br/>
                                     I can't give you anymore<br/>
                                     Now I've become just like you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/dead1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/dead2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/dead3.mp3"]
+                                clip: ["resources/clips/muse/dead1.mp3", "resources/clips/muse/dead2.mp3", "resources/clips/muse/dead3.mp3"]
                             },
                             {   tracktitle: "Reapers",
                                 lyrics: [
@@ -912,7 +912,7 @@ let library = [
                                     And we're all expendable<br/>
                                     Incidentally, electronically erased<br/>
                                     By your drones`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/reapers1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/reapers2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/reapers3.mp3"]
+                                clip: ["resources/clips/muse/reapers1.mp3", "resources/clips/muse/reapers2.mp3", "resources/clips/muse/reapers3.mp3"]
                             },
                         ]
                 },
@@ -929,7 +929,7 @@ let library = [
                                     We are caged in simulations`,
                                     `Algorithms evolve<br/>
                                     Push us aside and render us obsolete`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/algorithm1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/algorithm2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/algorithm3.mp3"]
+                                clip: ["resources/clips/muse/algorithm1.mp3", "resources/clips/muse/algorithm2.mp3", "resources/clips/muse/algorithm3.mp3"]
                             },
                             {   tracktitle: "The Dark Side",
                                 lyrics: [
@@ -945,7 +945,7 @@ let library = [
                                     For all my life, I've been besieged<br/>
                                     You'd be scared living with my despair<br/>
                                     And if you could feel the things, I am able to feel`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/dark1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/dark2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/dark3.mp3"]
+                                clip: ["resources/clips/muse/dark1.mp3", "resources/clips/muse/dark2.mp3", "resources/clips/muse/dark3.mp3"]
                             },
                             {   tracktitle: "Pressure",
                                 lyrics: [
@@ -961,7 +961,7 @@ let library = [
                                     I'm not blind<br/>
                                     I'll carry the burden and take the strain<br/>
                                     And when I am done I will make you pay`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/pressure1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/pressure2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/pressure3.mp3"]
+                                clip: ["resources/clips/muse/pressure1.mp3", "resources/clips/muse/pressure2.mp3", "resources/clips/muse/pressure3.mp3"]
                             },
                             {   tracktitle: "Thought Contagion",
                                 lyrics: [
@@ -977,7 +977,7 @@ let library = [
                                     Give it up and watch them break through<br/>
                                     It's too late for a revolution<br/>
                                     Brace for the final solution`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/thought1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/thought2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/muse/thought3.mp3"]
+                                clip: ["resources/clips/muse/thought1.mp3", "resources/clips/muse/thought2.mp3", "resources/clips/muse/thought3.mp3"]
                             },
                         ]
                 },
@@ -985,7 +985,7 @@ let library = [
     },
     {   artist: "Linkin Park",
         genre: "Rock",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/lp.jpeg",
+        artistThumb: "resources/artistthumb/lp.jpeg",
         albums:[
                 {   title: "Hybrid Theory",
                     tracks:[
@@ -1003,7 +1003,7 @@ let library = [
                                     I feel the light betray me<br/>
                                     The sun goes down<br/>
                                     I feel the light betray me`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/papercut1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/papercut2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/papercut3.mp3"]
+                                    clip: ["resources/clips/lp/papercut1.mp3", "resources/clips/lp/papercut2.mp3", "resources/clips/lp/papercut3.mp3"]
                             },
                             {   tracktitle: "One Step Closer",
                                 lyrics: [
@@ -1025,7 +1025,7 @@ let library = [
                                     I find bliss in ignorance<br/>
                                     Nothing seems to go away<br/>
                                     Over and over again`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/onestep1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/onestep2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/onestep3.mp3"]
+                                    clip: ["resources/clips/lp/onestep1.mp3", "resources/clips/lp/onestep2.mp3", "resources/clips/lp/onestep3.mp3"]
                             },
                             {   tracktitle: "Points Of Authority",
                                 lyrics: [
@@ -1043,7 +1043,7 @@ let library = [
                                     You have to act like you're someone<br/>
                                     You want someone to hurt like you<br/>
                                     You want to share what you've been through`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/points1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/points2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/points3.mp3"]
+                                clip: ["resources/clips/lp/points1.mp3", "resources/clips/lp/points2.mp3", "resources/clips/lp/points3.mp3"]
                             },
                             {   tracktitle: "Crawling",
                                 lyrics: [
@@ -1059,7 +1059,7 @@ let library = [
                                     These wounds, they will not heal<br/>
                                     Fear is how I fall<br/>
                                     Confusing what is real`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/crawling1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/crawling3.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/crawling3.mp3"]
+                                    clip: ["resources/clips/lp/crawling1.mp3", "resources/clips/lp/crawling3.mp3", "resources/clips/lp/crawling3.mp3"]
                             },
                             {   tracktitle: "By Myself",
                                 lyrics: [
@@ -1075,7 +1075,7 @@ let library = [
                                     I can't tell you how to make it go<br/>
                                     No matter what I do, how hard I try<br/>
                                     I can't seem to convince myself why`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/myself1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/myself2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/myself3.mp3"]
+                                    clip: ["resources/clips/lp/myself1.mp3", "resources/clips/lp/myself2.mp3", "resources/clips/lp/myself3.mp3"]
                             },
                             {   tracktitle: "In The End",
                                 lyrics: [
@@ -1093,7 +1093,7 @@ let library = [
                                     Pushed as far as I can go<br/>
                                     For all this<br/>
                                     There's only one thing you should know`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/end1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/end2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/end3.mp3"]
+                                    clip: ["resources/clips/lp/end1.mp3", "resources/clips/lp/end2.mp3", "resources/clips/lp/end3.mp3"]
                             },
                             {   tracktitle: "A Place For My Head",
                                 lyrics: [
@@ -1106,7 +1106,7 @@ let library = [
                                     Find another place to feed your greed<br/>
                                     While I find a place to rest`,
                                     `You try to take the best of me, go away`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/place1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/place2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/place3.mp3"]
+                                clip: ["resources/clips/lp/place1.mp3", "resources/clips/lp/place2.mp3", "resources/clips/lp/place3.mp3"]
                             },
                         ]
                 },
@@ -1126,7 +1126,7 @@ let library = [
                                     I will never be<br/>
                                     Anything 'til I break away from me<br/>
                                     And I will break away, and find myself today`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/somewhere1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/somewhere2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/somewhere3.mp3"]
+                                clip: ["resources/clips/lp/somewhere1.mp3", "resources/clips/lp/somewhere2.mp3", "resources/clips/lp/somewhere3.mp3"]
                             },
                             {   tracktitle: "Lying From You",
                                 lyrics: [
@@ -1143,7 +1143,7 @@ let library = [
                                     Remember condescending talk of who I ought to be<br/>
                                     Remember listening to all of that and this again<br/>
                                     So I pretended up a person who was fitting in`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/lying1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/lying2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/lying3.mp3"]
+                                clip: ["resources/clips/lp/lying1.mp3", "resources/clips/lp/lying2.mp3", "resources/clips/lp/lying3.mp3"]
                             },
                             {   tracktitle: "Faint",
                                 lyrics: [
@@ -1160,7 +1160,7 @@ let library = [
                                     Right now, hear me out now<br/>
                                     You're gonna listen to me like it or not<br/>
                                     Right now`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/faint1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/faint2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/faint3.mp3"]
+                                clip: ["resources/clips/lp/faint1.mp3", "resources/clips/lp/faint2.mp3", "resources/clips/lp/faint3.mp3"]
                             },
                             {   tracktitle: "Figure.09",
                                 lyrics: [
@@ -1176,7 +1176,7 @@ let library = [
                                     You'll always be right here<br/>
                                     You've become a part of me<br/>
                                     You'll always be my fear`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/figure1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/figure2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/figure3.mp3"]
+                                    clip: ["resources/clips/lp/figure1.mp3", "resources/clips/lp/figure2.mp3", "resources/clips/lp/figure3.mp3"]
                             },
                             {   tracktitle: "From The Inside",
                                 lyrics: [
@@ -1189,7 +1189,7 @@ let library = [
                                     `All I ever think about is this<br/>
                                     All the tiring time between<br/>
                                     And how trying to put my trust in you just takes so much out of me`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/from1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/from2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/from3.mp3"]
+                                    clip: ["resources/clips/lp/from1.mp3", "resources/clips/lp/from2.mp3", "resources/clips/lp/from3.mp3"]
                             },
                             {   tracktitle: "Numb",
                                 lyrics: [
@@ -1203,7 +1203,7 @@ let library = [
                                     Has fallen apart right in front of you`,
                                     `And I know I may end up failing too<br/>
                                     But I know you were just like me with someone disappointed in you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/numb1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/numb2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/nubm3.mp3"]
+                                clip: ["resources/clips/lp/numb1.mp3", "resources/clips/lp/numb2.mp3", "resources/clips/lp/nubm3.mp3"]
                             },
                         ]
                 },
@@ -1229,7 +1229,7 @@ let library = [
                                     I hyperventilate<br/>
                                     Looking for help somehow, somewhere<br/>
                                     And no one cares`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/given1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/given2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/given3.mp3"]
+                                clip: ["resources/clips/lp/given1.mp3", "resources/clips/lp/given2.mp3", "resources/clips/lp/given3.mp3"]
                             },
                             {   tracktitle: "Leave Out All The Rest",
                                 lyrics: [
@@ -1244,7 +1244,7 @@ let library = [
                                     Not all the way through<br/>
                                     I've never been perfect<br/>
                                     But neither have you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/leave1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/leave2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/leave3.mp3"]
+                                clip: ["resources/clips/lp/leave1.mp3", "resources/clips/lp/leave2.mp3", "resources/clips/lp/leave3.mp3"]
                             },
                             {   tracktitle: "What I've Done",
                                 lyrics: [
@@ -1259,7 +1259,7 @@ let library = [
                                     I'll face myself to cross out what I've become<br/>
                                     Erase myself<br/>
                                     And let go of what I've done`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/what1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/what2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/what3.mp3"]
+                                clip: ["resources/clips/lp/what1.mp3", "resources/clips/lp/what2.mp3", "resources/clips/lp/what3.mp3"]
                             },
                             {   tracktitle: "No More Sorrow",
                                 lyrics: [
@@ -1277,7 +1277,7 @@ let library = [
                                     I've paid for your mistakes<br/>
                                     Your time is borrowed<br/>
                                     Your time has come to be replaced`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/no1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/no2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/no3.mp3"]
+                                clip: ["resources/clips/lp/no1.mp3", "resources/clips/lp/no2.mp3", "resources/clips/lp/no3.mp3"]
                             },
                         ]
                 },
@@ -1301,7 +1301,7 @@ let library = [
                                     We're not without<br/>
                                     We're like each other<br/>
                                     Pretending we're here alone`],
-                                    clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/rebellion1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/rebellion2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/lp/rebellion3.mp3"]
+                                    clip: ["resources/clips/lp/rebellion1.mp3", "resources/clips/lp/rebellion2.mp3", "resources/clips/lp/rebellion3.mp3"]
                             },
                         ]
                 },
@@ -1309,7 +1309,7 @@ let library = [
     },
     {   artist: "Taylor Swift",
         genre: "Pop",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/ts.jpeg",
+        artistThumb: "resources/artistthumb/ts.jpeg",
         albums:[{   title: "Fearless",
                     tracks:[
                             {   tracktitle: "Love Story",
@@ -1326,7 +1326,7 @@ let library = [
                                     Wonderin' if you were ever comin' around<br/>
                                     My faith in you was fading<br/>
                                     When I met you on the outskirts of town, and I said`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/love1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/love2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/love3.mp3"]
+                                clip: ["resources/clips/ts/love1.mp3", "resources/clips/ts/love2.mp3", "resources/clips/ts/love3.mp3"]
                             },
                             {   tracktitle: "You Belong With Me",
                                 lyrics: [
@@ -1341,7 +1341,7 @@ let library = [
                                     In the middle of the night<br/>
                                     I'm the one who makes you laugh<br/>
                                     When you know you're 'bout to cry`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/belong1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/belong2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/belong3.mp3"]
+                                clip: ["resources/clips/ts/belong1.mp3", "resources/clips/ts/belong2.mp3", "resources/clips/ts/belong3.mp3"]
                             },
                             {   tracktitle: "Tell Me Why",
                                 lyrics: [
@@ -1356,7 +1356,7 @@ let library = [
                                     Yes, I remember what you said last night<br/>
                                     And I know that you see what you're doing to me<br/>
                                     Tell me why`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/tell1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/tell2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/tell3.mp3"]
+                                clip: ["resources/clips/ts/tell1.mp3", "resources/clips/ts/tell2.mp3", "resources/clips/ts/tell3.mp3"]
                             },
                             {   tracktitle: "You're Not Sorry",
                                 lyrics: [
@@ -1372,7 +1372,7 @@ let library = [
                                     I might believe you if I didn't know<br/>
                                     Could've loved you all my life<br/>
                                     If you hadn't left me waiting in the cold`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/notsorry1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/notsorry2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/notsorry3.mp3"]
+                                clip: ["resources/clips/ts/notsorry1.mp3", "resources/clips/ts/notsorry2.mp3", "resources/clips/ts/notsorry3.mp3"]
                             },
                             {   tracktitle: "Forever And Always",
                                 lyrics: [
@@ -1385,7 +1385,7 @@ let library = [
                                     `And it rains in your bedroom<br/>
                                     Everything is wrong<br/>
                                     It rains when you're here and it rains when you're gone`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/forever1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/forever2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/forever3.mp3"]
+                                clip: ["resources/clips/ts/forever1.mp3", "resources/clips/ts/forever2.mp3", "resources/clips/ts/forever3.mp3"]
                             },
                         ]
                 },
@@ -1404,7 +1404,7 @@ let library = [
                                     `And I remember that fight, two-thirty a.m.<br/>
                                     'Cause everything was slipping right out of our hands<br/>
                                     I ran out, crying, and you followed me out into the street`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/mine1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/mine2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/mine3.mp3"]
+                                clip: ["resources/clips/ts/mine1.mp3", "resources/clips/ts/mine2.mp3", "resources/clips/ts/mine3.mp3"]
                             },
                             {   tracktitle: "Sparks Fly",
                                 lyrics: [
@@ -1421,7 +1421,7 @@ let library = [
                                     Won't you whisper soft and slow<br/>
                                     And I'm captivated by you baby<br/>
                                     Like a fireworks show`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/sparks1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/sparks2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/sparks3.mp3"]
+                                clip: ["resources/clips/ts/sparks1.mp3", "resources/clips/ts/sparks2.mp3", "resources/clips/ts/sparks3.mp3"]
                             },
                             {   tracktitle: "Back To December",
                                 lyrics: [
@@ -1434,7 +1434,7 @@ let library = [
                                     `It turns out freedom ain't nothing but missing you<br/>
                                     Wishing I'd realized what I had when you were mine<br/>
                                     I'd go back to December turn around and change my own mind`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/back1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/back2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/back3.mp3"]
+                                clip: ["resources/clips/ts/back1.mp3", "resources/clips/ts/back2.mp3", "resources/clips/ts/back3.mp3"]
                             },
                             {   tracktitle: "The Story Of Us",
                                 lyrics: [
@@ -1448,7 +1448,7 @@ let library = [
                                     `Now I'm standing alone In a crowded room<br/>
                                     And we're not speaking and I'm dying to know<br/>
                                     Is it killing you like it's killing me yeah`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/story1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/story2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/story3.mp3"]
+                                clip: ["resources/clips/ts/story1.mp3", "resources/clips/ts/story2.mp3", "resources/clips/ts/story3.mp3"]
                             },
                             {   tracktitle: "Enchanted",
                                 lyrics: [
@@ -1464,7 +1464,7 @@ let library = [
                                     Not where the story line ends<br/>
                                     My thoughts will echo your name, until I see you again<br/>
                                     These are the words I held back, as I was leaving too soon`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/enchanted1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/enchanted2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/enchanted3.mp3"]
+                                clip: ["resources/clips/ts/enchanted1.mp3", "resources/clips/ts/enchanted2.mp3", "resources/clips/ts/enchanted3.mp3"]
                             },
                             {   tracktitle: "Haunted",
                                 lyrics: [
@@ -1483,7 +1483,7 @@ let library = [
                                     He will try to take away my pain<br/>
                                     And he just might make me smile<br/>
                                     But the whole time I'm wishin' he was you instead`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/haunted1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/haunted2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/haunted3.mp3"]
+                                clip: ["resources/clips/ts/haunted1.mp3", "resources/clips/ts/haunted2.mp3", "resources/clips/ts/haunted3.mp3"]
                             },
                         ]
                 },
@@ -1505,7 +1505,7 @@ let library = [
                                     Gotta let go<br/>
                                     But moving on from him is impossible<br/>
                                     When I still see it all in my head`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/red1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/red2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/red3.mp3"]
+                                clip: ["resources/clips/ts/red1.mp3", "resources/clips/ts/red2.mp3", "resources/clips/ts/red3.mp3"]
                             },
                             {   tracktitle: "I Knew You Were Trouble.",
                                 lyrics: [
@@ -1523,7 +1523,7 @@ let library = [
                                     When he's next to me<br/>
                                     And I realize<br/>
                                     The blame is on me`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/trouble1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/trouble2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/trouble3.mp3"]
+                                clip: ["resources/clips/ts/trouble1.mp3", "resources/clips/ts/trouble2.mp3", "resources/clips/ts/trouble3.mp3"]
                             },
                             {   tracktitle: "22",
                                 lyrics: [
@@ -1538,7 +1538,7 @@ let library = [
                                     But I'm feeling twenty-two<br/>
                                     Everything will be alright, if<br/>
                                     You keep me next to you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/221.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/222.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/223.mp3"]
+                                clip: ["resources/clips/ts/221.mp3", "resources/clips/ts/222.mp3", "resources/clips/ts/223.mp3"]
                             },
                             {   tracktitle: "We Are Never Ever Getting Back Together",
                                 lyrics: [
@@ -1552,7 +1552,7 @@ let library = [
                                     And me, falling for it screaming that I'm right<br/>
                                     And you, would hide away and find your peace of mind<br/>
                                     With some indie record that's much cooler than mine`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/never1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/never2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/never3.mp3"]
+                                clip: ["resources/clips/ts/never1.mp3", "resources/clips/ts/never2.mp3", "resources/clips/ts/never3.mp3"]
                             },
                             {   tracktitle: "Starlight",
                                 lyrics: [
@@ -1568,7 +1568,7 @@ let library = [
                                     `He said, "Look at you, worrying so much about things you can't change<br/>
                                     You'll spend your whole life singing the blues<br/>
                                     If you keep thinking that way"`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/starlight1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/starlight2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/starlight3.mp3"]
+                                clip: ["resources/clips/ts/starlight1.mp3", "resources/clips/ts/starlight2.mp3", "resources/clips/ts/starlight3.mp3"]
                             },
                         ]
                 },
@@ -1591,7 +1591,7 @@ let library = [
                                     I could show you incredible things<br/>
                                     Stolen kisses, pretty lies<br/>
                                     You're the king, baby, I'm your queen`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/blank1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/blank2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/blank3.mp3"]
+                                clip: ["resources/clips/ts/blank1.mp3", "resources/clips/ts/blank2.mp3", "resources/clips/ts/blank3.mp3"]
                             },
                             {   tracktitle: "Out Of The Woods",
                                 lyrics: [
@@ -1606,7 +1606,7 @@ let library = [
                                     I walked out, I said, I'm setting you free<br/>
                                     But the monsters turned out to be just trees<br/>
                                     When the sun came up you were looking at me`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/woods1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/woods2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/ts/woods3.mp3"]
+                                clip: ["resources/clips/ts/woods1.mp3", "resources/clips/ts/woods2.mp3", "resources/clips/ts/woods3.mp3"]
                             },
                         ]
                 }
@@ -1614,7 +1614,7 @@ let library = [
     },
     {   artist: "Westlife",
         genre: "Pop",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/westlife.jpeg",
+        artistThumb: "resources/artistthumb/westlife.jpeg",
         albums:[
                 {   title: "Westlife",
                     tracks:[
@@ -1630,7 +1630,7 @@ let library = [
                                     'Cause I never want to see you cry<br/>
                                     I swore to you my love would remain<br/>
                                     And I swear it all over again and I`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/swear1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/swear2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/swear3.mp3"]
+                                clip: ["resources/clips/westlife/swear1.mp3", "resources/clips/westlife/swear2.mp3", "resources/clips/westlife/swear3.mp3"]
                             },
                             {   tracktitle: "Fool Again",
                                 lyrics: [
@@ -1646,7 +1646,7 @@ let library = [
                                     `Sadly, you never gave me<br/>
                                     Too many chances to show you<br/>
                                     How much I care`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/fool1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/fool2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/fool3.mp3"]
+                                clip: ["resources/clips/westlife/fool1.mp3", "resources/clips/westlife/fool2.mp3", "resources/clips/westlife/fool3.mp3"]
                             },
                             {   tracktitle: "Flying Without Wings",
                                 lyrics: [
@@ -1663,7 +1663,7 @@ let library = [
                                     'Cause who's to know<br/>
                                     Which one you let go<br/>
                                     Would have made you complete`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/flying1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/flying2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/flying3.mp3"]
+                                clip: ["resources/clips/westlife/flying1.mp3", "resources/clips/westlife/flying2.mp3", "resources/clips/westlife/flying3.mp3"]
                             },
                             {   tracktitle: "More Than Words",
                                 lyrics: [
@@ -1677,7 +1677,7 @@ let library = [
                                     `What would you say if I took those words away<br/>
                                     Then you couldn't make things new<br/>
                                     Just by saying I love you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/more1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/more2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/more3.mp3"]
+                                clip: ["resources/clips/westlife/more1.mp3", "resources/clips/westlife/more2.mp3", "resources/clips/westlife/more3.mp3"]
                             },
                         ]
                 },
@@ -1699,7 +1699,7 @@ let library = [
                                     And hope my dreams will take me there<br/>
                                     Where the skies are blue<br/>
                                     To see you once again, my love`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/mylove1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/mylove2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/mylove3.mp3"]
+                                clip: ["resources/clips/westlife/mylove1.mp3", "resources/clips/westlife/mylove2.mp3", "resources/clips/westlife/mylove3.mp3"]
                             },
                             {   tracktitle: "What Makes A Man",
                                 lyrics: [
@@ -1710,7 +1710,7 @@ let library = [
                                     This isn't goodbye`,
                                     `Tell me what makes a man want to give you all his heart<br/>
                                     Smile when you're around and cry when you're apart`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/whatmakes1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/whatmakes2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/whatmakes3.mp3"]
+                                clip: ["resources/clips/westlife/whatmakes1.mp3", "resources/clips/westlife/whatmakes2.mp3", "resources/clips/westlife/whatmakes3.mp3"]
                             },
                             {   tracktitle: "I Lay My Love On You",
                                 lyrics: [
@@ -1725,7 +1725,7 @@ let library = [
                                     Could hardly believe it<br/>
                                     Holding on to yesterdays<br/>
                                     Far, far too long`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/lay1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/lay2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/lay3.mp3"]
+                                clip: ["resources/clips/westlife/lay1.mp3", "resources/clips/westlife/lay2.mp3", "resources/clips/westlife/lay3.mp3"]
                             },
                             {   tracktitle: "When You're Looking Like That",
                                 lyrics: [
@@ -1738,7 +1738,7 @@ let library = [
                                     `But she's out of my reach forever<br/>
                                     And just a week ago she lied next to me<br/>
                                     It's so ironic how I had to lose just to see`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/when1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/when2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/when3.mp3"]
+                                clip: ["resources/clips/westlife/when1.mp3", "resources/clips/westlife/when2.mp3", "resources/clips/westlife/when3.mp3"]
                             },
                         ]
                 },
@@ -1758,7 +1758,7 @@ let library = [
                                     Still looking for the one that feels right<br/>
                                     See, moving on just isn't working<br/>
                                     You lit the fire that I'm burning`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/amazing1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/amazing2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/amazing3.mp3"]
+                                clip: ["resources/clips/westlife/amazing1.mp3", "resources/clips/westlife/amazing2.mp3", "resources/clips/westlife/amazing3.mp3"]
                             },
                             {   tracktitle: "Desparado",
                                 lyrics: [
@@ -1772,7 +1772,7 @@ let library = [
                                     `Now it seems to me, some fine things<br/>
                                     Have been laid upon your table<br/>
                                     But you only want the ones that you can't get`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/desperado1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/desperado2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/desperado3.mp3"]
+                                clip: ["resources/clips/westlife/desperado1.mp3", "resources/clips/westlife/desperado2.mp3", "resources/clips/westlife/desperado3.mp3"]
                             },
                             {   tracktitle: "Colour My World",
                                 lyrics: [
@@ -1785,7 +1785,7 @@ let library = [
                                     `I've had enough of not believing<br/>
                                     Living life without a meaning<br/>
                                     I want something real and I feel it when I'm next to you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/colour1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/colour2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/colour3.mp3"]
+                                clip: ["resources/clips/westlife/colour1.mp3", "resources/clips/westlife/colour2.mp3", "resources/clips/westlife/colour3.mp3"]
                             },
                             {   tracktitle: "Heart Without A Home",
                                 lyrics: [
@@ -1801,7 +1801,7 @@ let library = [
                                     One you never had before<br/>
                                     I got a feeling if I gave you some<br/>
                                     You'd probably want some more`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/heart1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/heart2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/heart3.mp3"]
+                                clip: ["resources/clips/westlife/heart1.mp3", "resources/clips/westlife/heart2.mp3", "resources/clips/westlife/heart3.mp3"]
                             },
                         ]
                 },
@@ -1821,7 +1821,7 @@ let library = [
                                     Now that we've gone our separate ways<br/>
                                     I just can't live these desperate days<br/>
                                     This is what I've been trying to say`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/bop1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/bop2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/bop3.mp3"]
+                                clip: ["resources/clips/westlife/bop1.mp3", "resources/clips/westlife/bop2.mp3", "resources/clips/westlife/bop3.mp3"]
                             },
                             {   tracktitle: "Why Do I Love You",
                                 lyrics: [
@@ -1837,7 +1837,7 @@ let library = [
                                     `I'm gonna keep my senses<br/>
                                     But deep down when no one can hear me<br/>
                                     Baby I'll be crying for you`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/why1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/why2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/why3.mp3"]
+                                clip: ["resources/clips/westlife/why1.mp3", "resources/clips/westlife/why2.mp3", "resources/clips/westlife/why3.mp3"]
                             },
                             {   tracktitle: "Evergreen",
                                 lyrics: [
@@ -1853,7 +1853,7 @@ let library = [
                                     Like velvet to my skin<br/>
                                     And I wonder, wonder why you wanna stay the night<br/>
                                     What you're dreaming what's behind<br/>`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/evergreen1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/evergreen2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/evergreen3.mp3"]
+                                clip: ["resources/clips/westlife/evergreen1.mp3", "resources/clips/westlife/evergreen2.mp3", "resources/clips/westlife/evergreen3.mp3"]
                             },
                             {   tracktitle: "Don’t Let Me Go",
                                 lyrics: [
@@ -1875,7 +1875,7 @@ let library = [
                                     Should I stay<br/>
                                     Should I turn away<br/>
                                     Stop playing games now you know it's not fair`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/dont1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/dont2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/westlife/dont3.mp3"]
+                                clip: ["resources/clips/westlife/dont1.mp3", "resources/clips/westlife/dont2.mp3", "resources/clips/westlife/dont3.mp3"]
                             },
                         ]
                 }
@@ -1883,7 +1883,7 @@ let library = [
     },
     {   artist: "The Script",
         genre: "Pop",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/script.jpeg",
+        artistThumb: "resources/artistthumb/script.jpeg",
         albums:[{   title: "The Script",
                     tracks:[
                             {   tracktitle: "We Cry",
@@ -1903,7 +1903,7 @@ let library = [
                                     Hope they never lie<br/>
                                     Instead of reading in a letter that they've gone to something better<br/>
                                     "Bet your sorry now! I won't be coming home tonight"`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/cry1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/cry2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/cry3.mp3"]
+                                clip: ["resources/clips/script/cry1.mp3", "resources/clips/script/cry2.mp3", "resources/clips/script/cry3.mp3"]
                             },
                             {   tracktitle: "Before The Worst",
                                 lyrics: [
@@ -1918,7 +1918,7 @@ let library = [
                                     Best friends, yeah, talking til the daylight<br/>
                                     Took the joys alongside the pain<br/>
                                     With not much to lose but so much to gain`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/before1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/before2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/before3.mp3"]
+                                clip: ["resources/clips/script/before1.mp3", "resources/clips/script/before2.mp3", "resources/clips/script/before3.mp3"]
                             },
                             {   tracktitle: "Talk You Down",
                                 lyrics: [
@@ -1935,7 +1935,7 @@ let library = [
                                     Cops can chase but they wont catch me<br/>
                                     Not before I get to speak my mind<br/>
                                     If there's still time`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/talk1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/talk2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/talk3.mp3"]
+                                clip: ["resources/clips/script/talk1.mp3", "resources/clips/script/talk2.mp3", "resources/clips/script/talk3.mp3"]
                             },
                             {   tracktitle: "The Man Who Can't Be Moved",
                                 lyrics: [
@@ -1952,7 +1952,7 @@ let library = [
                                     I said, "There's someone I'm waiting for if it's a day, a month, a year"<br/>
                                     Gotta stand my ground even if it rains or snows<br/>
                                     If she changes her mind this is the first place she will go`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/man1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/man2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/man3.mp3"]
+                                clip: ["resources/clips/script/man1.mp3", "resources/clips/script/man2.mp3", "resources/clips/script/man3.mp3"]
                             },
                             {   tracktitle: "Breakeven",
                                 lyrics: [
@@ -1968,7 +1968,7 @@ let library = [
                                     You took your suitcase, I took the blame<br/>
                                     Now I'm tryna make sense of what little remains ooh<br/>
                                     'Cause you left me with no love and no love to my name`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/breakeven1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/breakeven2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/breakeven3.mp3"]
+                                clip: ["resources/clips/script/breakeven1.mp3", "resources/clips/script/breakeven2.mp3", "resources/clips/script/breakeven3.mp3"]
                             },
                         ]
                 },
@@ -1991,7 +1991,7 @@ let library = [
                                     While I just lost my job but didn't lose my pride<br/>
                                     But we both know how we're gonna make it work when it hurts<br/>
                                     When you pick yourself up you get kicked to the dirt`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/first1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/first2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/first3.mp3"]
+                                clip: ["resources/clips/script/first1.mp3", "resources/clips/script/first2.mp3", "resources/clips/script/first3.mp3"]
                             },
                             {   tracktitle: "Nothing",
                                 lyrics: [
@@ -2009,7 +2009,7 @@ let library = [
                                     I can change her mind turn it all around<br/>
                                     And I know that I'm drunk but I'll say the words<br/>
                                     And she'll listen this time even though they're slurred`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/nothing1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/nothing2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/nothing3.mp3"]
+                                clip: ["resources/clips/script/nothing1.mp3", "resources/clips/script/nothing2.mp3", "resources/clips/script/nothing3.mp3"]
                             },
                             {   tracktitle: "Science & Faith",
                                 lyrics: [
@@ -2025,7 +2025,7 @@ let library = [
                                     I broke her heart.`,
                                     `Of all of the things that she's ever said<br/>
                                     She goes and says something that just knocks me dead.`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/science1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/science2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/science3.mp3"]
+                                clip: ["resources/clips/script/science1.mp3", "resources/clips/script/science2.mp3", "resources/clips/script/science3.mp3"]
                             },
                             {   tracktitle: "If You Ever Come Back",
                                 lyrics: [
@@ -2042,7 +2042,7 @@ let library = [
                                     And it will be just like you were never gone<br/>
                                     There'll be a light in the hall and the key under the mat<br/>
                                     If you ever come back, if you ever come back now`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/if1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/if2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/if3.mp3"]
+                                clip: ["resources/clips/script/if1.mp3", "resources/clips/script/if2.mp3", "resources/clips/script/if3.mp3"]
                             },
                             {   tracktitle: "Dead Man Walking",
                                 lyrics: [
@@ -2057,7 +2057,7 @@ let library = [
                                     `We're in the same room just one million miles away<br/>
                                     With all these books around but we ain't go two words to say<br/>
                                     Am I a dead man now, left living with the shame?`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/dead1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/dead2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/dead3.mp3"]
+                                clip: ["resources/clips/script/dead1.mp3", "resources/clips/script/dead2.mp3", "resources/clips/script/dead3.mp3"]
                             },
                             {   tracktitle: "This = Love",
                                 lyrics: [
@@ -2076,7 +2076,7 @@ let library = [
                                     This is where we fall down<br/>
                                     And get back up again<br/>
                                     This is where the heart lies`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/this1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/this2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/this3.mp3"]
+                                clip: ["resources/clips/script/this1.mp3", "resources/clips/script/this2.mp3", "resources/clips/script/this3.mp3"]
                             },
                         ]
                 },
@@ -2100,7 +2100,7 @@ let library = [
                                     Tarrow cards, gems and stones<br/>
                                     Believing all the shit's gonna heal your soul<br/>
                                     Well it's not`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/six1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/six2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/six3.mp3"]
+                                clip: ["resources/clips/script/six1.mp3", "resources/clips/script/six2.mp3", "resources/clips/script/six3.mp3"]
                             },
                             {   tracktitle: "Hall Of Fame",
                                 lyrics: [
@@ -2121,7 +2121,7 @@ let library = [
                                     Be believers, be leaders<br/>
                                     Be astronauts Be champions<br/>
                                     Be truth seekers`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/hall1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/hall2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/hall3.mp3"]
+                                clip: ["resources/clips/script/hall1.mp3", "resources/clips/script/hall2.mp3", "resources/clips/script/hall3.mp3"]
                             },
                             {   tracktitle: "If You Could See Me Now",
                                 lyrics: [
@@ -2141,7 +2141,7 @@ let library = [
                                     And if you lost a dad then someone's lost a son<br/>
                                     And they're all missing out, yeah they're all missing out<br/>
                                     So if you get a second to look down on me now`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/see1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/see2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/see3.mp3"]
+                                clip: ["resources/clips/script/see1.mp3", "resources/clips/script/see2.mp3", "resources/clips/script/see3.mp3"]
                             },
                             {   tracktitle: "Glowing",
                                 lyrics: [
@@ -2156,7 +2156,7 @@ let library = [
                                     When you're headin' off on nowhere<br/>
                                     But the lady on the door said<br/>
                                     You haven't left that long`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/glowing1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/glowing2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/glowing3.mp3"]
+                                clip: ["resources/clips/script/glowing1.mp3", "resources/clips/script/glowing2.mp3", "resources/clips/script/glowing3.mp3"]
                             },
                             {   tracktitle: "Broken Arrow",
                                 lyrics: [
@@ -2172,7 +2172,7 @@ let library = [
                                     Anything you've learned it's all programmed, all programmed<br/>
                                     Every break, every burn, every toss, every turn, every sin,<br/>
                                     Everything we've learned it's all programmed, all programmed`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/broken1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/broken2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/script/broken3.mp3"]
+                                clip: ["resources/clips/script/broken1.mp3", "resources/clips/script/broken2.mp3", "resources/clips/script/broken3.mp3"]
                             },
                         ]
                 }
@@ -2180,7 +2180,7 @@ let library = [
     },
     {   artist: "Avril Lavigne",
         genre: "Pop",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/avril.jpeg",
+        artistThumb: "resources/artistthumb/avril.jpeg",
         albums:[{   title: "Let Go",
                     tracks:[
                             {   tracktitle: "Complicated",
@@ -2194,7 +2194,7 @@ let library = [
                                     `You're making me laugh out when you strike your pose<br/>
                                     Take off all your preppy clothes<br/>
                                     You know you're not fooling anyone`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/complicated1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/complicated2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/complicated3.mp3"]
+                                clip: ["resources/clips/avril/complicated1.mp3", "resources/clips/avril/complicated2.mp3", "resources/clips/avril/complicated3.mp3"]
                             },
                             {   tracktitle: "Sk8er Boi",
                                 lyrics:[
@@ -2212,7 +2212,7 @@ let library = [
                                     Well, tough, luck that boy's mine now<br/>
                                     We are more than just good friends<br/>
                                     This is how the story ends`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/skate1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/skate2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/skate3.mp3"]
+                                clip: ["resources/clips/avril/skate1.mp3", "resources/clips/avril/skate2.mp3", "resources/clips/avril/skate3.mp3"]
                             },
                             {   tracktitle: "I'm With You",
                                 lyrics: [
@@ -2230,7 +2230,7 @@ let library = [
                                     But I, I'm with you`,
                                     `Isn't anyone tryin' to find me?<br/>
                                     Won't somebody come take me home?`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/with1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/with2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/with3.mp3"]
+                                clip: ["resources/clips/avril/with1.mp3", "resources/clips/avril/with2.mp3", "resources/clips/avril/with3.mp3"]
                             },
                             {   tracktitle: "Anything But Ordinary",
                                 lyrics: [
@@ -2246,7 +2246,7 @@ let library = [
                                     I even freak myself out<br/>
                                     I laugh myself to sleep<br/>
                                     It's my lullaby`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/anything1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/anything2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/anything3.mp3"]
+                                clip: ["resources/clips/avril/anything1.mp3", "resources/clips/avril/anything2.mp3", "resources/clips/avril/anything3.mp3"]
                             },
                         ]
                 },
@@ -2266,7 +2266,7 @@ let library = [
                                     I'm lying here<br/>
                                     My thoughts are choking on you, my dear<br/>
                                     On you, my dear`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/together1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/together2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/together3.mp3"]
+                                clip: ["resources/clips/avril/together1.mp3", "resources/clips/avril/together2.mp3", "resources/clips/avril/together3.mp3"]
                             },
                             {   tracktitle: "Don't Tell Me",
                                 lyrics: [
@@ -2282,7 +2282,7 @@ let library = [
                                     And the fact that your arm is now around my neck<br/>
                                     Will get you in my pants, I'll have to kick your ass<br/>
                                     And make you never forget`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/dont1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/dont2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/dont3.mp3"]
+                                clip: ["resources/clips/avril/dont1.mp3", "resources/clips/avril/dont2.mp3", "resources/clips/avril/dont3.mp3"]
                             },
                             {   tracktitle: "He Wasn't",
                                 lyrics: [
@@ -2298,7 +2298,7 @@ let library = [
                                     And clean my room when all else fails<br/>
                                     I think it's time for me to bail (time to bail)<br/>
                                     This point of view is getting stale-ale`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/wanst1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/wanst2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/wanst3.mp3"]
+                                clip: ["resources/clips/avril/wanst1.mp3", "resources/clips/avril/wanst2.mp3", "resources/clips/avril/wanst3.mp3"]
                             },
                             {   tracktitle: "My Happy Ending",
                                 lyrics: [
@@ -2315,7 +2315,7 @@ let library = [
                                     It's nice to know we had it all<br/>
                                     Thanks for watching as I fall<br/>
                                     And letting me know we were done`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/happy1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/happy2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/happy3.mp3"]
+                                clip: ["resources/clips/avril/happy1.mp3", "resources/clips/avril/happy2.mp3", "resources/clips/avril/happy3.mp3"]
                             },
                             {   tracktitle: "Nobody's Home",
                                 lyrics: [
@@ -2333,7 +2333,7 @@ let library = [
                                     Too many, too many problems<br/>
                                     Don't know where she belongs<br/>
                                     Where she belongs`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/nobody1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/nobody2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/nobody3.mp3"]
+                                clip: ["resources/clips/avril/nobody1.mp3", "resources/clips/avril/nobody2.mp3", "resources/clips/avril/nobody3.mp3"]
                             },
                             {   tracktitle: "Freak Out",
                                 lyrics: [
@@ -2349,7 +2349,7 @@ let library = [
                                     And put up a fight<br/>
                                     Walk around with your hands up in the air<br/>
                                     Like you don't care`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/freak1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/freak2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/freak3.mp3"]
+                                clip: ["resources/clips/avril/freak1.mp3", "resources/clips/avril/freak2.mp3", "resources/clips/avril/freak3.mp3"]
                             },
                         ]
                 },
@@ -2371,7 +2371,7 @@ let library = [
                                     `And all I ever wanted was for you to know<br/>
                                     Everything I do, I give my heart and soul<br/>
                                     I can hardly breathe; I need to feel you here with me`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/gone1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/gone2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/gone3.mp3"]
+                                clip: ["resources/clips/avril/gone1.mp3", "resources/clips/avril/gone2.mp3", "resources/clips/avril/gone3.mp3"]
                             },
                             {   tracktitle: "Innocence",
                                 lyrics: [
@@ -2386,7 +2386,7 @@ let library = [
                                     `It's a state of bliss; you think you're dreaming<br/>
                                     It's the happiness inside that you're feeling<br/>
                                     It's so beautiful, it makes you wanna cry`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/innocence1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/innocence2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/innocence3.mp3"]
+                                clip: ["resources/clips/avril/innocence1.mp3", "resources/clips/avril/innocence2.mp3", "resources/clips/avril/innocence3.mp3"]
                             },
                         ]
                 },
@@ -2407,7 +2407,7 @@ let library = [
                                     It's who I am, don't have to try hard<br/>
                                     We always say, say it like it is<br/>
                                     And the truth is that I really miss`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/wish1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/wish2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/wish3.mp3"]
+                                clip: ["resources/clips/avril/wish1.mp3", "resources/clips/avril/wish2.mp3", "resources/clips/avril/wish3.mp3"]
                             },
                             {   tracktitle: "Smile",
                                 lyrics: [
@@ -2429,7 +2429,7 @@ let library = [
                                     I woke up with a new tattoo<br/>
                                     Your name was on me and my name was on you<br/>
                                     I would do it all over again`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/smile1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/smile2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/avril/smile3.mp3"]
+                                clip: ["resources/clips/avril/smile1.mp3", "resources/clips/avril/smile2.mp3", "resources/clips/avril/smile3.mp3"]
                             },
                         ]
                 }
@@ -2437,7 +2437,7 @@ let library = [
     },
     {   artist: "Avenged Sevenfold",
         genre: "Metal",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/a7x.jpeg",
+        artistThumb: "resources/artistthumb/a7x.jpeg",
         albums:[
                 {   title: "Waking The Fallen",
                     tracks:[
@@ -2458,7 +2458,7 @@ let library = [
                                 Squeeze till I cannot breathe<br/>
                                 This air tastes dead inside me<br/>
                                 Contribute to our plague`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/unholy1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/unholy2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/unholy3.mp3"]
+                                clip: ["resources/clips/a7x/unholy1.mp3", "resources/clips/a7x/unholy2.mp3", "resources/clips/a7x/unholy3.mp3"]
                             },
                             {   tracktitle: "Chapter Four",
                                 lyrics: [`Give me your hand<br/>
@@ -2473,7 +2473,7 @@ let library = [
                                 And from my hands to my brothers grave<br/>
                                 You took his side, you took his gift<br/>
                                 Feel the power of a fallen man, crestfallen man`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/chapter1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/chapter2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/chapter3.mp3"]
+                                clip: ["resources/clips/a7x/chapter1.mp3", "resources/clips/a7x/chapter2.mp3", "resources/clips/a7x/chapter3.mp3"]
                             },
                             {   tracktitle: "Eternal Rest",
                                 lyrics: [`Dark in their hearts,<br/>
@@ -2493,7 +2493,7 @@ let library = [
                                 They seek more then vengeance<br/>
                                 Look in their eyes your pain is their satisfaction<br/>
                                 Look in their eyes and see the darkness take hold`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/eternal1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/eternal2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/eternal3.mp3"]
+                                clip: ["resources/clips/a7x/eternal1.mp3", "resources/clips/a7x/eternal2.mp3", "resources/clips/a7x/eternal3.mp3"]
                             },
                             {   tracktitle: "Second Heartbeat",
                                 lyrics: [`As time passes by, regrets for the rest of my life.<br/>
@@ -2504,7 +2504,7 @@ let library = [
                                 We knew that time would kill us, but you're still so close to me`,
                                 `Two in my heart have left me a while, I stand alone.<br/>
                                 When they get back, it won't be the same.`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/second1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/second2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/second3.mp3"]
+                                clip: ["resources/clips/a7x/second1.mp3", "resources/clips/a7x/second2.mp3", "resources/clips/a7x/second3.mp3"]
                             },
                         ]
                 },
@@ -2522,7 +2522,7 @@ let library = [
                                 `The day has come for all us sinners<br/>
                                 If you're not a servant you'll be struck to the ground<br/>
                                 Flee the burning, greedy city looking back on her to see there's nothin' around`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/beast1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/beast2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/beast3.mp3"]
+                                clip: ["resources/clips/a7x/beast1.mp3", "resources/clips/a7x/beast2.mp3", "resources/clips/a7x/beast3.mp3"]
                             },
                             {   tracktitle: "Bat Country",
                                 lyrics: [`Sometimes I don't know why we'd rather live than die<br/>
@@ -2537,7 +2537,7 @@ let library = [
                                 These good ideas will tear your brains apart<br/>
                                 Scared but you can follow me<br/>
                                 I'm too weird to live but much too rare to die`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/bat1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/bat2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/bat3.mp3"]
+                                clip: ["resources/clips/a7x/bat1.mp3", "resources/clips/a7x/bat2.mp3", "resources/clips/a7x/bat3.mp3"]
                             },
                             {   tracktitle: "Seize The Day",
                                 lyrics: [`Seize the day or die regretting the time you lost<br/>
@@ -2553,7 +2553,7 @@ let library = [
                                 Or kiss your lips again?<br/>
                                 Woah, so I never want to leave you<br/>
                                 And the memories of us to see I beg don't leave me`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/seize1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/seize2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/seize3.mp3"]
+                                clip: ["resources/clips/a7x/seize1.mp3", "resources/clips/a7x/seize2.mp3", "resources/clips/a7x/seize3.mp3"]
                             },
                             {   tracktitle: "The Wicked End",
                                 lyrics: [`Man's becoming more corrupt now, godless, wicked, and cruel<br/>
@@ -2569,7 +2569,7 @@ let library = [
                                 `Walls are falling, churches burning, women ravaged, children crying<br/>
                                 Flesh is tearing, some still fighting<br/>
                                 In this world of misery`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/wicked1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/wicked2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/wicked3.mp3"]
+                                clip: ["resources/clips/a7x/wicked1.mp3", "resources/clips/a7x/wicked2.mp3", "resources/clips/a7x/wicked3.mp3"]
                             },
                         ]
                 },
@@ -2587,7 +2587,7 @@ let library = [
                                 Depictions we see try and get through<br/>
                                 Admitting mistakes can hurt<br/>
                                 I'm not the last but I sure ain't the first`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/critical1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/critical2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/critical3.mp3"]
+                                clip: ["resources/clips/a7x/critical1.mp3", "resources/clips/a7x/critical2.mp3", "resources/clips/a7x/critical3.mp3"]
                             },
                             {   tracktitle: "Scream",
                                 lyrics: [`Caught up in this madness too blind to see<br/>
@@ -2603,7 +2603,7 @@ let library = [
                                 Scream while there's life left, vanishing<br/>
                                 Scream from the pleasure, unmask your desire<br/>
                                 Perishing`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/scream1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/scream2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/scream3.mp3"]
+                                clip: ["resources/clips/a7x/scream1.mp3", "resources/clips/a7x/scream2.mp3", "resources/clips/a7x/scream3.mp3"]
                             },
                             {   tracktitle: "Afterlife",
                                 lyrics: [`Like walking into a dream, so unlike what you've seen<br/>
@@ -2617,7 +2617,7 @@ let library = [
                                 take me back inside when the time is right`,
                                 `I am unbroken; I'm choking on this ecstasy<br/>
                                 Unbreak me, unchain me, I need another chance to live`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/afterlife1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/afterlife2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/afterlife3.mp3"]
+                                clip: ["resources/clips/a7x/afterlife1.mp3", "resources/clips/a7x/afterlife2.mp3", "resources/clips/a7x/afterlife3.mp3"]
                             },
                             {   tracktitle: "A Little Piece Of Heaven",
                                 lyrics: [`Before the story begins, is it such a sin,<br/>
@@ -2635,7 +2635,7 @@ let library = [
                                 Ripped his heart out right before his eyes<br/>
                                 Eyes over easy<br/>
                                 Eat it eat it eat it`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/little1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/little2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/little3.mp3"]
+                                clip: ["resources/clips/a7x/little1.mp3", "resources/clips/a7x/little2.mp3", "resources/clips/a7x/little3.mp3"]
                             },
                         ]
                 },
@@ -2660,7 +2660,7 @@ let library = [
                                 But our life's made up of choices (some without appeal)<br/>
                                 They took for granted your soul<br/>
                                 And it's ours now to steal`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/nightmare1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/nightmare2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/nightmare3.mp3"]
+                                clip: ["resources/clips/a7x/nightmare1.mp3", "resources/clips/a7x/nightmare2.mp3", "resources/clips/a7x/nightmare3.mp3"]
                             },
                             {   tracktitle: "Buried Alive",
                                 lyrics: [`Take the time just to listen<br/>
@@ -2681,7 +2681,7 @@ let library = [
                                 Shame to find out when it's too late<br/>
                                 But you're all the same<br/>
                                 Trapped inside inferno awaits`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/buried1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/buried2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/buried3.mp3"]
+                                clip: ["resources/clips/a7x/buried1.mp3", "resources/clips/a7x/buried2.mp3", "resources/clips/a7x/buried3.mp3"]
                             },
                             {   tracktitle: "So Far Away",
                                 lyrics: [`Never feared for anything<br/>
@@ -2697,7 +2697,7 @@ let library = [
                                 Lay away a place for me<br/>
                                 'Cause as soon as I'm done I'll be on my way<br/>
                                 To live eternally`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/far1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/far2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/far3.mp3"]
+                                clip: ["resources/clips/a7x/far1.mp3", "resources/clips/a7x/far2.mp3", "resources/clips/a7x/far3.mp3"]
                             },
                             {   tracktitle: "Save Me",
                                 lyrics: [`Sorry did I wake your dreams?<br/>
@@ -2719,7 +2719,7 @@ let library = [
                                 I can use some guiding light<br/>
                                 Some place to go<br/>
                                 If you hear me let me know`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/save1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/save2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/save3.mp3"]
+                                clip: ["resources/clips/a7x/save1.mp3", "resources/clips/a7x/save2.mp3", "resources/clips/a7x/save3.mp3"]
                             },
                         ]
                 },
@@ -2742,7 +2742,7 @@ let library = [
                                 I've been known for my hate<br/>
                                 But I'm a dealer of simple choices<br/>
                                 For me it's never too late`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/shepherd1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/shepherd2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/shepherd3.mp3"]
+                                clip: ["resources/clips/a7x/shepherd1.mp3", "resources/clips/a7x/shepherd2.mp3", "resources/clips/a7x/shepherd3.mp3"]
                             },
                         ]
                 },
@@ -2760,7 +2760,7 @@ let library = [
                                 As we perform here upon the stage?<br/>
                                 Tell me a lie in a beautiful way<br/>
                                 I believe in answers just not today`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/stage1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/stage2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/stage3.mp3"]
+                                clip: ["resources/clips/a7x/stage1.mp3", "resources/clips/a7x/stage2.mp3", "resources/clips/a7x/stage3.mp3"]
                             },
                             {   tracktitle: "Creating God",
                                 lyrics: [`Standing in the shade of altruism, answering the call<br/>
@@ -2775,7 +2775,7 @@ let library = [
                                 We're creating god, unsure of what we'll find<br/>
                                 We're creating god, in search of the divine<br/>
                                 We're creating god. Committing suicide`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/creating1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/creating2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/a7x/creating3.mp3"]
+                                clip: ["resources/clips/a7x/creating1.mp3", "resources/clips/a7x/creating2.mp3", "resources/clips/a7x/creating3.mp3"]
                             },
                         ]
                 },
@@ -2783,7 +2783,7 @@ let library = [
     },
     {   artist: "Tool",
         genre: "Metal",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/tool.jpeg",
+        artistThumb: "resources/artistthumb/tool.jpeg",
         albums:[{   title: "Ænima",
                     tracks:[
                             {   tracktitle: "46 & 2",
@@ -2799,7 +2799,7 @@ let library = [
                                 Feel the outside turning in<br/>
                                 I wanna feel the metamorphosis and<br/>
                                 Cleansing I've endured in`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/461.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/462.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/463.mp3"]
+                                clip: ["resources/clips/tool/461.mp3", "resources/clips/tool/462.mp3", "resources/clips/tool/463.mp3"]
                             },
                             {   tracktitle: "Ænima",
                                 lyrics: [`Some say the end is near<br/>
@@ -2819,7 +2819,7 @@ let library = [
                                 Some say we'll see Armageddon soon<br/>
                                 I certainly hope we will<br/>
                                 I sure could use a vacation from this`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/enema1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/enema2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/enema3.mp3"]
+                                clip: ["resources/clips/tool/enema1.mp3", "resources/clips/tool/enema2.mp3", "resources/clips/tool/enema3.mp3"]
                             },
                         ]
                 },
@@ -2837,7 +2837,7 @@ let library = [
                                 Mildewed and smoldering, strangled by our coveting<br/>
                                 I've done the math enough to know the dangers of our second guessing<br/>
                                 Doomed to crumble unless we grow and strengthen our communication`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/schism1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/schism2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/schism3.mp3"]
+                                clip: ["resources/clips/tool/schism1.mp3", "resources/clips/tool/schism2.mp3", "resources/clips/tool/schism3.mp3"]
                             },
                             {   tracktitle: "Lateralus",
                                 lyrics: [`Black then white are all I see in my infancy
@@ -2850,7 +2850,7 @@ let library = [
                                 Urging me to cross the line
                                 Reaching out to embrace the random
                                 Reaching out to embrace whatever may come`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/lateralus1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/lateralus2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/tool/lateralus3.mp3"]
+                                clip: ["resources/clips/tool/lateralus1.mp3", "resources/clips/tool/lateralus2.mp3", "resources/clips/tool/lateralus3.mp3"]
                             },
                         ]
                 }
@@ -2858,7 +2858,7 @@ let library = [
     },
     {   artist: "Bullet For My Valentine",
         genre: "Metal",
-        artistThumb: "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/artistthumb/bfmv.jpeg",
+        artistThumb: "resources/artistthumb/bfmv.jpeg",
         albums:[
                 {   title: "Poison",
                     tracks:[
@@ -2880,7 +2880,7 @@ let library = [
                                 Heaven, where is my angel<br/>
                                 I need her now<br/>
                                 Holding me tonight`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/her1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/her2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/her3.mp3"]
+                                clip: ["resources/clips/bfmv/her1.mp3", "resources/clips/bfmv/her2.mp3", "resources/clips/bfmv/her3.mp3"]
                             },
                             {   tracktitle: "4 Words(To Choke Upon)",
                                 lyrics: [`Betrayed one more time<br/>
@@ -2893,7 +2893,7 @@ let library = [
                                 `Pull it out from my back<br/>
                                 Soon I'm the one that's on attack<br/>
                                 Can't wait to return the favor`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/four1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/four2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/four3.mp3"]
+                                clip: ["resources/clips/bfmv/four1.mp3", "resources/clips/bfmv/four2.mp3", "resources/clips/bfmv/four3.mp3"]
                             },
                             {   tracktitle: "Tears Don't Fall",
                                 lyrics: [`With blood shot eyes, I watch you sleeping<br/>
@@ -2909,7 +2909,7 @@ let library = [
                                 With my last breath I'm choking<br/>
                                 Will this ever end I'm hoping<br/>
                                 My world is over one more time`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/tears1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/tears2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/tears3.mp3"]
+                                clip: ["resources/clips/bfmv/tears1.mp3", "resources/clips/bfmv/tears2.mp3", "resources/clips/bfmv/tears3.mp3"]
                             },
                             {   tracktitle: "All These Things I Hate(Revolve Around Me)",
                                 lyrics: [`Once more I'll say goodbye to you<br/>
@@ -2924,7 +2924,7 @@ let library = [
                                 Why can't you just be straight up with honesty?<br/>
                                 When you say those things in my ear<br/>
                                 Why do you always tell me what you wanna hear?`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/all1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/all2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/all3.mp3"]
+                                clip: ["resources/clips/bfmv/all1.mp3", "resources/clips/bfmv/all2.mp3", "resources/clips/bfmv/all3.mp3"]
                             },
                             {   tracktitle: "Suffocating Under Words Of Sorrow",
                                 lyrics: [`You line them up we'll put them down<br/>
@@ -2946,7 +2946,7 @@ let library = [
                                 But its all just fiction<br/>
                                 She steps out from her underwear?<br/>
                                 So beautiful`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/suffocating1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/suffocating2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/suffocating3.mp3"]
+                                clip: ["resources/clips/bfmv/suffocating1.mp3", "resources/clips/bfmv/suffocating2.mp3", "resources/clips/bfmv/suffocating3.mp3"]
                             },
                             {   tracktitle: " The Poison",
                                 lyrics: [`Now, is your time to die<br/>
@@ -2960,7 +2960,7 @@ let library = [
                                 There's nothing left of you no more<br/>
                                 Fear has no place, no place<br/>
                                 Cover her face!`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/poison1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/poison2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/poison3.mp3"]
+                                clip: ["resources/clips/bfmv/poison1.mp3", "resources/clips/bfmv/poison2.mp3", "resources/clips/bfmv/poison3.mp3"]
                             },
                         ]
                 },
@@ -2981,7 +2981,7 @@ let library = [
                                 Oh my god, am I losing it<br/>
                                 I can't help what I've done or I've said<br/>
                                 It's the button I push (they said)`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/hand1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/hand2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/hand3.mp3"]
+                                clip: ["resources/clips/bfmv/hand1.mp3", "resources/clips/bfmv/hand2.mp3", "resources/clips/bfmv/hand3.mp3"]
                             },
                             {   tracktitle: "No Control",
                                 lyrics: [`I scream into your face<br/>
@@ -2991,7 +2991,7 @@ let library = [
                                 `It comes down, don't take my name<br/>
                                 Its holds it holds<br/>
                                 It holds me down`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/no1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/no2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/no3.mp3"]
+                                clip: ["resources/clips/bfmv/no1.mp3", "resources/clips/bfmv/no2.mp3", "resources/clips/bfmv/no3.mp3"]
                             },
                         ]
                 },
@@ -3015,7 +3015,7 @@ let library = [
                                 Such a hurtful sight<br/>
                                 The call is made, it's one for all<br/>
                                 Take no prisoners`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/scream1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/scream2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/scream3.mp3"]
+                                clip: ["resources/clips/bfmv/scream1.mp3", "resources/clips/bfmv/scream2.mp3", "resources/clips/bfmv/scream3.mp3"]
                             },
                             {   tracktitle: "Hearts Burst Into Fire",
                                 lyrics: [`I'm coming home<br/>
@@ -3033,7 +3033,7 @@ let library = [
                                 No arms, just sheets to hold me<br/>
                                 Has this world stop turning?<br/>
                                 Are we forever to be apart?`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/hearts1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/hearts2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/hearts3.mp3"]
+                                clip: ["resources/clips/bfmv/hearts1.mp3", "resources/clips/bfmv/hearts2.mp3", "resources/clips/bfmv/hearts3.mp3"]
                             },
                             {   tracktitle: "Waking The Demon",
                                 lyrics: [`Helpless, my eyes are bleeding from the fear that's inside<br/>
@@ -3048,7 +3048,7 @@ let library = [
                                 Your body's weakening, walk to the light<br/>
                                 All those painful times, so alone, so ashamed<br/>
                                 Well I'm not coming back, there's nothing to gain`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/waking1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/waking2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/waking3.mp3"]
+                                clip: ["resources/clips/bfmv/waking1.mp3", "resources/clips/bfmv/waking2.mp3", "resources/clips/bfmv/waking3.mp3"]
                             },
                             {   tracktitle: "Disappear",
                                 lyrics: [`Once again the same things on your mind<br/>
@@ -3063,7 +3063,7 @@ let library = [
                                 It's almost done, they're almost gone<br/>
                                 Our darkest days they fade away<br/>
                                 It's almost done, they're almost gone`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/disappear1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/disappear2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/disappear3.mp3"]
+                                clip: ["resources/clips/bfmv/disappear1.mp3", "resources/clips/bfmv/disappear2.mp3", "resources/clips/bfmv/disappear3.mp3"]
                             },
                             {   tracktitle: "Take It Out On Me",
                                 lyrics: [`I'm always thinking of you<br/>
@@ -3077,7 +3077,7 @@ let library = [
                                 In everything that you do<br/>
                                 Anger is creeping in me<br/>
                                 Watch I don't explode on you!`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/take1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/take2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/take3.mp3"]
+                                clip: ["resources/clips/bfmv/take1.mp3", "resources/clips/bfmv/take2.mp3", "resources/clips/bfmv/take3.mp3"]
                             },
                             {   tracktitle: "End Of Days",
                                 lyrics: [`We're wasting precious time<br/>
@@ -3096,7 +3096,7 @@ let library = [
                                 You get to be mine<br/>
                                 I lack the will to carry on<br/>
                                 On and on`],
-                                clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/end1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/end2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/end3.mp3"]
+                                clip: ["resources/clips/bfmv/end1.mp3", "resources/clips/bfmv/end2.mp3", "resources/clips/bfmv/end3.mp3"]
                             },
                         ]
                 },
@@ -3117,7 +3117,7 @@ let library = [
                             There's just no hope for our final embrace<br/>
                             So here we are, I'm in your head<br/>
                             I'm in your heart`],
-                            clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/your1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/your2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/your3.mp3"]
+                            clip: ["resources/clips/bfmv/your1.mp3", "resources/clips/bfmv/your2.mp3", "resources/clips/bfmv/your3.mp3"]
                         },
                         {   tracktitle: "Fever",
                             lyrics: [`It's hot as hell in here<br/>
@@ -3132,7 +3132,7 @@ let library = [
                             And I'm ready to overload<br/>
                             No limits and no regrets<br/>
                             It's time to sell my soul`],
-                            clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/fever1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/fever2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/fever3.mp3"]
+                            clip: ["resources/clips/bfmv/fever1.mp3", "resources/clips/bfmv/fever2.mp3", "resources/clips/bfmv/fever3.mp3"]
                         },
                         {   tracktitle: "The Last Fight",
                             lyrics: [`I don't wanna stand beside you<br/>
@@ -3154,7 +3154,7 @@ let library = [
                             Are you listening to me?<br/>
                             I will fight, the last fight<br/>
                             I am not your enemy`],
-                            clip: ["https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/last1.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/last2.mp3", "https://pages.git.generalassemb.ly/ryhuz/earworm/resources/clips/bfmv/last3.mp3"]
+                            clip: ["resources/clips/bfmv/last1.mp3", "resources/clips/bfmv/last2.mp3", "resources/clips/bfmv/last3.mp3"]
                         },
                     ]
             },
