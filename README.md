@@ -19,6 +19,8 @@ The game is split into sections and boxes.
     * Mode
     * Difficulty
     * Timer on/off
+    * Scoring mode
+    
     * Choose artist (for artist mode)
     * Choose genre (for genre mode)
     * Show artist (for genre and mixed mode)
