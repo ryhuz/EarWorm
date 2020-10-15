@@ -11,9 +11,9 @@ This game was built on rock & roll. It's functions were built on HTML, CSS, and 
 The game is split into sections and boxes.
 
 ### Sections
-1. #### intro: A splash that 'loads' into the main game
+1. #### Intro: A splash that 'loads' into the main game
 
-1. ####  landing: Where you choose the options for the game
+1. ####  Landing: Where you choose the options for the game
     * **Rules**
     * **Player name**
     * **Mode** - Artist mode, Genre mode, MiX iT uP!
