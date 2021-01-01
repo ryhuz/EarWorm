@@ -35,4 +35,4 @@ The game is split into sections and boxes.
     * **Scoreboard**
 
 ### Built with
-    * Javascript
+    - Javascript
