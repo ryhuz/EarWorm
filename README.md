@@ -1,4 +1,7 @@
-# earworm
+# EarWorm
+*This repo was originally on my GA enterprise account*
+*You can view this app at https://pages.git.generalassemb.ly/ryhuz/earworm/*
+
 SEI-25 Project 1 - Get ready for ear drums to bleed
 
 Remember listening to music? That was so long ago.
@@ -30,3 +33,6 @@ The game is split into sections and boxes.
     * **Audio player** (not displayed)
     * **Timer**
     * **Scoreboard**
+
+### Built with
+    * Javascript
