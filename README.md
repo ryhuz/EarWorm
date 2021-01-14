@@ -9,11 +9,11 @@ Remember listening to music? That was so long ago.
 Remember owning an iPod? There was a cool music quiz that used your library to test you.
 
 ## Systems
----
+
 This game was built on rock & roll. It's functions were built on HTML, CSS, and Javascript.
 
 ## How it works
----
+
 1. #### Intro: A splash that 'loads' into the main game
 
 1. ####  Landing: Where you choose the options for the game
@@ -35,12 +35,16 @@ This game was built on rock & roll. It's functions were built on HTML, CSS, and 
     * **Scoreboard**
 
 ## Challenges
----
+
    * I had a bug that caused the game counter to malfuntion after 3 rounds. Hours on the debugger didn't show me where the error was. I eventually realised that a function that I had tried to implement recursively was not wokring the way I wanted.
+   
    **The Fix**
+   
    Defined the function globally to be called where it is needed.
    * CSS Transitions only worked once. Checking the forums, I learnt that for an element to undergo a second transition, it would have to be destroyed and cloned.
+   
    **The Fix**
+   
    The functions controlling the transitions cloned the element, destroyed the original one, and inserted the cloned element with the desired transition
    
 ### Built with
