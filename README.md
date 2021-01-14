@@ -34,7 +34,7 @@ This game was built on rock & roll. It's functions were built on HTML, CSS, and 
     * **Timer**
     * **Scoreboard**
 
-##Challenges
+## Challenges
 ---
    * I had a bug that caused the game counter to malfuntion after 3 rounds. Hours on the debugger didn't show me where the error was. I eventually realised that a function that I had tried to implement recursively was not wokring the way I wanted.
    **The Fix**
